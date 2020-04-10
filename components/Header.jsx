@@ -13,7 +13,7 @@ class Header extends Component {
                 <header className="header">
                     <div className="container">
                         <div className="logo">
-                            <a href="#"><img src="/logo.png" alt="Aesthetic Record" /></a>
+                            <a href="#"><img src="images/logo.png" alt="Aesthetic Record" /></a>
                         </div>
                         <input type="checkbox" id="menu"/>
                         <label className="nav-opener" htmlFor="menu"><span></span></label>

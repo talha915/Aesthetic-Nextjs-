@@ -13,7 +13,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="info">
                             <div className="logo">
-                                <a href="#"><img src="/logo-footer.png" alt="Aesthetic Record" /></a>
+                                <a href="#"><img src="images/logo-footer.png" alt="Aesthetic Record" /></a>
                             </div>
                             <a href="mailto:info@aestheticrecord.com" className="mail"><i className="icon-email"></i> info@aestheticrecord.com</a>
                             <a href="#" className="btn">Book Meeting</a>
@@ -78,9 +78,9 @@ class Footer extends Component {
                                 <p>© 2019 Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">Terms Of Service</a> <a href="#">AR Policies</a></p>
                             </div>
                             <div className="logo-holder">
-                                <a href="#"><img src="/logo-apple.svg" alt="Image Description" /></a>
-                                <a href="#"><img src="/logo-gdbr.svg" alt="Image Description" /></a>
-                                <a href="#"><img src="/ar-emr-hipaa-law.png" alt="Image Description" /></a>
+                                <a href="#"><img src="images/logo-apple.svg" alt="Image Description" /></a>
+                                <a href="#"><img src="images/logo-gdbr.svg" alt="Image Description" /></a>
+                                <a href="#"><img src="images/ar-emr-hipaa-law.png" alt="Image Description" /></a>
 					        </div>
                         </div>
                     </div>

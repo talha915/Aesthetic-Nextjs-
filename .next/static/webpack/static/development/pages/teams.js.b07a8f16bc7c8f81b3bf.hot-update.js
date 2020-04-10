@@ -1,0 +1,940 @@
+webpackHotUpdate("static\\development\\pages\\teams.js",{
+
+/***/ "./components/Teams/OurTeams.jsx":
+/*!***************************************!*\
+  !*** ./components/Teams/OurTeams.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Teams\\OurTeams.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
+var OurTeams = /*#__PURE__*/function (_Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(OurTeams, _Component);
+
+  var _super = _createSuper(OurTeams);
+
+  function OurTeams() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, OurTeams);
+
+    return _super.apply(this, arguments);
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(OurTeams, [{
+    key: "render",
+    value: function render() {
+      console.log("Props: ", this.props);
+      return __jsx("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 13
+        }
+      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 17
+        }
+      }, __jsx("link", {
+        href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap",
+        rel: "stylesheet",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 21
+        }
+      }), __jsx("link", {
+        href: "/static/style.css",
+        rel: "stylesheet",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 21
+        }
+      })), __jsx("div", {
+        "class": "team",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 17
+        }
+      }, __jsx("span", {
+        "class": "img-shape-bottom",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 21
+        }
+      }, __jsx("img", {
+        src: "images/icon-leaf-big.png",
+        alt: "Image description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 25
+        }
+      })), __jsx("div", {
+        "class": "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 21
+        }
+      }, __jsx("h2", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 25
+        }
+      }, "Our Team"), __jsx("div", {
+        "class": "boxes",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 25
+        }
+      }, __jsx("span", {
+        "class": "img-shape",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 29
+        }
+      }, __jsx("img", {
+        src: "images/icon.png",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 33
+        }
+      })), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img18.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 37
+        }
+      }, "Justin Harper"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 37
+        }
+      }, "Founder & CEO "), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img19.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 37
+        }
+      }, "Tiphany Lopez"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 37
+        }
+      }, "Chief Growth Officer "), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img20.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 37
+        }
+      }, "Victoria Adrian"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 37
+        }
+      }, "Director of Sales"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img08.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 37
+        }
+      }, "Gannesh Kompella"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 37
+        }
+      }, "Director of Technology"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img09.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 37
+        }
+      }, "Jazmenne KinCannon"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 37
+        }
+      }, "Senior Sales Specialist"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img10.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 37
+        }
+      }, "Kelsey Orms"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 37
+        }
+      }, "Senior Sales Specialist "), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img11.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 37
+        }
+      }, "Kennith Powell"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 37
+        }
+      }, "Senior Sales Engineer"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img12.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100,
+          columnNumber: 37
+        }
+      }, "Vivienne Echendu"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 37
+        }
+      }, "Vender Relations Manager"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img13.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110,
+          columnNumber: 37
+        }
+      }, "JT Cothran"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 37
+        }
+      }, "Business Process Specialist"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img14.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 37
+        }
+      }, "Isabelle McDowell"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 37
+        }
+      }, "Mid-Market Sales Specialist"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img15.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130,
+          columnNumber: 37
+        }
+      }, "Catherine McCauley"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 131,
+          columnNumber: 37
+        }
+      }, "Sales Engineer"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 132,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 132,
+          columnNumber: 65
+        }
+      })))), __jsx("a", {
+        href: "#",
+        "class": "box",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        "class": "img",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136,
+          columnNumber: 33
+        }
+      }, __jsx("img", {
+        src: "images/img16.jpg",
+        alt: "Image Description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 137,
+          columnNumber: 37
+        }
+      })), __jsx("div", {
+        "class": "holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139,
+          columnNumber: 33
+        }
+      }, __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 140,
+          columnNumber: 37
+        }
+      }, "Nick Whatton"), __jsx("span", {
+        "class": "designation",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141,
+          columnNumber: 37
+        }
+      }, "Sales Engineer"), __jsx("span", {
+        "class": "link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 142,
+          columnNumber: 37
+        }
+      }, "Read bio ", __jsx("i", {
+        "class": "icon-arrow-r",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 142,
+          columnNumber: 65
+        }
+      }))))))));
+    }
+  }]);
+
+  return OurTeams;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (OurTeams);
+
+/***/ })
+
+})
+//# sourceMappingURL=teams.js.b07a8f16bc7c8f81b3bf.hot-update.js.map
