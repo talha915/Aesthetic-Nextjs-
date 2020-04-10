@@ -1343,7 +1343,7 @@ h4 {
 }
 
 .signup-block:after {
-	background: url(images/bg.svg) no-repeat;
+	background: url(/images/bg.svg) no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: -75px;
@@ -1487,7 +1487,7 @@ h4 {
 .breadcrumbs li + li:after {
 	width: 17px;
 	height: 7px;
-	background: url(images/arrows.png) no-repeat;
+	background: url(/images/arrows.png) no-repeat;
 	position: absolute;
 	top: 6px;
 	left: -8px;
@@ -1524,7 +1524,7 @@ h4 {
 }
 
 .bottom-block.shape:after {
-	background: url(images/shape.png) no-repeat;
+	background: url(/images/shape.png) no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;

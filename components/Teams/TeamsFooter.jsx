@@ -10,7 +10,7 @@ class TeamsFooter extends Component {
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
-                <div className="bottom-block" style={{backgroundImage:"url(images/img17.jpg)"}}>
+                <div className="bottom-block shape" style={{backgroundImage:"url(images/img17.jpg)"}}>
                     <div className="container">
                         <div className="textblock">
                             <h3>Try Aesthetic Record with your team for free </h3>

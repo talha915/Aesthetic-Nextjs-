@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Router, { withRouter } from 'next/router';
 import Head from 'next/head';
 
 class OurTeams extends Component {
@@ -23,7 +23,7 @@ class OurTeams extends Component {
         if(this.state.ourteams) {
             let teams = this.state.ourteams.map((data, index)=>{
                 return(
-                    <a href="#" className="box" key={index}>
+                    <a className="box" key={index} onClick={()=>this.teamsData(data, index)}>
                         <div className="img">
                             <img src={data.image} alt="Image Description" />
                         </div>
@@ -37,6 +37,19 @@ class OurTeams extends Component {
             })
             return teams;
         }
+    }
+
+    teamsData=(data, index)=> {
+        Router.push({ 
+            pathname: '/detailsteam', query: {
+                name: data.detailName, 
+                designation: data.designation,
+                backArrow: data.backArrows,
+                leadership: data.seeLeadership,
+                image: data.detailedImage,
+                bio: data.detailedRole
+            }
+        });       
     }
 
     render() {

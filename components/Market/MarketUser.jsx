@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
+import { withRouter } from 'next/router';
+
 class MarketUser extends Component {
     
     constructor(props) {
@@ -13,6 +15,7 @@ class MarketUser extends Component {
     UNSAFE_componentWillMount() {
         this.setMarketUsers();
     }
+
 
     setMarketUsers=()=> {
         this.setState({marketUser: this.props.marketUser});
@@ -59,4 +62,4 @@ class MarketUser extends Component {
     }
 }
 
-export default MarketUser;
+export default withRouter(MarketUser);

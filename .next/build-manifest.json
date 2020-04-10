@@ -20,6 +20,14 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
+    "/detailsteam": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/marketplace": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/teams": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

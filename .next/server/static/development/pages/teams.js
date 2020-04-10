@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,8 +106,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Footer.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -117,14 +120,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 13
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 17
       }
     }, __jsx("link", {
@@ -133,7 +136,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -142,7 +145,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 21
       }
     })), __jsx("footer", {
@@ -150,7 +153,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 17
       }
     }, __jsx("div", {
@@ -158,7 +161,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 21
       }
     }, __jsx("div", {
@@ -166,7 +169,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 25
       }
     }, __jsx("div", {
@@ -174,7 +177,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 29
       }
     }, __jsx("a", {
@@ -182,7 +185,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 17,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -191,7 +194,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 17,
         columnNumber: 45
       }
     }))), __jsx("a", {
@@ -200,7 +203,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 29
       }
     }, __jsx("i", {
@@ -208,7 +211,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 88
       }
     }), " info@aestheticrecord.com"), __jsx("a", {
@@ -217,7 +220,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 20,
         columnNumber: 29
       }
     }, "Book Meeting"), __jsx("ul", {
@@ -225,14 +228,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 21,
         columnNumber: 29
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -240,7 +243,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -248,14 +251,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -263,7 +266,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -271,14 +274,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 24,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -286,7 +289,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 24,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -294,14 +297,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 24,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -309,7 +312,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -317,7 +320,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 49
       }
     }))))), __jsx("div", {
@@ -325,7 +328,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 25
       }
     }, __jsx("nav", {
@@ -333,28 +336,28 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 29
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 31,
         columnNumber: 33
       }
     }, "Connect"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 33,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -362,14 +365,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 33,
         columnNumber: 41
       }
     }, "Online Booking")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -377,14 +380,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 41
       }
     }, "Smart Scheduling")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -392,7 +395,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 41
       }
     }, "Patient Portal")))), __jsx("nav", {
@@ -400,28 +403,28 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 29
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 33
       }
     }, "Treat"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -429,14 +432,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 41
       }
     }, "Complete EMR Solution")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -444,14 +447,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 41
       }
     }, "Before & After Photos")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -459,14 +462,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 41
       }
     }, "Mobile Point-of-Sale")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -474,14 +477,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 41
       }
     }, "Patient Wallet & Memberships")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -489,7 +492,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 41
       }
     }, "Telehealth")))), __jsx("nav", {
@@ -497,28 +500,28 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 48,
         columnNumber: 29
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 33
       }
     }, "Manage"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 51,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -526,14 +529,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 51,
         columnNumber: 41
       }
     }, "Business Insights ")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -541,14 +544,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 41
       }
     }, "Supply Chain Management")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 53,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -556,7 +559,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 53,
         columnNumber: 41
       }
     }, "Employee Performance Tracking")))), __jsx("nav", {
@@ -564,58 +567,72 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 56,
         columnNumber: 29
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 57,
         columnNumber: 33
       }
     }, "Company"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 58,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 41
-      }
-    }, "About Us")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 59,
         columnNumber: 37
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 41
-      }
-    }, "Our Team ")), __jsx("li", {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/about",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 60,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 45
+      }
+    }, "About Us"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/teams",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 45
+      }
+    }, "Our Team "))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -623,14 +640,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 69,
         columnNumber: 41
       }
     }, "News")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 70,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -638,7 +655,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 70,
         columnNumber: 41
       }
     }, "Careers")))), __jsx("nav", {
@@ -646,28 +663,28 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
+        lineNumber: 73,
         columnNumber: 29
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
+        lineNumber: 74,
         columnNumber: 33
       }
     }, "Resources"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66,
+        lineNumber: 75,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67,
+        lineNumber: 76,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -675,14 +692,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67,
+        lineNumber: 76,
         columnNumber: 41
       }
     }, "Elevate Blog")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 77,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -690,14 +707,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 77,
         columnNumber: 41
       }
     }, "Learn Articles")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 78,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -705,14 +722,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 78,
         columnNumber: 41
       }
     }, "AR Academy")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 79,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -720,7 +737,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 79,
         columnNumber: 41
       }
     }, "Marketplace")))))), __jsx("div", {
@@ -728,7 +745,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75,
+        lineNumber: 84,
         columnNumber: 21
       }
     }, __jsx("div", {
@@ -736,7 +753,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76,
+        lineNumber: 85,
         columnNumber: 25
       }
     }, __jsx("div", {
@@ -744,21 +761,21 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 86,
         columnNumber: 29
       }
     }, __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 87,
         columnNumber: 33
       }
     }, "\xA9 2019 Aesthetic Record. All Rights Reserved ", __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 87,
         columnNumber: 81
       }
     }, "|"), " ", __jsx("a", {
@@ -766,7 +783,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 87,
         columnNumber: 96
       }
     }, "Terms Of Service"), " ", __jsx("a", {
@@ -774,7 +791,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 87,
         columnNumber: 129
       }
     }, "AR Policies"))), __jsx("div", {
@@ -782,7 +799,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80,
+        lineNumber: 89,
         columnNumber: 29
       }
     }, __jsx("a", {
@@ -790,7 +807,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81,
+        lineNumber: 90,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -799,7 +816,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81,
+        lineNumber: 90,
         columnNumber: 45
       }
     })), __jsx("a", {
@@ -807,7 +824,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82,
+        lineNumber: 91,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -816,7 +833,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82,
+        lineNumber: 91,
         columnNumber: 45
       }
     })), __jsx("a", {
@@ -824,7 +841,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83,
+        lineNumber: 92,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -833,7 +850,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83,
+        lineNumber: 92,
         columnNumber: 45
       }
     })))))));
@@ -1238,12 +1255,15 @@ class SignUp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Teams\\OurTeams.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -1262,9 +1282,9 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       if (this.state.ourteams) {
         let teams = this.state.ourteams.map((data, index) => {
           return __jsx("a", {
-            href: "#",
             className: "box",
             key: index,
+            onClick: () => this.teamsData(data, index),
             __self: this,
             __source: {
               fileName: _jsxFileName,
@@ -1333,6 +1353,20 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     });
 
+    _defineProperty(this, "teamsData", (data, index) => {
+      next_router__WEBPACK_IMPORTED_MODULE_1___default.a.push({
+        pathname: '/detailsteam',
+        query: {
+          name: data.detailName,
+          designation: data.designation,
+          backArrow: data.backArrows,
+          leadership: data.seeLeadership,
+          image: data.detailedImage,
+          bio: data.detailedRole
+        }
+      });
+    });
+
     this.state = {
       ourteams: ''
     };
@@ -1347,14 +1381,14 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 57,
         columnNumber: 13
       }
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 58,
         columnNumber: 17
       }
     }, __jsx("link", {
@@ -1363,7 +1397,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46,
+        lineNumber: 59,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -1372,7 +1406,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 60,
         columnNumber: 21
       }
     })), __jsx("div", {
@@ -1380,7 +1414,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 62,
         columnNumber: 17
       }
     }, __jsx("span", {
@@ -1388,7 +1422,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 63,
         columnNumber: 21
       }
     }, __jsx("img", {
@@ -1397,7 +1431,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 64,
         columnNumber: 25
       }
     })), __jsx("div", {
@@ -1405,14 +1439,14 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
+        lineNumber: 66,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 67,
         columnNumber: 25
       }
     }, "Our Team"), __jsx("div", {
@@ -1420,7 +1454,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 68,
         columnNumber: 25
       }
     }, __jsx("span", {
@@ -1428,7 +1462,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 69,
         columnNumber: 29
       }
     }, __jsx("img", {
@@ -1437,7 +1471,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 70,
         columnNumber: 33
       }
     })), this.getTeamsObj()))));
@@ -1502,7 +1536,7 @@ class TeamsFooter extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 21
       }
     })), __jsx("div", {
-      className: "bottom-block",
+      className: "bottom-block shape",
       style: {
         backgroundImage: "url(images/img17.jpg)"
       },
@@ -1702,7 +1736,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 /*! exports provided: ourteams, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"ourteams\":[{\"image\":\"images/img18.jpg\",\"name\":\"Justin Harper\",\"designation\":\"Founder & CEO \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"<p>Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry.</p><p> Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills.</p><p> As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption. </p>\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img22.jpg\"},{\"image\":\"images/img19.jpg\",\"name\":\"Tiphany Lopez\",\"designation\":\"Chief Growth Officer \",\"readBio\":\"Read bio\",\"detailName\":\"Tiphany Lopez, PhD, MBA\",\"detailedRole\":\"<p>Tiphany serves as the Chief Growth Officer at Aesthetic Record where she oversees the Sales, Training & Technology Teams in Dallas, TX, Columbus, OH and Mohali, India. In addition, she works closely with Industry Partners to expand the digital footprint of AR with key 3rd party platform integrations and future-focused feature developments to serve the growing AR userbase. In the last year, she’s led Aesthetic Record to triple digit growth in both its user base and annual recurring revenue, more than doubling the sales & training teams to meet the increased demand.</p><p> While technology innovation is her passion, she’s spent the last 13 years working with Fortune 500 companies to standardize their “people intensive” operations from front-line associates to C-Suite executives. She’s worked in the trenches, scaling business operations for companies like Walmart, Inc., Dillard’s, Tyson Foods, Proctor & Gamble, and Nestle among others. Tiphany led a best-in-class training organization in the Aesthetic Industry where she was well known for constant innovation- building technology platforms to assist in injection-related education and creating programs that redefined the learning experience for nearly 15,000 clinicians per year. Along with Dr. Justin Harper, she co-directs Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for its international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. </p>\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img21.jpg\"},{\"image\":\"images/img20.jpg\",\"name\":\"Victoria Adrian\",\"designation\":\"Director of Sales \",\"readBio\":\"Read bio\",\"detailName\":\"Victoria Adrian\",\"detailedRole\":\"<p>Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users</p>\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img23.jpg\"},{\"image\":\"images/img08.jpg\",\"name\":\"Gannesh Kompella\",\"designation\":\"Director of Technology \",\"readBio\":\"Read bio\",\"detailName\":\"Ganesh Kompella\",\"detailedRole\":\"<p>Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users. </p>\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img32.jpg\"},{\"image\":\"images/img09.jpg\",\"name\":\"Jazmenne KinCannon\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Jazmenne KinCannon\",\"detailedRole\":\"<p>Jazmene began working in Aesthetics in 2017 as a Patient Coordinator for an Ohio-based Plastic Surgeon. She fell in love with the industry, and joined Aesthetic Record with first-hand experience on the potential pitfalls and practice benefits that come from using an EMR system. Jazmene understands the changing dynamics of a busy practice, and she takes pride in providing a very genuine customer service experience, ensuring each client receives outstanding support. Her passion to connect with AR Users on a very relatable level and to guide each one through an impactful training journey. When Jazmene isn't busy doing her most important job as a mother to two great kids, she enjoys attending music festivals & traveling.</p>\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img30.jpg\"},{\"image\":\"images/img10.jpg\",\"name\":\"Kelsey Orms\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img11.jpg\",\"name\":\"Kennith Powell\",\"designation\":\"Senior Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img12.jpg\",\"name\":\"Vivienne Echendu\",\"designation\":\"Vender Relations Manager \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img13.jpg\",\"name\":\"JT Cothran\",\"designation\":\"Business Process Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img14.jpg\",\"name\":\"Isabelle McDowell\",\"designation\":\"Mid-Market Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img15.jpg\",\"name\":\"Catherine McCauley\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img16.jpg\",\"name\":\"Nick Whatton\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"}]}");
+module.exports = JSON.parse("{\"ourteams\":[{\"image\":\"images/img18.jpg\",\"name\":\"Justin Harper\",\"designation\":\"Founder & CEO \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption. \",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img22.jpg\"},{\"image\":\"images/img19.jpg\",\"name\":\"Tiphany Lopez\",\"designation\":\"Chief Growth Officer \",\"readBio\":\"Read bio\",\"detailName\":\"Tiphany Lopez, PhD, MBA\",\"detailedRole\":\"Tiphany serves as the Chief Growth Officer at Aesthetic Record where she oversees the Sales, Training & Technology Teams in Dallas, TX, Columbus, OH and Mohali, India. In addition, she works closely with Industry Partners to expand the digital footprint of AR with key 3rd party platform integrations and future-focused feature developments to serve the growing AR userbase. In the last year, she’s led Aesthetic Record to triple digit growth in both its user base and annual recurring revenue, more than doubling the sales & training teams to meet the increased demand. While technology innovation is her passion, she’s spent the last 13 years working with Fortune 500 companies to standardize their “people intensive” operations from front-line associates to C-Suite executives. She’s worked in the trenches, scaling business operations for companies like Walmart, Inc., Dillard’s, Tyson Foods, Proctor & Gamble, and Nestle among others. Tiphany led a best-in-class training organization in the Aesthetic Industry where she was well known for constant innovation- building technology platforms to assist in injection-related education and creating programs that redefined the learning experience for nearly 15,000 clinicians per year. Along with Dr. Justin Harper, she co-directs Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for its international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. \",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img21.jpg\"},{\"image\":\"images/img20.jpg\",\"name\":\"Victoria Adrian\",\"designation\":\"Director of Sales \",\"readBio\":\"Read bio\",\"detailName\":\"Victoria Adrian\",\"detailedRole\":\"Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img23.jpg\"},{\"image\":\"images/img08.jpg\",\"name\":\"Gannesh Kompella\",\"designation\":\"Director of Technology \",\"readBio\":\"Read bio\",\"detailName\":\"Ganesh Kompella\",\"detailedRole\":\"Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users. \",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img32.jpg\"},{\"image\":\"images/img09.jpg\",\"name\":\"Jazmenne KinCannon\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Jazmenne KinCannon\",\"detailedRole\":\"Jazmene began working in Aesthetics in 2017 as a Patient Coordinator for an Ohio-based Plastic Surgeon. She fell in love with the industry, and joined Aesthetic Record with first-hand experience on the potential pitfalls and practice benefits that come from using an EMR system. Jazmene understands the changing dynamics of a busy practice, and she takes pride in providing a very genuine customer service experience, ensuring each client receives outstanding support. Her passion to connect with AR Users on a very relatable level and to guide each one through an impactful training journey. When Jazmene isn't busy doing her most important job as a mother to two great kids, she enjoys attending music festivals & traveling.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img30.jpg\"},{\"image\":\"images/img10.jpg\",\"name\":\"Kelsey Orms\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img11.jpg\",\"name\":\"Kennith Powell\",\"designation\":\"Senior Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img12.jpg\",\"name\":\"Vivienne Echendu\",\"designation\":\"Vender Relations Manager \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img13.jpg\",\"name\":\"JT Cothran\",\"designation\":\"Business Process Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img14.jpg\",\"name\":\"Isabelle McDowell\",\"designation\":\"Mid-Market Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img15.jpg\",\"name\":\"Catherine McCauley\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"},{\"image\":\"images/img16.jpg\",\"name\":\"Nick Whatton\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"\"}]}");
 
 /***/ }),
 
@@ -3522,7 +3556,7 @@ async function getStaticProps({}) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/teams.js ***!
   \******************************/
@@ -3542,6 +3576,17 @@ module.exports = __webpack_require__(/*! E:\D\ReactJs Projects\Freelance\Nextjs\
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 

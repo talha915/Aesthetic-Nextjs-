@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 class Footer extends Component {
     render() {
@@ -55,8 +56,16 @@ class Footer extends Component {
                             <nav className="links">
                                 <strong>Company</strong>
                                 <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Our Team </a></li>
+                                    <li>
+                                        <Link href="/about">
+                                            <a >About Us</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/teams">
+                                            <a >Our Team </a>
+                                        </Link>
+                                    </li>
                                     <li><a href="#">News</a></li>
                                     <li><a href="#">Careers</a></li>
                                 </ul>
