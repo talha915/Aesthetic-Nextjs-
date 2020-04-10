@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 
 // About Us Data
-import AboutUs from '../../data/aboutus';
+import AboutUs from '../../data/aboutus.json';
 
 class AboutUsBlock extends Component {
 
@@ -12,6 +12,7 @@ class AboutUsBlock extends Component {
             aboutBlock: ''
         }
     }
+
     componentDidMount() {
         this.setAboutBlock();
     }

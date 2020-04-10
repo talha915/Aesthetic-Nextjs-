@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
+import Link from 'next/link'
 
 class Header extends Component {
     render() {
@@ -22,7 +23,11 @@ class Header extends Component {
                                     <li><a href="#">Features</a></li>
                                     <li><a href="#">Plans & Pricing</a></li>
                                     <li><a href="#">Learning Lab</a></li>
-                                    <li><a href="#">Marketplace</a></li>
+                                    <li>
+                                        <Link href="/marketplace">
+                                            <a>Marketplace</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                                 <ul className="user-info">
                                     <li><a href="#">Login</a></li>

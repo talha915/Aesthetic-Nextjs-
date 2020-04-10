@@ -6,6 +6,7 @@ import Head from 'next/head';
 
 class About extends Component {
     render() {
+        console.log("About Us Props: ", this.props);
         return(
             <div className="address-blocks">
                 <Head>
