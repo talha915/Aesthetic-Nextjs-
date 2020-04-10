@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
-// About Us Data
-import AboutUs from '../../data/aboutus';
-
 class AboutUsIntro extends Component {
     constructor(props) {
         super(props);
@@ -12,12 +9,12 @@ class AboutUsIntro extends Component {
         }
     }
 
-    componentDidMount() {
+    UNSAFE_componentWillMount() {
         this.setIntroData();
     }
 
     setIntroData = () => {
-        this.setState({ introData: AboutUs.intro });
+        this.setState({ introData: this.props.aboutUsIntro });
     }
 
     getIntroData = () => {

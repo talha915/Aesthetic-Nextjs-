@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
-// Market Data
-import marketData from '../../data/market';
-
 class MarketIntro extends Component {
 
     constructor(props) {
@@ -13,17 +10,16 @@ class MarketIntro extends Component {
         }
     }
 
-    componentDidMount() {
+    UNSAFE_componentWillMount() {
         this.setMarketData();
     }
 
     setMarketData=()=> {
-        this.setState({marketDetailData: marketData});
+        this.setState({marketDetailData: this.props.marketIntro});
     }
 
     getMarketData=()=> {
         if(this.state.marketDetailData) {
-            console.log("Market Data:");
             let data = this.state.marketDetailData;
             return(
                 <div className="intro market">

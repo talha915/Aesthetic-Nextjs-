@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 import Head from 'next/head';
 
-import fetch from 'isomorphic-unfetch';
+import aboutUs from '../data/aboutus.json';
 
 function AboutUs(props) {
     return (
@@ -16,7 +16,7 @@ function AboutUs(props) {
             </Head>
             <div className="wrapper">
                 <Header />
-                <About aboutProp={props.contriesObj}/>
+                <About aboutProp={props.aboutUsData}/>
                 <SignUp />
                 <Footer />
             </div>
@@ -25,11 +25,10 @@ function AboutUs(props) {
 }
 
 export async function getStaticProps({}) {
-    let res = await fetch('https://cloudreports.net/sample/api/countries.json')
-    let contriesObj = await res.json();
+    let aboutUsData = aboutUs;
     return {
         props: {
-            contriesObj,
+            aboutUsData,
         },
     }
 }

@@ -4,9 +4,11 @@ import MarketUser from '../components/Market/MarketUser';
 import SignUp from '../components/SignUp';
 import Footer from '../components/Footer';
 
+import marketPlaceData from '../data/market.json';
+
 import Head from 'next/head';
 
-function MarketPlace() {
+function MarketPlace(props) {
     return (
         <div>
             <Head>
@@ -17,8 +19,8 @@ function MarketPlace() {
                 <div>
                     <Header />
                     <main className="main">
-                        <MarketIntro />
-                        <MarketUser />
+                        <MarketIntro marketIntro={props.marketObj}/>
+                        <MarketUser marketUser={props.marketObj.marketUser}/>
                     </main>
                     <SignUp />
                     <Footer />
@@ -28,4 +30,13 @@ function MarketPlace() {
     )
 }
   
+export async function getStaticProps({}) {
+    let marketObj = marketPlaceData;
+    return {
+        props: {
+            marketObj,
+        },
+    }
+}
+
 export default MarketPlace;

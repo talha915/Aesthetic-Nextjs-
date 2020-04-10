@@ -3,6 +3,7 @@ import SignUp from '../components/SignUp';
 import Footer from '../components/Footer';
 import LearningCards from '../components/LearningCards';
 
+
 import Head from 'next/head';
 
 function Learn() {
@@ -21,5 +22,7 @@ function Learn() {
         </div>
     )
 }
+
+
   
-export default Learn
+export default Learn;

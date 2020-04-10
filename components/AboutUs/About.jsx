@@ -6,7 +6,6 @@ import Head from 'next/head';
 
 class About extends Component {
     render() {
-        console.log("About Us Props: ", this.props);
         return(
             <div className="address-blocks">
                 <Head>
@@ -14,8 +13,8 @@ class About extends Component {
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
                 <main className="main about-us">
-                    <AboutUsIntro />
-                    <AboutUsBlock />
+                    <AboutUsIntro aboutUsIntro={this.props.aboutProp.intro}/>
+                    <AboutUsBlock aboutUsBlock={this.props.aboutProp.aboutBlock}/>
                 </main>
             </div>
         );

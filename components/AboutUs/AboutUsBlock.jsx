@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
-// About Us Data
-import AboutUs from '../../data/aboutus.json';
-
 class AboutUsBlock extends Component {
 
     constructor(props) {
@@ -13,12 +10,12 @@ class AboutUsBlock extends Component {
         }
     }
 
-    componentDidMount() {
+    UNSAFE_componentWillMount() {
         this.setAboutBlock();
     }
 
     setAboutBlock=()=> {
-        this.setState({aboutBlock: AboutUs.aboutBlock})
+        this.setState({aboutBlock: this.props.aboutUsBlock})
     }
 
     getAboutBlock=()=> {

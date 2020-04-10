@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
-// Market Data
-import marketData from '../../data/market';
 class MarketUser extends Component {
     
     constructor(props) {
@@ -12,12 +10,12 @@ class MarketUser extends Component {
         }
     }
 
-    componentDidMount() {
+    UNSAFE_componentWillMount() {
         this.setMarketUsers();
     }
 
     setMarketUsers=()=> {
-        this.setState({marketUser: marketData.marketUser});
+        this.setState({marketUser: this.props.marketUser});
     }
 
     getMarketUsers=()=> {
