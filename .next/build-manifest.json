@@ -20,11 +20,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/connect": [
+    "/manage": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/manage": [
+    "/treat": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
