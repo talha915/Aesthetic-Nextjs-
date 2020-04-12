@@ -88,10 +88,412 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/Connects/Banner.jsx":
+/*!****************************************!*\
+  !*** ./components/Connects/Banner.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Connects\\Banner.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class Banner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "setBannerObj", () => {
+      this.setState({
+        bannersObj: this.props.bannerObj
+      });
+    });
+
+    _defineProperty(this, "getBannerObj", () => {
+      let data = this.state.bannersObj;
+      return __jsx("div", {
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 13
+        }
+      }, __jsx("div", {
+        className: "textblock",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 17
+        }
+      }, __jsx("h1", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 21
+        }
+      }, data.heading), __jsx("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 21
+        }
+      }, data.para), __jsx("a", {
+        className: "btn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 21
+        }
+      }, data.btn), __jsx("a", {
+        className: "btn full",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 21
+        }
+      }, data.btn1), __jsx("em", {
+        className: "note",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 21
+        }
+      }, data.notes)));
+    });
+
+    this.state = {
+      bannersObj: ''
+    };
+  }
+
+  UNSAFE_componentWillMount() {
+    this.setBannerObj();
+  }
+
+  render() {
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 13
+      }
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 17
+      }
+    }, __jsx("link", {
+      href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap",
+      rel: "stylesheet",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 21
+      }
+    }), __jsx("link", {
+      href: "/static/style.css",
+      rel: "stylesheet",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "visual",
+      style: {
+        backgroundImage: "url(images/img33.jpg)"
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 17
+      }
+    }, this.getBannerObj()));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Banner);
+
+/***/ }),
+
+/***/ "./components/Connects/Connects.jsx":
+/*!******************************************!*\
+  !*** ./components/Connects/Connects.jsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner */ "./components/Connects/Banner.jsx");
+/* harmony import */ var _Types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Types */ "./components/Connects/Types.jsx");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Connects\\Connects.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+class Connects extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 13
+      }
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 17
+      }
+    }, __jsx("link", {
+      href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap",
+      rel: "stylesheet",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 21
+      }
+    }), __jsx("link", {
+      href: "/static/style.css",
+      rel: "stylesheet",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 21
+      }
+    })), __jsx("main", {
+      className: "main",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 17
+      }
+    }, __jsx(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      bannerObj: this.props.connectsObj.brands,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 21
+      }
+    }), __jsx(_Types__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      typesObj: this.props.connectsObj.types,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 21
+      }
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Connects);
+
+/***/ }),
+
+/***/ "./components/Connects/Types.jsx":
+/*!***************************************!*\
+  !*** ./components/Connects/Types.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Connects\\Types.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class Types extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "setTypeObj", () => {
+      this.setState({
+        typeObj: this.props.typesObj
+      });
+    });
+
+    _defineProperty(this, "getTypeObj", () => {
+      let types = this.state.typeObj.map((data, index) => {
+        return __jsx("div", {
+          className: "container",
+          key: index,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26,
+            columnNumber: 17
+          }
+        }, __jsx("div", {
+          className: "img",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 21
+          }
+        }, __jsx("img", {
+          src: data.image,
+          alt: "Image Description",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28,
+            columnNumber: 25
+          }
+        })), __jsx("div", {
+          className: "textblock",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 21
+          }
+        }, __jsx("div", {
+          className: "holder",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31,
+            columnNumber: 25
+          }
+        }, __jsx("h2", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 32,
+            columnNumber: 29
+          }
+        }, data.heading), __jsx("p", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 33,
+            columnNumber: 29
+          }
+        }, data.para), __jsx("a", {
+          className: "more",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 34,
+            columnNumber: 29
+          }
+        }, data.learn))));
+      });
+      return types;
+    });
+
+    this.state = {
+      typeObj: ''
+    };
+  }
+
+  UNSAFE_componentWillMount() {
+    this.setTypeObj();
+  }
+
+  render() {
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 13
+      }
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 17
+      }
+    }, __jsx("link", {
+      href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap",
+      rel: "stylesheet",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 21
+      }
+    }), __jsx("link", {
+      href: "/static/style.css",
+      rel: "stylesheet",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 21
+      }
+    })), __jsx("div", {
+      className: "info-blocks",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 17
+      }
+    }, this.getTypeObj()));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Types);
+
+/***/ }),
 
 /***/ "./components/Footer.jsx":
 /*!*******************************!*\
@@ -1121,326 +1523,6 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ "./components/Market/MarketIntro.jsx":
-/*!*******************************************!*\
-  !*** ./components/Market/MarketIntro.jsx ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Market\\MarketIntro.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-class MarketIntro extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "setMarketData", () => {
-      this.setState({
-        marketDetailData: this.props.marketIntro
-      });
-    });
-
-    _defineProperty(this, "getMarketData", () => {
-      if (this.state.marketDetailData) {
-        let data = this.state.marketDetailData;
-        return __jsx("div", {
-          className: "intro market",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 25,
-            columnNumber: 17
-          }
-        }, __jsx("h1", {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 26,
-            columnNumber: 21
-          }
-        }, " ", data.heading, "  ", __jsx("span", {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 26,
-            columnNumber: 42
-          }
-        }, __jsx("img", {
-          src: data.image,
-          alt: "Image Description",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 26,
-            columnNumber: 48
-          }
-        }), " ", data.furtherHeading), "  "), __jsx("p", {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 27,
-            columnNumber: 21
-          }
-        }, data.detail));
-      }
-    });
-
-    this.state = {
-      marketDetailData: ''
-    };
-  }
-
-  UNSAFE_componentWillMount() {
-    this.setMarketData();
-  }
-
-  render() {
-    return __jsx("div", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37,
-        columnNumber: 13
-      }
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 38,
-        columnNumber: 17
-      }
-    }, __jsx("link", {
-      href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap",
-      rel: "stylesheet",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 21
-      }
-    }), __jsx("link", {
-      href: "/static/style.css",
-      rel: "stylesheet",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 21
-      }
-    })), this.getMarketData());
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (MarketIntro);
-
-/***/ }),
-
-/***/ "./components/Market/MarketUser.jsx":
-/*!******************************************!*\
-  !*** ./components/Market/MarketUser.jsx ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Market\\MarketUser.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-class MarketUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "setMarketUsers", () => {
-      this.setState({
-        marketUser: this.props.marketUser
-      });
-    });
-
-    _defineProperty(this, "getMarketUsers", () => {
-      if (this.state.marketUser) {
-        let data = this.state.marketUser.map((data, index) => {
-          return __jsx("div", {
-            className: "image-box",
-            key: index,
-            __self: this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 28,
-              columnNumber: 21
-            }
-          }, __jsx("div", {
-            className: "slide",
-            __self: this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 29,
-              columnNumber: 25
-            }
-          }, __jsx("img", {
-            src: data.image,
-            alt: "Image description",
-            __self: this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 30,
-              columnNumber: 29
-            }
-          }), __jsx("h3", {
-            __self: this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 31,
-              columnNumber: 29
-            }
-          }, __jsx("a", {
-            href: "#",
-            __self: this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 32,
-              columnNumber: 33
-            }
-          }, data.userType))));
-        });
-        return data;
-      }
-    });
-
-    this.state = {
-      marketUser: ''
-    };
-  }
-
-  UNSAFE_componentWillMount() {
-    this.setMarketUsers();
-  }
-
-  render() {
-    return __jsx("div", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46,
-        columnNumber: 13
-      }
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 17
-      }
-    }, __jsx("link", {
-      href: "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap",
-      rel: "stylesheet",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 21
-      }
-    }), __jsx("link", {
-      href: "/static/style.css",
-      rel: "stylesheet",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 21
-      }
-    })), __jsx("div", {
-      className: "container marketplace",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 17
-      }
-    }, __jsx("div", {
-      className: "image-boxes",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 21
-      }
-    }, this.getMarketUsers(), __jsx("div", {
-      className: "arrows",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 25
-      }
-    }, __jsx("button", {
-      type: "button",
-      className: "btn-arrow btn-left",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 29
-      }
-    }, __jsx("i", {
-      className: "icon-arrow-l",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 82
-      }
-    })), __jsx("button", {
-      type: "button",
-      className: "btn-arrow btn-right",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 29
-      }
-    }, __jsx("i", {
-      className: "icon-arrow-r",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 83
-      }
-    }))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(MarketUser));
-
-/***/ }),
-
 /***/ "./components/SignUp.jsx":
 /*!*******************************!*\
   !*** ./components/SignUp.jsx ***!
@@ -1564,14 +1646,14 @@ class SignUp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ "./data/market.json":
-/*!**************************!*\
-  !*** ./data/market.json ***!
-  \**************************/
-/*! exports provided: heading, furtherHeading, image, detail, marketUser, default */
+/***/ "./data/connect.json":
+/*!***************************!*\
+  !*** ./data/connect.json ***!
+  \***************************/
+/*! exports provided: brands, types, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"heading\":\"Welcome to \",\"furtherHeading\":\"Marketplace\",\"image\":\"images/logo_symbol.svg\",\"detail\":\"Whether you are an aesthetic practice in search of products or services or an industry supplier serving the needs of your customers, our AR Marketplace allows you to connect any time, day or night.\",\"marketUser\":[{\"image\":\"images/img04.png\",\"userType\":\"Aesthetic Record User\"},{\"image\":\"images/img05.png\",\"userType\":\"Marketplace Vendor\"}]}");
+module.exports = JSON.parse("{\"brands\":{\"heading\":\"Connect\",\"para\":\"Say Goodbye to Paper and Hello to More Time, so You Can Get Back to Treating Your Patients\",\"btn\":\"Schedule Demo\",\"btn1\":\"Start Free Trial\",\"notes\":\"No Credit Card Required, 14 Day Free Trial\"},\"types\":[{\"image\":\"images/img44.png\",\"heading\":\"Online Patient Booking\",\"para\":\"You can be in touch with patients around the clock. Two-way communication makes it easy to manage changing schedules, and capturing credit information reduces cancellations.\",\"learn\":\"Learn more\"},{\"image\":\"images/img45.png\",\"heading\":\"Smart Scheduling\",\"para\":\"You set the hours, appointment durations, equipment, and available providers, and our smart booking system ensures you never have to deal with double-booking or inefficient scheduling again.\",\"learn\":\"Learn more\"},{\"image\":\"images/img46.png\",\"heading\":\"Web-Based Patient Portal\",\"para\":\"Patients can book appointments, access pre-appointment information, fill out questionnaires and view post appointment instructions. Adding a membership or viewing the patient wallet can be done from anywhere in the Patient Portal!\",\"learn\":\"Learn more\"}]}");
 
 /***/ }),
 
@@ -3250,10 +3332,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/marketplace.js":
-/*!******************************!*\
-  !*** ./pages/marketplace.js ***!
-  \******************************/
+/***/ "./pages/connect.js":
+/*!**************************!*\
+  !*** ./pages/connect.js ***!
+  \**************************/
 /*! exports provided: getStaticProps, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3263,15 +3345,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./components/Header.jsx");
-/* harmony import */ var _components_Market_MarketIntro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Market/MarketIntro */ "./components/Market/MarketIntro.jsx");
-/* harmony import */ var _components_Market_MarketUser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Market/MarketUser */ "./components/Market/MarketUser.jsx");
-/* harmony import */ var _components_SignUp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/SignUp */ "./components/SignUp.jsx");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.jsx");
-/* harmony import */ var _data_market_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/market.json */ "./data/market.json");
-var _data_market_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/market.json */ "./data/market.json", 1);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\pages\\marketplace.js";
+/* harmony import */ var _components_SignUp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SignUp */ "./components/SignUp.jsx");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.jsx");
+/* harmony import */ var _components_Connects_Connects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Connects/Connects */ "./components/Connects/Connects.jsx");
+/* harmony import */ var _data_connect_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/connect.json */ "./data/connect.json");
+var _data_connect_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/connect.json */ "./data/connect.json", 1);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\pages\\connect.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3281,20 +3362,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-function MarketPlace(props) {
+function Connect(props) {
   return __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 12,
       columnNumber: 9
     }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 13
     }
   }, __jsx("link", {
@@ -3303,7 +3383,7 @@ function MarketPlace(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 17
     }
   }), __jsx("link", {
@@ -3312,7 +3392,7 @@ function MarketPlace(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -3320,84 +3400,61 @@ function MarketPlace(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 17,
       columnNumber: 13
     }
-  }, __jsx("div", {
+  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 17
+    }
+  }), __jsx(_components_Connects_Connects__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    connectsObj: props.connectObj,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
       columnNumber: 17
     }
-  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }), __jsx(_components_SignUp__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
-      columnNumber: 21
+      columnNumber: 17
     }
-  }), __jsx("main", {
-    className: "main",
+  }), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 21
+      columnNumber: 17
     }
-  }, __jsx(_components_Market_MarketIntro__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    marketIntro: props.marketObj,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 25
-    }
-  }), __jsx(_components_Market_MarketUser__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    marketUser: props.marketObj.marketUser,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 25
-    }
-  })), __jsx(_components_SignUp__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 21
-    }
-  }), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 21
-    }
-  }))));
+  })));
 }
 
 async function getStaticProps({}) {
-  let marketObj = _data_market_json__WEBPACK_IMPORTED_MODULE_6__;
+  let connectObj = _data_connect_json__WEBPACK_IMPORTED_MODULE_5__;
   return {
     props: {
-      marketObj
+      connectObj
     }
   };
 }
-/* harmony default export */ __webpack_exports__["default"] = (MarketPlace);
+/* harmony default export */ __webpack_exports__["default"] = (Connect);
 
 /***/ }),
 
-/***/ 4:
-/*!************************************!*\
-  !*** multi ./pages/marketplace.js ***!
-  \************************************/
+/***/ 6:
+/*!********************************!*\
+  !*** multi ./pages/connect.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\D\ReactJs Projects\Freelance\Nextjs\pages\marketplace.js */"./pages/marketplace.js");
+module.exports = __webpack_require__(/*! E:\D\ReactJs Projects\Freelance\Nextjs\pages\connect.js */"./pages/connect.js");
 
 
 /***/ }),
@@ -3410,17 +3467,6 @@ module.exports = __webpack_require__(/*! E:\D\ReactJs Projects\Freelance\Nextjs\
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
 
 /***/ }),
 
@@ -3480,4 +3526,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=marketplace.js.map
+//# sourceMappingURL=connect.js.map
