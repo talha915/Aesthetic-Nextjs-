@@ -14,7 +14,9 @@ class Footer extends Component {
                     <div className="container">
                         <div className="info">
                             <div className="logo">
-                                <a href="#"><img src="images/logo-footer.png" alt="Aesthetic Record" /></a>
+                                <Link href="/">
+                                    <a><img src="images/logo-footer.png" alt="Aesthetic Record" /></a>
+                                </Link>
                             </div>
                             <a href="mailto:info@aestheticrecord.com" className="mail"><i className="icon-email"></i> info@aestheticrecord.com</a>
                             <a href="#" className="btn">Book Meeting</a>
@@ -28,7 +30,11 @@ class Footer extends Component {
 
                         <div className="footer-links">
                             <nav className="links">
-                                <strong>Connect</strong>
+                                <Link href={{pathname: '/connect'}}>
+                                    <strong>
+                                        Connect
+                                    </strong>
+                                </Link>
                                 <ul>
                                     <li>
                                         <Link href={{ pathname: '/onlinebooking'}}>
@@ -48,7 +54,9 @@ class Footer extends Component {
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <strong>Treat</strong>
+                                <Link href="/treat">
+                                    <strong>Treat</strong>
+                                </Link>
                                 <ul>
                                     <li>
                                         <Link href={{ pathname: '/emr'}}>
@@ -78,7 +86,10 @@ class Footer extends Component {
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <strong>Manage</strong>
+                                <Link href="/manage">
+                                    <strong>Manage</strong>
+                                </Link>
+
                                 <ul>
                                     <li>
                                         <Link href={{pathname: '/businessinsights'}}>

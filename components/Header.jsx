@@ -13,7 +13,9 @@ class Header extends Component {
                 <header className="header">
                     <div className="container">
                         <div className="logo">
-                            <a href="#"><img src="images/logo.png" alt="Aesthetic Record" /></a>
+                            <Link href="/">
+                                <a href="#"><img src="images/logo.png" alt="Aesthetic Record" /></a>
+                            </Link>
                         </div>
                         <input type="checkbox" id="menu"/>
                         <label className="nav-opener" htmlFor="menu"><span></span></label>
@@ -21,8 +23,16 @@ class Header extends Component {
                         <nav className="main-nav">
                                 <ul>
                                     <li><a href="#">Features</a></li>
-                                    <li><a href="#">Plans & Pricing</a></li>
-                                    <li><a href="#">Learning Lab</a></li>
+                                    <li>
+                                        <Link href="/priceplans">
+                                            <a href="#">Plans & Pricing</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/learn">
+                                            <a>Learning Lab</a>
+                                        </Link>
+                                    </li>    
                                     <li>
                                         <Link href="/marketplace">
                                             <a>Marketplace</a>

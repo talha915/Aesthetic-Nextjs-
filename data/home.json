@@ -43,7 +43,8 @@
                         "list": "Web-Based Patient Portal"
                     }
                 ],
-                "learnMore": "Learn more"
+                "learnMore": "Learn more",
+                "redirect": "/onlinebooking"
             },
             {
                 "image": "images/img48.png",
@@ -66,7 +67,8 @@
                         "list": "HIPAA - Compliant TeleHealth Platform"
                     }
                 ],
-                "learnMore": "Learn more"
+                "learnMore": "Learn more",
+                "redirect": "/onlinebooking"
             },
             {
                 "image": "images/img49.png",

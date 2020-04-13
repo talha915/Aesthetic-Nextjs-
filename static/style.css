@@ -1783,6 +1783,7 @@ h4 {
 	margin-bottom: 15px;
 	letter-spacing: .1em;
 	font-size: 12px;
+	cursor: pointer;
 }
 
 .footer .links ul {
@@ -2158,6 +2159,7 @@ h4 {
 	margin-bottom: 25px;
 	-webkit-transition: .2s linear;
 	transition: .2s linear;
+	cursor: pointer;
 }
 
 .team .box:hover {
@@ -2278,6 +2280,7 @@ h4 {
 	left: 15px;
 	-webkit-transition: .2s linear;
 	transition: .2s linear;
+	cursor: pointer;
 }
 
 .team-detail .back:hover {

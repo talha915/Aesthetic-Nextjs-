@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,8 +108,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Footer.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -180,13 +183,20 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 16,
         columnNumber: 29
       }
-    }, __jsx("a", {
-      href: "#",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 17,
         columnNumber: 33
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 37
       }
     }, __jsx("img", {
       src: "images/logo-footer.png",
@@ -194,16 +204,16 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 45
+        lineNumber: 18,
+        columnNumber: 40
       }
-    }))), __jsx("a", {
+    })))), __jsx("a", {
       href: "mailto:info@aestheticrecord.com",
       className: "mail",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 29
       }
     }, __jsx("i", {
@@ -211,7 +221,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 88
       }
     }), " info@aestheticrecord.com"), __jsx("a", {
@@ -220,7 +230,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 29
       }
     }, "Book Meeting"), __jsx("ul", {
@@ -228,14 +238,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 23,
         columnNumber: 29
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -243,7 +253,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -251,14 +261,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -266,7 +276,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -274,14 +284,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 26,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -289,7 +299,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 26,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -297,14 +307,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 26,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 27,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -312,7 +322,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 27,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -320,7 +330,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 27,
         columnNumber: 49
       }
     }))))), __jsx("div", {
@@ -328,7 +338,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 25
       }
     }, __jsx("nav", {
@@ -336,259 +346,385 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 32,
         columnNumber: 29
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/connect'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 33
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
-        columnNumber: 33
-      }
-    }, "Connect"), __jsx("ul", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 33
-      }
-    }, __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 41
-      }
-    }, "Online Booking")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 34,
         columnNumber: 37
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 41
-      }
-    }, "Smart Scheduling")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 41
-      }
-    }, "Patient Portal")))), __jsx("nav", {
-      className: "links large",
+    }, "Connect")), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 38,
-        columnNumber: 29
+        columnNumber: 33
       }
-    }, __jsx("strong", {
+    }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 39,
-        columnNumber: 33
+        columnNumber: 37
       }
-    }, "Treat"), __jsx("ul", {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/onlinebooking'
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 40,
-        columnNumber: 33
+        columnNumber: 41
       }
-    }, __jsx("li", {
+    }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 41,
-        columnNumber: 37
+        columnNumber: 45
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 41
-      }
-    }, "Complete EMR Solution")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 41
-      }
-    }, "Before & After Photos")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 41
-      }
-    }, "Mobile Point-of-Sale")), __jsx("li", {
+    }, "Online Booking"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 44,
         columnNumber: 37
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 41
-      }
-    }, "Patient Wallet & Memberships")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/smartscheduling'
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 45,
         columnNumber: 41
       }
-    }, "Telehealth")))), __jsx("nav", {
-      className: "links large",
+    }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 29
+        lineNumber: 46,
+        columnNumber: 45
       }
-    }, __jsx("strong", {
+    }, "Smart Scheduling"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 49,
-        columnNumber: 33
+        columnNumber: 37
       }
-    }, "Manage"), __jsx("ul", {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/patientportal'
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 50,
-        columnNumber: 33
+        columnNumber: 41
       }
-    }, __jsx("li", {
+    }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 51,
-        columnNumber: 37
+        columnNumber: 45
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 41
-      }
-    }, "Business Insights ")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 41
-      }
-    }, "Supply Chain Management")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 41
-      }
-    }, "Employee Performance Tracking")))), __jsx("nav", {
-      className: "links",
+    }, "Patient Portal"))))), __jsx("nav", {
+      className: "links large",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 56,
         columnNumber: 29
       }
-    }, __jsx("strong", {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/treat",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 57,
         columnNumber: 33
       }
-    }, "Company"), __jsx("ul", {
+    }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 58,
+        columnNumber: 37
+      }
+    }, "Treat")), __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 61,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/emr'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 45
+      }
+    }, "Complete EMR Solution"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/beforeafterphoto'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 45
+      }
+    }, "Before & After Photos"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/mobilePointofsale'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 45
+      }
+    }, "Mobile Point-of-Sale"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/patientmembership'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78,
+        columnNumber: 45
+      }
+    }, "Patient Wallet & Memberships"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 81,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/telehealth'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 82,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83,
+        columnNumber: 45
+      }
+    }, "Telehealth"))))), __jsx("nav", {
+      className: "links large",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88,
+        columnNumber: 29
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/manage",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89,
+        columnNumber: 33
+      }
+    }, __jsx("strong", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 37
+      }
+    }, "Manage")), __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 33
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 94,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/businessinsights'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96,
+        columnNumber: 45
+      }
+    }, "Business Insights "))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/supplychain'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101,
+        columnNumber: 45
+      }
+    }, "Supply Chain Management "))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 104,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/ept'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 105,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 45
+      }
+    }, "Employee Performance Tracking"))))), __jsx("nav", {
+      className: "links",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111,
+        columnNumber: 29
+      }
+    }, __jsx("strong", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112,
+        columnNumber: 33
+      }
+    }, "Company"), __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 113,
+        columnNumber: 33
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -596,21 +732,21 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 115,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 116,
         columnNumber: 45
       }
     }, "About Us"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
+        lineNumber: 119,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -618,21 +754,21 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
+        lineNumber: 120,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66,
+        lineNumber: 121,
         columnNumber: 45
       }
     }, "Our Team "))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 124,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -640,14 +776,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 124,
         columnNumber: 41
       }
     }, "News")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 125,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -655,7 +791,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 125,
         columnNumber: 41
       }
     }, "Careers")))), __jsx("nav", {
@@ -663,28 +799,28 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73,
+        lineNumber: 128,
         columnNumber: 29
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 129,
         columnNumber: 33
       }
     }, "Resources"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75,
+        lineNumber: 130,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76,
+        lineNumber: 131,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -692,14 +828,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76,
+        lineNumber: 131,
         columnNumber: 41
       }
     }, "Elevate Blog")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 132,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -707,14 +843,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 132,
         columnNumber: 41
       }
     }, "Learn Articles")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 133,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -722,30 +858,39 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 133,
         columnNumber: 41
       }
     }, "AR Academy")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 134,
         columnNumber: 37
       }
-    }, __jsx("a", {
-      href: "#",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: "/marketplace"
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 135,
         columnNumber: 41
       }
-    }, "Marketplace")))))), __jsx("div", {
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 136,
+        columnNumber: 45
+      }
+    }, "Marketplace"))))))), __jsx("div", {
       className: "footer-info",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84,
+        lineNumber: 143,
         columnNumber: 21
       }
     }, __jsx("div", {
@@ -753,7 +898,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85,
+        lineNumber: 144,
         columnNumber: 25
       }
     }, __jsx("div", {
@@ -761,21 +906,21 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86,
+        lineNumber: 145,
         columnNumber: 29
       }
     }, __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 146,
         columnNumber: 33
       }
     }, "\xA9 2019 Aesthetic Record. All Rights Reserved ", __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 146,
         columnNumber: 81
       }
     }, "|"), " ", __jsx("a", {
@@ -783,7 +928,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 146,
         columnNumber: 96
       }
     }, "Terms Of Service"), " ", __jsx("a", {
@@ -791,7 +936,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 146,
         columnNumber: 129
       }
     }, "AR Policies"))), __jsx("div", {
@@ -799,7 +944,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 148,
         columnNumber: 29
       }
     }, __jsx("a", {
@@ -807,7 +952,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 90,
+        lineNumber: 149,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -816,7 +961,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 90,
+        lineNumber: 149,
         columnNumber: 45
       }
     })), __jsx("a", {
@@ -824,7 +969,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91,
+        lineNumber: 150,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -833,7 +978,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91,
+        lineNumber: 150,
         columnNumber: 45
       }
     })), __jsx("a", {
@@ -841,7 +986,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 151,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -850,7 +995,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 151,
         columnNumber: 45
       }
     })))))));
@@ -941,13 +1086,21 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 15,
         columnNumber: 25
       }
-    }, __jsx("a", {
-      href: "#",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16,
         columnNumber: 29
+      }
+    }, __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 33
       }
     }, __jsx("img", {
       src: "images/logo.png",
@@ -955,16 +1108,16 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
-        columnNumber: 41
+        lineNumber: 17,
+        columnNumber: 45
       }
-    }))), __jsx("input", {
+    })))), __jsx("input", {
       type: "checkbox",
       id: "menu",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 20,
         columnNumber: 25
       }
     }), __jsx("label", {
@@ -973,14 +1126,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 25
       }
     }, __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 70
       }
     })), __jsx("span", {
@@ -988,7 +1141,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 25
       }
     }), __jsx("nav", {
@@ -996,21 +1149,21 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 23,
         columnNumber: 25
       }
     }, __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1018,40 +1171,10 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 41
       }
     }, "Features")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 41
-      }
-    }, "Plans & Pricing")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25,
-        columnNumber: 41
-      }
-    }, "Learning Lab")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1059,7 +1182,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/marketplace",
+      href: "/priceplans",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1067,10 +1190,55 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 41
       }
     }, __jsx("a", {
+      href: "#",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28,
+        columnNumber: 45
+      }
+    }, "Plans & Pricing"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/learn",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 45
+      }
+    }, "Learning Lab"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/marketplace",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
         columnNumber: 45
       }
     }, "Marketplace")))), __jsx("ul", {
@@ -1078,14 +1246,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 42,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 43,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1093,14 +1261,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 43,
         columnNumber: 41
       }
     }, "Login")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 44,
         columnNumber: 37
       }
     }, __jsx("a", {
@@ -1109,7 +1277,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 44,
         columnNumber: 41
       }
     }, "Start Free Trial")))))));
@@ -3367,7 +3535,7 @@ function DetailTeams(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 10:
 /*!************************************!*\
   !*** multi ./pages/detailsteam.js ***!
   \************************************/
