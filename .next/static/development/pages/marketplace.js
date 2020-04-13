@@ -20,6 +20,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -31,6 +33,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -294,235 +297,335 @@ var Footer = /*#__PURE__*/function (_Component) {
           lineNumber: 33,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 41
-        }
-      }, "Online Booking")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/onlinebooking'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34,
           columnNumber: 41
         }
-      }, "Smart Scheduling")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 37
-        }
       }, __jsx("a", {
-        href: "#",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35,
-          columnNumber: 41
+          columnNumber: 45
         }
-      }, "Patient Portal")))), __jsx("nav", {
-        className: "links large",
+      }, "Online Booking"))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/smartscheduling'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 45
+        }
+      }, "Smart Scheduling"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/patientportal'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 45
+        }
+      }, "Patient Portal"))))), __jsx("nav", {
+        className: "links large",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
           columnNumber: 29
         }
       }, __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 51,
           columnNumber: 33
         }
       }, "Treat"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 52,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 53,
           columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/emr'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 45
+        }
+      }, "Complete EMR Solution"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/beforeafterphoto'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 45
+        }
+      }, "Before & After Photos"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/mobilePointofsale'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 45
+        }
+      }, "Mobile Point-of-Sale"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/patientmembership'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 41
         }
       }, __jsx("a", {
         href: "#",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 41
+          lineNumber: 70,
+          columnNumber: 45
         }
-      }, "Complete EMR Solution")), __jsx("li", {
+      }, "Patient Wallet & Memberships"))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 73,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/telehealth'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 74,
           columnNumber: 41
         }
-      }, "Before & After Photos")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 37
-        }
       }, __jsx("a", {
-        href: "#",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 41
+          lineNumber: 75,
+          columnNumber: 45
         }
-      }, "Mobile Point-of-Sale")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44,
-          columnNumber: 41
-        }
-      }, "Patient Wallet & Memberships")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45,
-          columnNumber: 41
-        }
-      }, "Telehealth")))), __jsx("nav", {
+      }, "Telehealth"))))), __jsx("nav", {
         className: "links large",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 80,
           columnNumber: 29
         }
       }, __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 81,
           columnNumber: 33
         }
       }, "Manage"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50,
+          lineNumber: 82,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 83,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/businessinsights'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 84,
           columnNumber: 41
         }
-      }, "Business Insights ")), __jsx("li", {
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 85,
+          columnNumber: 45
+        }
+      }, "Business Insights "))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/supplychain'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 89,
           columnNumber: 41
         }
-      }, "Supply Chain Management")), __jsx("li", {
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 90,
+          columnNumber: 45
+        }
+      }, "Supply Chain Management "))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/ept'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 94,
           columnNumber: 41
         }
-      }, "Employee Performance Tracking")))), __jsx("nav", {
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 45
+        }
+      }, "Employee Performance Tracking"))))), __jsx("nav", {
         className: "links",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 100,
           columnNumber: 29
         }
       }, __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 101,
           columnNumber: 33
         }
       }, "Company"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 102,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 103,
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -530,21 +633,21 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 104,
           columnNumber: 41
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 105,
           columnNumber: 45
         }
       }, "About Us"))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 108,
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -552,21 +655,21 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 109,
           columnNumber: 41
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 110,
           columnNumber: 45
         }
       }, "Our Team "))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 113,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -574,14 +677,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 113,
           columnNumber: 41
         }
       }, "News")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 114,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -589,7 +692,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 114,
           columnNumber: 41
         }
       }, "Careers")))), __jsx("nav", {
@@ -597,28 +700,28 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 117,
           columnNumber: 29
         }
       }, __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 118,
           columnNumber: 33
         }
       }, "Resources"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 119,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 120,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -626,14 +729,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 120,
           columnNumber: 41
         }
       }, "Elevate Blog")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 121,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -641,14 +744,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 121,
           columnNumber: 41
         }
       }, "Learn Articles")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 122,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -656,30 +759,39 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 122,
           columnNumber: 41
         }
       }, "AR Academy")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 123,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: "/marketplace"
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 124,
           columnNumber: 41
         }
-      }, "Marketplace")))))), __jsx("div", {
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 45
+        }
+      }, "Marketplace"))))))), __jsx("div", {
         className: "footer-info",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 132,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -687,7 +799,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 133,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -695,21 +807,21 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 134,
           columnNumber: 29
         }
       }, __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 135,
           columnNumber: 33
         }
       }, "\xA9 2019 Aesthetic Record. All Rights Reserved ", __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 135,
           columnNumber: 81
         }
       }, "|"), " ", __jsx("a", {
@@ -717,7 +829,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 135,
           columnNumber: 96
         }
       }, "Terms Of Service"), " ", __jsx("a", {
@@ -725,7 +837,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 135,
           columnNumber: 129
         }
       }, "AR Policies"))), __jsx("div", {
@@ -733,7 +845,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 137,
           columnNumber: 29
         }
       }, __jsx("a", {
@@ -741,7 +853,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 138,
           columnNumber: 33
         }
       }, __jsx("img", {
@@ -750,7 +862,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 138,
           columnNumber: 45
         }
       })), __jsx("a", {
@@ -758,7 +870,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 139,
           columnNumber: 33
         }
       }, __jsx("img", {
@@ -767,7 +879,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 139,
           columnNumber: 45
         }
       })), __jsx("a", {
@@ -775,7 +887,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 140,
           columnNumber: 33
         }
       }, __jsx("img", {
@@ -784,7 +896,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 140,
           columnNumber: 45
         }
       })))))));
@@ -6707,7 +6819,7 @@ var __N_SSG = true;
 
 /***/ }),
 
-/***/ 2:
+/***/ 6:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fmarketplace&absolutePagePath=E%3A%5CD%5CReactJs%20Projects%5CFreelance%5CNextjs%5Cpages%5Cmarketplace.js ***!
   \*******************************************************************************************************************************************************/
@@ -6730,5 +6842,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=marketplace.js.map

@@ -20,11 +20,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/manage": [
+    "/marketplace": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/treat": [
+    "/teams": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

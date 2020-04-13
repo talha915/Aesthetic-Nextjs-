@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-
+import Router, { withRouter } from 'next/router';
 class Footer extends Component {
     render() {
         return (
@@ -30,27 +30,71 @@ class Footer extends Component {
                             <nav className="links">
                                 <strong>Connect</strong>
                                 <ul>
-                                    <li><a href="#">Online Booking</a></li>
-                                    <li><a href="#">Smart Scheduling</a></li>
-                                    <li><a href="#">Patient Portal</a></li>
+                                    <li>
+                                        <Link href={{ pathname: '/onlinebooking'}}>
+                                            <a>Online Booking</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{ pathname: '/smartscheduling'}}>
+                                            <a>Smart Scheduling</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{ pathname: '/patientportal'}}>
+                                            <a >Patient Portal</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                             <nav className="links large">
                                 <strong>Treat</strong>
                                 <ul>
-                                    <li><a href="#">Complete EMR Solution</a></li>
-                                    <li><a href="#">Before & After Photos</a></li>
-                                    <li><a href="#">Mobile Point-of-Sale</a></li>
-                                    <li><a href="#">Patient Wallet & Memberships</a></li>
-                                    <li><a href="#">Telehealth</a></li>
+                                    <li>
+                                        <Link href={{ pathname: '/emr'}}>
+                                            <a >Complete EMR Solution</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{pathname: '/beforeafterphoto'}}>
+                                            <a>Before & After Photos</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{pathname: '/mobilePointofsale'}}>
+                                            <a>Mobile Point-of-Sale</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{pathname: '/patientmembership'}}>
+                                            <a href="#">Patient Wallet & Memberships</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{ pathname: '/telehealth'}}>
+                                            <a>Telehealth</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                             <nav className="links large">
                                 <strong>Manage</strong>
                                 <ul>
-                                    <li><a href="#">Business Insights </a></li>
-                                    <li><a href="#">Supply Chain Management</a></li>
-                                    <li><a href="#">Employee Performance Tracking</a></li>
+                                    <li>
+                                        <Link href={{pathname: '/businessinsights'}}>
+                                            <a>Business Insights </a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{pathname: '/supplychain'}}>
+                                            <a>Supply Chain Management </a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={{pathname: '/ept'}}>
+                                            <a>Employee Performance Tracking</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                             <nav className="links">
@@ -76,7 +120,11 @@ class Footer extends Component {
                                     <li><a href="#">Elevate Blog</a></li>
                                     <li><a href="#">Learn Articles</a></li>
                                     <li><a href="#">AR Academy</a></li>
-                                    <li><a href="#">Marketplace</a></li>
+                                    <li>
+                                        <Link href={{pathname: "/marketplace"}}>
+                                            <a>Marketplace</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
