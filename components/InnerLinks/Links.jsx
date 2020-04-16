@@ -13,7 +13,7 @@ class Links extends Component {
         }
     }
 
-    UNSAFE_componentWillMount() {
+    componentDidMount() {
         this.setLinkObj();
     }
 

@@ -1500,6 +1500,7 @@ h4 {
 .breadcrumbs a {
 	color: #000;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .breadcrumbs a:hover {
