@@ -41,7 +41,7 @@ class OurTeams extends Component {
 
     teamsData=(data, index)=> {
         Router.push({ 
-            pathname: '/detailsteam', query: {
+            pathname: '/DetailsTeam', query: {
                 name: data.detailName, 
                 designation: data.designation,
                 backArrow: data.backArrows,

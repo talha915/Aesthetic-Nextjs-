@@ -42,7 +42,7 @@ class DetailTeam extends Component {
     }
 
     backToTeams=()=> {
-        Router.push({ pathname: '/teams' });
+        Router.push({ pathname: '/Teams' });
     }
 
     render() {

@@ -24,17 +24,17 @@ class Header extends Component {
                                 <ul>
                                     <li><a href="#">Features</a></li>
                                     <li>
-                                        <Link href="/priceplans">
+                                        <Link href="/PricePlans">
                                             <a href="#">Plans & Pricing</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/learn">
+                                        <Link href="/Learn">
                                             <a>Learning Lab</a>
                                         </Link>
                                     </li>    
                                     <li>
-                                        <Link href="/marketplace">
+                                        <Link href="/MarketPlace">
                                             <a>Marketplace</a>
                                         </Link>
                                     </li>
