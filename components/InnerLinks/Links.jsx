@@ -13,7 +13,7 @@ class Links extends Component {
         }
     }
 
-    componentDidMount() {
+    componentWillMount() {
         this.setLinkObj();
     }
 
@@ -24,31 +24,34 @@ class Links extends Component {
     }
 
     getLinkObj = () => {
-        let data = this.state.linkObj;
-        return (
-            <main className="main">
+        if(this.state.linkObj) {
+            let data = this.state.linkObj;
+            return (
+                <main className="main">
 
-                <div className="main-banner" style={{ backgroundImage: "url(images/bg-shape2.svg)" }}>
-                    <span className="shape-right"><img src={data.images} alt="Image description" /></span>
-                    <div className="container">
-                        <div className="textblock">
-                            <h1>{data.heading}</h1>
-                            <p>{data.para}</p>
-                            <div className="btn-area">
-                                <span className="shape-center"><img src={data.innerImage} alt="Image description" /></span>
-                                <a href="#" className="btn">{data.btn}</a>
-                                <a href="#" className="btn full">{data.btn1}</a>
+                    <div className="main-banner" style={{ backgroundImage: "url(images/bg-shape2.svg)" }}>
+                        <span className="shape-right"><img src={data.images} alt="Image description" /></span>
+                        <div className="container">
+                            <div className="textblock">
+                                <h1>{data.heading}</h1>
+                                <p>{data.para}</p>
+                                <div className="btn-area">
+                                    <span className="shape-center"><img src={data.innerImage} alt="Image description" /></span>
+                                    <a href="#" className="btn">{data.btn}</a>
+                                    <a href="#" className="btn full">{data.btn1}</a>
+                                </div>
+                                <span className="note">{data.notes}</span>
                             </div>
-                            <span className="note">{data.notes}</span>
                         </div>
                     </div>
-                </div>
-                <div className="full-image">
-                    <span className="shape-left"><img src={data.fullImage} alt="Image Description" /></span>
-                    <img src={data.anotherImage} alt="Image description" />
-                </div>
-            </main>
-        )
+                    <div className="full-image">
+                        <span className="shape-left"><img src={data.fullImage} alt="Image Description" /></span>
+                        <img src={data.anotherImage} alt="Image description" />
+                    </div>
+                </main>
+            )
+        }
+        
     }
 
     render() {
