@@ -54,7 +54,7 @@ class Footer extends Component {
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <Link href="/treat">
+                                <Link href="/Treat">
                                     <strong>Treat</strong>
                                 </Link>
                                 <ul>
@@ -86,7 +86,7 @@ class Footer extends Component {
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <Link href="/manage">
+                                <Link href="/Manage">
                                     <strong>Manage</strong>
                                 </Link>
 
