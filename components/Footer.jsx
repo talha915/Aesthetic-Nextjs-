@@ -30,24 +30,24 @@ class Footer extends Component {
 
                         <div className="footer-links">
                             <nav className="links">
-                                <Link href={{pathname: '/connect'}}>
+                                <Link href={{pathname: '/Connect'}}>
                                     <strong>
                                         Connect
                                     </strong>
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link href={{ pathname: '/onlinebooking'}}>
+                                        <Link href={{ pathname: '/OnlineBooking'}}>
                                             <a>Online Booking</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/smartscheduling'}}>
+                                        <Link href={{ pathname: '/SmartScheduling'}}>
                                             <a>Smart Scheduling</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/patientportal'}}>
+                                        <Link href={{ pathname: '/PatientPortal'}}>
                                             <a >Patient Portal</a>
                                         </Link>
                                     </li>
@@ -59,27 +59,27 @@ class Footer extends Component {
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link href={{ pathname: '/emr'}}>
+                                        <Link href={{ pathname: '/EMR'}}>
                                             <a >Complete EMR Solution</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/beforeafterphoto'}}>
+                                        <Link href={{pathname: '/BeforeAfterPhoto'}}>
                                             <a>Before & After Photos</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/mobilePointofsale'}}>
+                                        <Link href={{pathname: '/MobilePointOfSale'}}>
                                             <a>Mobile Point-of-Sale</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/patientmembership'}}>
+                                        <Link href={{pathname: '/PatientMembership'}}>
                                             <a href="#">Patient Wallet & Memberships</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/telehealth'}}>
+                                        <Link href={{ pathname: '/Telehealth'}}>
                                             <a>Telehealth</a>
                                         </Link>
                                     </li>
@@ -92,17 +92,17 @@ class Footer extends Component {
 
                                 <ul>
                                     <li>
-                                        <Link href={{pathname: '/businessinsights'}}>
+                                        <Link href={{pathname: '/BusinessInsights'}}>
                                             <a>Business Insights </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/supplychain'}}>
+                                        <Link href={{pathname: '/SupplyChain'}}>
                                             <a>Supply Chain Management </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/ept'}}>
+                                        <Link href={{pathname: '/EPT'}}>
                                             <a>Employee Performance Tracking</a>
                                         </Link>
                                     </li>
@@ -112,12 +112,12 @@ class Footer extends Component {
                                 <strong>Company</strong>
                                 <ul>
                                     <li>
-                                        <Link href="/about">
+                                        <Link href="/About">
                                             <a >About Us</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/teams">
+                                        <Link href="/Teams">
                                             <a >Our Team </a>
                                         </Link>
                                     </li>
@@ -132,7 +132,7 @@ class Footer extends Component {
                                     <li><a href="#">Learn Articles</a></li>
                                     <li><a href="#">AR Academy</a></li>
                                     <li>
-                                        <Link href={{pathname: "/marketplace"}}>
+                                        <Link href={{pathname: "/Marketplace"}}>
                                             <a>Marketplace</a>
                                         </Link>
                                     </li>
