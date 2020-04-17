@@ -8,11 +8,7 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/PricePlans": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/SmartScheduling": [
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -27,6 +23,14 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
+    ],
+    "/about": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

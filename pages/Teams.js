@@ -9,6 +9,7 @@ import teamsData from '../data/teams.json';
 
 import Head from 'next/head';
 
+
 function Teams(props) {
     return(
         <div>

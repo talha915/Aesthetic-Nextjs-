@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class Records extends Component {
@@ -22,17 +22,19 @@ class Records extends Component {
     getRecords=()=> {
         let records = this.state.recordsData.map((data, index)=> {
             return(
-                <div className="container">
-                    <div className="img">
-                        <img src={data.image} alt="Image Description" />
-                    </div>
-                    <div className="textblock">
-                        <div className="holder">
-                            <h2>{data.heading}</h2>
-                            <p>{data.para}</p>
-                            <a className="more">{data.learn}</a>
+                <div className="container" key={index}>
+                    <ScrollAnimation animateIn="fadeIn">
+                        <div className="img">
+                            <img src={data.image} alt="Image Description" />
                         </div>
-                    </div>
+                        <div className="textblock">
+                            <div className="holder">
+                                <h2>{data.heading}</h2>
+                                <p>{data.para}</p>
+                                <a className="more">{data.learn}</a>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
                 </div>
             )
         })

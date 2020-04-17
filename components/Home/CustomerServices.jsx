@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class CustomerServices extends Component {
@@ -25,23 +24,25 @@ class CustomerServices extends Component {
         return (
             <div className="partner-section">
                 <div className="container">
-                    <div className="head">
-                        <span className="title">{data.title}</span>
-                        <h2>{data.heading}</h2>
-                    </div>
-                    <div className="four-columns">
-                        {data.columns.map((items, index) => {
-                            return (
-                                <div className="col" key={index}>
-                                    <div className="img">
-                                        <img src={items.image} alt="Image Description" />
+                    <ScrollAnimation animateIn="fadeIn">
+                        <div className="head">
+                            <span className="title">{data.title}</span>
+                            <h2>{data.heading}</h2>
+                        </div>
+                        <div className="four-columns">
+                            {data.columns.map((items, index) => {
+                                return (
+                                    <div className="col" key={index}>
+                                        <div className="img">
+                                            <img src={items.image} alt="Image Description" />
+                                        </div>
+                                        <h4>{items.heading}</h4>
+                                        <p>{items.para}</p>
                                     </div>
-                                    <h4>{items.heading}</h4>
-                                    <p>{items.para}</p>
-                                </div>
-                            )
-                        })}
-                    </div>
+                                )
+                            })}
+                        </div>
+                    </ScrollAnimation>
                 </div>
             </div>
         )

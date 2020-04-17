@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class Types extends Component {
@@ -23,9 +22,11 @@ class Types extends Component {
     getTypeObj = () => {
         let types = this.state.typeObj.map((data, index) => {
             return (
-                <div className="container" key={index}>
+                <div className="container" key={index}>           
                     <div className="img">
-                        <img src={data.image} alt="Image Description" />
+                        <ScrollAnimation animateIn="fadeIn">
+                            <img src={data.image} alt="Image Description" />
+                        </ScrollAnimation>
                     </div>
                     <div className="textblock">
                         <div className="holder">
@@ -34,7 +35,7 @@ class Types extends Component {
                             <a className="more">{data.learn}</a>
                         </div>
                     </div>
-                </div>
+                </div>       
             )
         })
         return types;

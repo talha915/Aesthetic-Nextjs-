@@ -51,20 +51,19 @@ var About = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(About, [{
     key: "render",
     value: function render() {
-      console.log("About Us Props: ", this.props);
       return __jsx("div", {
         className: "address-blocks",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 10,
           columnNumber: 13
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 11,
           columnNumber: 17
         }
       }, __jsx("link", {
@@ -73,7 +72,7 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 12,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -82,7 +81,7 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 13,
           columnNumber: 21
         }
       })), __jsx("main", {
@@ -90,21 +89,23 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 15,
           columnNumber: 17
         }
       }, __jsx(_AboutUsIntro__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        aboutUsIntro: this.props.aboutProp.intro,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 21
+        }
+      }), __jsx(_AboutUsBlock__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        aboutUsBlock: this.props.aboutProp.aboutBlock,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17,
-          columnNumber: 21
-        }
-      }), __jsx(_AboutUsBlock__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
           columnNumber: 21
         }
       })));
@@ -136,10 +137,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _data_aboutus_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data/aboutus.json */ "./data/aboutus.json");
-var _data_aboutus_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/aboutus.json */ "./data/aboutus.json", 1);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -155,7 +156,6 @@ function _createSuper(Derived) { return function () { var Super = Object(_babel_
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 
- // About Us Data
 
 
 
@@ -173,7 +173,7 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "setAboutBlock", function () {
       _this.setState({
-        aboutBlock: _data_aboutus_json__WEBPACK_IMPORTED_MODULE_9__.aboutBlock
+        aboutBlock: _this.props.aboutUsBlock
       });
     });
 
@@ -185,38 +185,46 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 28,
+              lineNumber: 26,
               columnNumber: 21
+            }
+          }, __jsx(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
+            animateIn: "fadeIn",
+            __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 27,
+              columnNumber: 25
             }
           }, __jsx("h3", {
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 29,
-              columnNumber: 25
+              lineNumber: 28,
+              columnNumber: 29
             }
           }, data.heading), __jsx("div", {
             className: "info-holder",
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 30,
-              columnNumber: 25
+              lineNumber: 29,
+              columnNumber: 29
             }
           }, __jsx("address", {
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 31,
-              columnNumber: 29
+              lineNumber: 30,
+              columnNumber: 33
             }
           }, data.address), __jsx("div", {
             className: "img",
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 32,
-              columnNumber: 29
+              lineNumber: 31,
+              columnNumber: 33
             }
           }, __jsx("img", {
             src: data.image,
@@ -224,10 +232,10 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 33,
-              columnNumber: 33
+              lineNumber: 32,
+              columnNumber: 37
             }
-          }))));
+          })))));
         });
 
         return address;
@@ -245,16 +253,24 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
             lineNumber: 47,
             columnNumber: 17
           }
-        }, __jsx("img", {
-          src: data.bigLeafImage,
-          alt: "Image Description",
+        }, __jsx(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          animateIn: "fadeIn",
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
             lineNumber: 48,
             columnNumber: 21
           }
-        }));
+        }, __jsx("img", {
+          src: data.bigLeafImage,
+          alt: "Image Description",
+          __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 49,
+            columnNumber: 25
+          }
+        })));
       }
     });
 
@@ -265,8 +281,8 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AboutUsBlock, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
+    key: "UNSAFE_componentWillMount",
+    value: function UNSAFE_componentWillMount() {
       this.setAboutBlock();
     }
   }, {
@@ -276,14 +292,14 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 58,
           columnNumber: 13
         }
-      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 59,
           columnNumber: 17
         }
       }, __jsx("link", {
@@ -292,7 +308,7 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 60,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -301,7 +317,7 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 61,
           columnNumber: 21
         }
       })), __jsx("div", {
@@ -309,7 +325,7 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 63,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -317,7 +333,7 @@ var AboutUsBlock = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 64,
           columnNumber: 21
         }
       }, this.getAboutBlock(), this.getLeafImage())));
@@ -351,8 +367,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _data_aboutus__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data/aboutus */ "./data/aboutus.json");
-var _data_aboutus__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/aboutus */ "./data/aboutus.json", 1);
 
 
 
@@ -367,8 +381,6 @@ function _createSuper(Derived) { return function () { var Super = Object(_babel_
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
-
- // About Us Data
 
 
 
@@ -386,7 +398,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "setIntroData", function () {
       _this.setState({
-        introData: _data_aboutus__WEBPACK_IMPORTED_MODULE_9__.intro
+        introData: _this.props.aboutUsIntro
       });
     });
 
@@ -397,7 +409,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 25,
             columnNumber: 17
           }
         }, __jsx("div", {
@@ -405,7 +417,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 26,
             columnNumber: 21
           }
         }, __jsx("div", {
@@ -413,7 +425,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 27,
             columnNumber: 25
           }
         }, __jsx("img", {
@@ -422,7 +434,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 31,
+            lineNumber: 28,
             columnNumber: 29
           }
         }), __jsx("span", {
@@ -430,7 +442,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 32,
+            lineNumber: 29,
             columnNumber: 29
           }
         }, __jsx("img", {
@@ -439,7 +451,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 33,
+            lineNumber: 30,
             columnNumber: 33
           }
         })))), __jsx("div", {
@@ -447,7 +459,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37,
+            lineNumber: 34,
             columnNumber: 21
           }
         }, __jsx("span", {
@@ -455,7 +467,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38,
+            lineNumber: 35,
             columnNumber: 25
           }
         }, __jsx("img", {
@@ -464,28 +476,28 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39,
+            lineNumber: 36,
             columnNumber: 29
           }
         })), __jsx("h1", {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41,
+            lineNumber: 38,
             columnNumber: 25
           }
         }, data.heading), __jsx("p", {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 42,
+            lineNumber: 39,
             columnNumber: 25
           }
         }, data.detailFirst), __jsx("p", {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 43,
+            lineNumber: 40,
             columnNumber: 25
           }
         }, data.detailSecond)));
@@ -499,8 +511,8 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AboutUsIntro, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
+    key: "UNSAFE_componentWillMount",
+    value: function UNSAFE_componentWillMount() {
       this.setIntroData();
     }
   }, {
@@ -510,14 +522,14 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 49,
           columnNumber: 13
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 50,
           columnNumber: 17
         }
       }, __jsx("link", {
@@ -526,7 +538,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 51,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -535,7 +547,7 @@ var AboutUsIntro = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 52,
           columnNumber: 21
         }
       })), this.getIntroData());
@@ -567,6 +579,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -578,6 +594,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
 
 
 
@@ -600,14 +618,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7,
+          lineNumber: 8,
           columnNumber: 13
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8,
+          lineNumber: 9,
           columnNumber: 17
         }
       }, __jsx("link", {
@@ -616,7 +634,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9,
+          lineNumber: 10,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -625,7 +643,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10,
+          lineNumber: 11,
           columnNumber: 21
         }
       })), __jsx("footer", {
@@ -633,7 +651,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 13,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -641,7 +659,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 14,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -649,7 +667,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 15,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -657,33 +675,40 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 16,
           columnNumber: 29
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 17,
           columnNumber: 33
         }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 37
+        }
       }, __jsx("img", {
-        src: "/logo-footer.png",
+        src: "images/logo-footer.png",
         alt: "Aesthetic Record",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 45
+          lineNumber: 18,
+          columnNumber: 40
         }
-      }))), __jsx("a", {
+      })))), __jsx("a", {
         href: "mailto:info@aestheticrecord.com",
         className: "mail",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 21,
           columnNumber: 29
         }
       }, __jsx("i", {
@@ -691,7 +716,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 21,
           columnNumber: 88
         }
       }), " info@aestheticrecord.com"), __jsx("a", {
@@ -700,7 +725,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 22,
           columnNumber: 29
         }
       }, "Book Meeting"), __jsx("ul", {
@@ -708,14 +733,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 23,
           columnNumber: 29
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 24,
           columnNumber: 33
         }
       }, __jsx("a", {
@@ -723,7 +748,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 24,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -731,14 +756,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 24,
           columnNumber: 49
         }
       }))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 25,
           columnNumber: 33
         }
       }, __jsx("a", {
@@ -746,7 +771,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 25,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -754,14 +779,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 25,
           columnNumber: 49
         }
       }))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 26,
           columnNumber: 33
         }
       }, __jsx("a", {
@@ -769,7 +794,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 26,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -777,14 +802,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 26,
           columnNumber: 49
         }
       }))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 27,
           columnNumber: 33
         }
       }, __jsx("a", {
@@ -792,7 +817,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 27,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -800,7 +825,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 27,
           columnNumber: 49
         }
       }))))), __jsx("div", {
@@ -808,7 +833,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 31,
           columnNumber: 25
         }
       }, __jsx("nav", {
@@ -816,289 +841,429 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 32,
           columnNumber: 29
         }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/Connect'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 33
+        }
       }, __jsx("strong", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30,
-          columnNumber: 33
-        }
-      }, "Connect"), __jsx("ul", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31,
-          columnNumber: 33
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32,
-          columnNumber: 41
-        }
-      }, "Online Booking")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 41
-        }
-      }, "Smart Scheduling")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34,
-          columnNumber: 41
-        }
-      }, "Patient Portal")))), __jsx("nav", {
-        className: "links large",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 29
-        }
-      }, __jsx("strong", {
+      }, "Connect")), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38,
           columnNumber: 33
         }
-      }, "Treat"), __jsx("ul", {
+      }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39,
-          columnNumber: 33
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/OnlineBooking'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40,
           columnNumber: 41
         }
-      }, "Complete EMR Solution")), __jsx("li", {
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41,
-          columnNumber: 37
+          columnNumber: 45
         }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 41
-        }
-      }, "Before & After Photos")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 41
-        }
-      }, "Mobile Point-of-Sale")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43,
-          columnNumber: 41
-        }
-      }, "Patient Wallet & Memberships")), __jsx("li", {
+      }, "Online Booking"))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/SmartScheduling'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 41
         }
-      }, "Telehealth")))), __jsx("nav", {
-        className: "links large",
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 29
+          lineNumber: 46,
+          columnNumber: 45
         }
-      }, __jsx("strong", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 33
-        }
-      }, "Manage"), __jsx("ul", {
+      }, "Smart Scheduling"))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49,
-          columnNumber: 33
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/PatientPortal'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50,
           columnNumber: 41
         }
-      }, "Business Insights ")), __jsx("li", {
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51,
-          columnNumber: 37
+          columnNumber: 45
         }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 41
-        }
-      }, "Supply Chain Management")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52,
-          columnNumber: 41
-        }
-      }, "Employee Performance Tracking")))), __jsx("nav", {
-        className: "links",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55,
-          columnNumber: 29
-        }
-      }, __jsx("strong", {
+      }, "Patient Portal"))))), __jsx("nav", {
+        className: "links large",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56,
-          columnNumber: 33
+          columnNumber: 29
         }
-      }, "Company"), __jsx("ul", {
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/Treat",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 57,
           columnNumber: 33
         }
+      }, __jsx("strong", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 37
+        }
+      }, "Treat")), __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 33
+        }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 61,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/EMR'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 62,
           columnNumber: 41
         }
-      }, "About Us")), __jsx("li", {
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 63,
+          columnNumber: 45
+        }
+      }, "Complete EMR Solution"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/BeforeAfterPhoto'
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 67,
           columnNumber: 41
         }
-      }, "Our Team ")), __jsx("li", {
+      }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 68,
+          columnNumber: 45
+        }
+      }, "Before & After Photos"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/MobilePointOfSale'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 45
+        }
+      }, "Mobile Point-of-Sale"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/PatientMembership'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        href: "#",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 45
+        }
+      }, "Patient Wallet & Memberships"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/Telehealth'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
+          columnNumber: 45
+        }
+      }, "Telehealth"))))), __jsx("nav", {
+        className: "links large",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 29
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/Manage",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89,
+          columnNumber: 33
+        }
+      }, __jsx("strong", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 37
+        }
+      }, "Manage")), __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/BusinessInsights'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96,
+          columnNumber: 45
+        }
+      }, "Business Insights "))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/SupplyChain'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 45
+        }
+      }, "Supply Chain Management "))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: '/EPT'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 45
+        }
+      }, "Employee Performance Tracking"))))), __jsx("nav", {
+        className: "links",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 29
+        }
+      }, __jsx("strong", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 33
+        }
+      }, "Company"), __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113,
+          columnNumber: 33
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/About",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 45
+        }
+      }, "About Us"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/Teams",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 45
+        }
+      }, "Our Team "))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1106,14 +1271,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 124,
           columnNumber: 41
         }
       }, "News")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 125,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1121,7 +1286,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 125,
           columnNumber: 41
         }
       }, "Careers")))), __jsx("nav", {
@@ -1129,28 +1294,28 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 128,
           columnNumber: 29
         }
       }, __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 129,
           columnNumber: 33
         }
       }, "Resources"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 130,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 131,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1158,14 +1323,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 131,
           columnNumber: 41
         }
       }, "Elevate Blog")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 132,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1173,14 +1338,14 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 132,
           columnNumber: 41
         }
       }, "Learn Articles")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 133,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1188,30 +1353,39 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 133,
           columnNumber: 41
         }
       }, "AR Academy")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 134,
           columnNumber: 37
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: {
+          pathname: "/MarketPlace"
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 135,
           columnNumber: 41
         }
-      }, "Marketplace")))))), __jsx("div", {
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136,
+          columnNumber: 45
+        }
+      }, "Marketplace"))))))), __jsx("div", {
         className: "footer-info",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 143,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -1219,7 +1393,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 144,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -1227,21 +1401,21 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 145,
           columnNumber: 29
         }
       }, __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 146,
           columnNumber: 33
         }
       }, "\xA9 2019 Aesthetic Record. All Rights Reserved ", __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 146,
           columnNumber: 81
         }
       }, "|"), " ", __jsx("a", {
@@ -1249,7 +1423,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 146,
           columnNumber: 96
         }
       }, "Terms Of Service"), " ", __jsx("a", {
@@ -1257,7 +1431,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 146,
           columnNumber: 129
         }
       }, "AR Policies"))), __jsx("div", {
@@ -1265,7 +1439,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80,
+          lineNumber: 148,
           columnNumber: 29
         }
       }, __jsx("a", {
@@ -1273,16 +1447,16 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 149,
           columnNumber: 33
         }
       }, __jsx("img", {
-        src: "/logo-apple.svg",
+        src: "images/logo-apple.svg",
         alt: "Image Description",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 149,
           columnNumber: 45
         }
       })), __jsx("a", {
@@ -1290,16 +1464,16 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 150,
           columnNumber: 33
         }
       }, __jsx("img", {
-        src: "/logo-gdbr.svg",
+        src: "images/logo-gdbr.svg",
         alt: "Image Description",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 150,
           columnNumber: 45
         }
       })), __jsx("a", {
@@ -1307,16 +1481,16 @@ var Footer = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 151,
           columnNumber: 33
         }
       }, __jsx("img", {
-        src: "/ar-emr-hipaa-law.png",
+        src: "images/ar-emr-hipaa-law.png",
         alt: "Image Description",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 151,
           columnNumber: 45
         }
       })))))));
@@ -1436,30 +1610,38 @@ var Header = /*#__PURE__*/function (_Component) {
           lineNumber: 15,
           columnNumber: 25
         }
-      }, __jsx("a", {
-        href: "#",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16,
           columnNumber: 29
         }
+      }, __jsx("a", {
+        href: "#",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 33
+        }
       }, __jsx("img", {
-        src: "/logo.png",
+        src: "images/logo.png",
         alt: "Aesthetic Record",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 41
+          lineNumber: 17,
+          columnNumber: 45
         }
-      }))), __jsx("input", {
+      })))), __jsx("input", {
         type: "checkbox",
         id: "menu",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 20,
           columnNumber: 25
         }
       }), __jsx("label", {
@@ -1468,14 +1650,14 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 21,
           columnNumber: 25
         }
       }, __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 21,
           columnNumber: 70
         }
       })), __jsx("span", {
@@ -1483,7 +1665,7 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 22,
           columnNumber: 25
         }
       }), __jsx("nav", {
@@ -1491,21 +1673,21 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 23,
           columnNumber: 25
         }
       }, __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 24,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 25,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1513,40 +1695,10 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 25,
           columnNumber: 41
         }
       }, "Features")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 41
-        }
-      }, "Plans & Pricing")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25,
-          columnNumber: 37
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25,
-          columnNumber: 41
-        }
-      }, "Learning Lab")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1554,7 +1706,7 @@ var Header = /*#__PURE__*/function (_Component) {
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/marketplace",
+        href: "/PricePlans",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1562,10 +1714,55 @@ var Header = /*#__PURE__*/function (_Component) {
           columnNumber: 41
         }
       }, __jsx("a", {
+        href: "#",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28,
+          columnNumber: 45
+        }
+      }, "Plans & Pricing"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/Learn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 45
+        }
+      }, "Learning Lab"))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 37
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/MarketPlace",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 41
+        }
+      }, __jsx("a", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
           columnNumber: 45
         }
       }, "Marketplace")))), __jsx("ul", {
@@ -1573,14 +1770,14 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 42,
           columnNumber: 33
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 43,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1588,14 +1785,14 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 43,
           columnNumber: 41
         }
       }, "Login")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 44,
           columnNumber: 37
         }
       }, __jsx("a", {
@@ -1604,7 +1801,7 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 44,
           columnNumber: 41
         }
       }, "Start Free Trial")))))));
@@ -1767,17 +1964,6 @@ var SignUp = /*#__PURE__*/function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (SignUp);
-
-/***/ }),
-
-/***/ "./data/aboutus.json":
-/*!***************************!*\
-  !*** ./data/aboutus.json ***!
-  \***************************/
-/*! exports provided: intro, aboutBlock, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"intro\":{\"bannerImage\":\"/banner.jpg\",\"bannerLeafImage\":\"/icon-leaf.png\",\"bannerSmallLeafImage\":\"/icon-leaf-small.png\",\"heading\":\"About Us\",\"detailFirst\":\"Aesthetic Record began out of necessity in 2014 when our Founder & CEO could not find an aesthetics-focused EMR that was affordable, scalable, and effective as his new practice began to grow. Fast forward to 2017, and what started out as a custom platform became commercially available to other aesthetic practitioners. Over the last several years, our team has invested hundreds of thousands of hours in development to build an end-to-end system that can manage the complex daily operations of an Aesthetic clinic. Those few key features have grown into a robust solution that powers practices of all kinds from single locations to large franchises and facilitates patient interactions both in-person and virtually.\",\"detailSecond\":\"One of our guiding principles at Aesthetic Record is that no matter the size, HIPAA-compliant documentation, clinical photography and inventory management should be available to everyone. As our feature list has continued to evolve, we’ve remained committed to keeping our system affordable by providing tremendous value at a price point every clinic can afford. We personally onboard each of our customers so we can ensure they have the tools they need to maximize each component of Aesthetic Record. We listen very closely to the needs of the marketplace and maintain a steady stream of innovation to meet the changing demands of our industry. Our customers are their patients are at the heart of everything we do, and we are greatful that so many clinics around the world trust Aesthetic Record to power their operations everyday.\"},\"aboutBlock\":{\"address\":[{\"heading\":\"Aesthetic Record dallas, Tx Headquarters\",\"address\":\"14555 Dallas Parkway Suite 100-369 Dallas, TX 75354\",\"image\":\"/img06.jpg\"},{\"heading\":\"Aesthetic Record Columbus, oh office\",\"address\":\"40 West Gay Street Columbus, OH 43215\",\"image\":\"/img07.jpg\"}],\"bigLeafImage\":\"/icon-leaf-big.png\"}}");
 
 /***/ }),
 
@@ -2570,6 +2756,457 @@ var bind = __webpack_require__(/*! function-bind */ "./node_modules/function-bin
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
+
+/***/ }),
+
+/***/ "./node_modules/lodash.throttle/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/lodash.throttle/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        result = wait - timeSinceLastCall;
+
+    return maxing ? nativeMin(result, maxWait - timeSinceLastInvoke) : result;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+/**
+ * Creates a throttled function that only invokes `func` at most once per
+ * every `wait` milliseconds. The throttled function comes with a `cancel`
+ * method to cancel delayed `func` invocations and a `flush` method to
+ * immediately invoke them. Provide `options` to indicate whether `func`
+ * should be invoked on the leading and/or trailing edge of the `wait`
+ * timeout. The `func` is invoked with the last arguments provided to the
+ * throttled function. Subsequent calls to the throttled function return the
+ * result of the last `func` invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the throttled function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.throttle` and `_.debounce`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to throttle.
+ * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=true]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new throttled function.
+ * @example
+ *
+ * // Avoid excessively updating the position while scrolling.
+ * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
+ *
+ * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
+ * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
+ * jQuery(element).on('click', throttled);
+ *
+ * // Cancel the trailing throttled invocation.
+ * jQuery(window).on('popstate', throttled.cancel);
+ */
+function throttle(func, wait, options) {
+  var leading = true,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  if (isObject(options)) {
+    leading = 'leading' in options ? !!options.leading : leading;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+  return debounce(func, wait, {
+    'leading': leading,
+    'maxWait': wait,
+    'trailing': trailing
+  });
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = throttle;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -5732,6 +6369,309 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ }),
 
+/***/ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _lodashThrottle = __webpack_require__(/*! lodash.throttle */ "./node_modules/lodash.throttle/index.js");
+
+var _lodashThrottle2 = _interopRequireDefault(_lodashThrottle);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var ScrollAnimation = (function (_Component) {
+  _inherits(ScrollAnimation, _Component);
+
+  function ScrollAnimation(props) {
+    _classCallCheck(this, ScrollAnimation);
+
+    _get(Object.getPrototypeOf(ScrollAnimation.prototype), "constructor", this).call(this, props);
+    this.serverSide = typeof window === "undefined";
+    this.listener = (0, _lodashThrottle2["default"])(this.handleScroll.bind(this), 50);
+    this.visibility = {
+      onScreen: false,
+      inViewport: false
+    };
+
+    this.state = {
+      classes: "animated",
+      style: {
+        animationDuration: this.props.duration + "s",
+        opacity: this.props.initiallyVisible ? 1 : 0
+      }
+    };
+  }
+
+  _createClass(ScrollAnimation, [{
+    key: "getElementTop",
+    value: function getElementTop(elm) {
+      var yPos = 0;
+      while (elm && elm.offsetTop !== undefined && elm.clientTop !== undefined) {
+        yPos += elm.offsetTop + elm.clientTop;
+        elm = elm.offsetParent;
+      }
+      return yPos;
+    }
+  }, {
+    key: "getScrollPos",
+    value: function getScrollPos() {
+      if (this.scrollableParent.pageYOffset !== undefined) {
+        return this.scrollableParent.pageYOffset;
+      }
+      return this.scrollableParent.scrollTop;
+    }
+  }, {
+    key: "getScrollableParentHeight",
+    value: function getScrollableParentHeight() {
+      if (this.scrollableParent.innerHeight !== undefined) {
+        return this.scrollableParent.innerHeight;
+      }
+      return this.scrollableParent.clientHeight;
+    }
+  }, {
+    key: "getViewportTop",
+    value: function getViewportTop() {
+      return this.getScrollPos() + this.props.offset;
+    }
+  }, {
+    key: "getViewportBottom",
+    value: function getViewportBottom() {
+      return this.getScrollPos() + this.getScrollableParentHeight() - this.props.offset;
+    }
+  }, {
+    key: "isInViewport",
+    value: function isInViewport(y) {
+      return y >= this.getViewportTop() && y <= this.getViewportBottom();
+    }
+  }, {
+    key: "isAboveViewport",
+    value: function isAboveViewport(y) {
+      return y < this.getViewportTop();
+    }
+  }, {
+    key: "isBelowViewport",
+    value: function isBelowViewport(y) {
+      return y > this.getViewportBottom();
+    }
+  }, {
+    key: "inViewport",
+    value: function inViewport(elementTop, elementBottom) {
+      return this.isInViewport(elementTop) || this.isInViewport(elementBottom) || this.isAboveViewport(elementTop) && this.isBelowViewport(elementBottom);
+    }
+  }, {
+    key: "onScreen",
+    value: function onScreen(elementTop, elementBottom) {
+      return !this.isAboveScreen(elementBottom) && !this.isBelowScreen(elementTop);
+    }
+  }, {
+    key: "isAboveScreen",
+    value: function isAboveScreen(y) {
+      return y < this.getScrollPos();
+    }
+  }, {
+    key: "isBelowScreen",
+    value: function isBelowScreen(y) {
+      return y > this.getScrollPos() + this.getScrollableParentHeight();
+    }
+  }, {
+    key: "getVisibility",
+    value: function getVisibility() {
+      var elementTop = this.getElementTop(this.node) - this.getElementTop(this.scrollableParent);
+      var elementBottom = elementTop + this.node.clientHeight;
+      return {
+        inViewport: this.inViewport(elementTop, elementBottom),
+        onScreen: this.onScreen(elementTop, elementBottom)
+      };
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if (!this.serverSide) {
+        var parentSelector = this.props.scrollableParentSelector;
+        this.scrollableParent = parentSelector ? document.querySelector(parentSelector) : window;
+        if (this.scrollableParent && this.scrollableParent.addEventListener) {
+          this.scrollableParent.addEventListener("scroll", this.listener);
+        } else {
+          console.warn("Cannot find element by locator: " + this.props.scrollableParentSelector);
+        }
+        if (this.props.animatePreScroll) {
+          this.handleScroll();
+        }
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearTimeout(this.delayedAnimationTimeout);
+      clearTimeout(this.callbackTimeout);
+      if (window && window.removeEventListener) {
+        window.removeEventListener("scroll", this.listener);
+      }
+    }
+  }, {
+    key: "visibilityHasChanged",
+    value: function visibilityHasChanged(previousVis, currentVis) {
+      return previousVis.inViewport !== currentVis.inViewport || previousVis.onScreen !== currentVis.onScreen;
+    }
+  }, {
+    key: "animate",
+    value: function animate(animation, callback) {
+      var _this = this;
+
+      this.delayedAnimationTimeout = setTimeout(function () {
+        _this.animating = true;
+        _this.setState({
+          classes: "animated " + animation,
+          style: {
+            animationDuration: _this.props.duration + "s"
+          }
+        });
+        _this.callbackTimeout = setTimeout(callback, _this.props.duration * 1000);
+      }, this.props.delay);
+    }
+  }, {
+    key: "animateIn",
+    value: function animateIn(callback) {
+      var _this2 = this;
+
+      this.animate(this.props.animateIn, function () {
+        if (!_this2.props.animateOnce) {
+          _this2.setState({
+            style: {
+              animationDuration: _this2.props.duration + "s",
+              opacity: 1
+            }
+          });
+          _this2.animating = false;
+        }
+        var vis = _this2.getVisibility();
+        if (callback) {
+          callback(vis);
+        }
+      });
+    }
+  }, {
+    key: "animateOut",
+    value: function animateOut(callback) {
+      var _this3 = this;
+
+      this.animate(this.props.animateOut, function () {
+        _this3.setState({
+          classes: "animated",
+          style: {
+            animationDuration: _this3.props.duration + "s",
+            opacity: 0
+          }
+        });
+        var vis = _this3.getVisibility();
+        if (vis.inViewport && _this3.props.animateIn) {
+          _this3.animateIn(_this3.props.afterAnimatedIn);
+        } else {
+          _this3.animating = false;
+        }
+
+        if (callback) {
+          callback(vis);
+        }
+      });
+    }
+  }, {
+    key: "handleScroll",
+    value: function handleScroll() {
+      if (!this.animating) {
+        var currentVis = this.getVisibility();
+        if (this.visibilityHasChanged(this.visibility, currentVis)) {
+          clearTimeout(this.delayedAnimationTimeout);
+          if (!currentVis.onScreen) {
+            this.setState({
+              classes: "animated",
+              style: {
+                animationDuration: this.props.duration + "s",
+                opacity: this.props.initiallyVisible ? 1 : 0
+              }
+            });
+          } else if (currentVis.inViewport && this.props.animateIn) {
+            this.animateIn(this.props.afterAnimatedIn);
+          } else if (currentVis.onScreen && this.visibility.inViewport && this.props.animateOut && this.state.style.opacity === 1) {
+            this.animateOut(this.props.afterAnimatedOut);
+          }
+          this.visibility = currentVis;
+        }
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this4 = this;
+
+      var classes = this.props.className ? this.props.className + " " + this.state.classes : this.state.classes;
+      return _react2["default"].createElement(
+        "div",
+        { ref: function (node) {
+            _this4.node = node;
+          }, className: classes, style: Object.assign({}, this.state.style, this.props.style) },
+        this.props.children
+      );
+    }
+  }]);
+
+  return ScrollAnimation;
+})(_react.Component);
+
+exports["default"] = ScrollAnimation;
+
+ScrollAnimation.defaultProps = {
+  offset: 150,
+  duration: 1,
+  initiallyVisible: false,
+  delay: 0,
+  animateOnce: false,
+  animatePreScroll: true
+};
+
+ScrollAnimation.propTypes = {
+  animateIn: _propTypes2["default"].string,
+  animateOut: _propTypes2["default"].string,
+  offset: _propTypes2["default"].number,
+  duration: _propTypes2["default"].number,
+  delay: _propTypes2["default"].number,
+  initiallyVisible: _propTypes2["default"].bool,
+  animateOnce: _propTypes2["default"].bool,
+  style: _propTypes2["default"].object,
+  scrollableParentSelector: _propTypes2["default"].string,
+  className: _propTypes2["default"].string,
+  animatePreScroll: _propTypes2["default"].bool
+};
+module.exports = exports["default"];
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -6739,6 +7679,37 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
 /***/ "./pages/about.js":
 /*!************************!*\
   !*** ./pages/about.js ***!
@@ -6815,7 +7786,7 @@ function AboutUs(props) {
       columnNumber: 17
     }
   }), __jsx(_components_AboutUs_About__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    aboutProp: props.contriesObj,
+    aboutProp: props.aboutUsData,
     __self: this,
     __source: {
       fileName: _jsxFileName,

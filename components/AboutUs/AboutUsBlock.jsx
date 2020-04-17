@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class AboutUsBlock extends Component {
@@ -23,13 +24,15 @@ class AboutUsBlock extends Component {
             let address = this.state.aboutBlock.address.map((data, index)=> {
                 return(
                     <div key={index}>
-                        <h3>{data.heading}</h3>
-                        <div className="info-holder">
-                            <address>{data.address}</address>
-                            <div className="img">
-                                <img src={data.image} alt="Image Description" />
+                        <ScrollAnimation animateIn="fadeIn">
+                            <h3>{data.heading}</h3>
+                            <div className="info-holder">
+                                <address>{data.address}</address>
+                                <div className="img">
+                                    <img src={data.image} alt="Image Description" />
+                                </div>
                             </div>
-                        </div>
+                        </ScrollAnimation>
                     </div>
                 )
             });
@@ -42,7 +45,9 @@ class AboutUsBlock extends Component {
             let data = this.state.aboutBlock;
             return (
                 <div className="img-shape">
-                    <img src={data.bigLeafImage} alt="Image Description" />
+                    <ScrollAnimation animateIn="fadeIn">
+                        <img src={data.bigLeafImage} alt="Image Description" />
+                    </ScrollAnimation>
                 </div>
             )
         }

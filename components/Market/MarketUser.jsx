@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
-
 import { withRouter } from 'next/router';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class MarketUser extends Component {
     
@@ -26,14 +26,16 @@ class MarketUser extends Component {
             let data = this.state.marketUser.map((data, index)=> {
                 return(
                     <div className="image-box" key={index}>
-                        <div className="slide">
-                            <img src={data.image} alt="Image description" />
-                            <h3>
-                                <a href="#">
-                                    {data.userType}
-                                </a>
-                            </h3>
-                        </div>
+                        <ScrollAnimation animateIn="fadeIn">
+                            <div className="slide">
+                                <img src={data.image} alt="Image description" />
+                                <h3>
+                                    <a href="#">
+                                        {data.userType}
+                                    </a>
+                                </h3>
+                            </div>
+                        </ScrollAnimation>
                     </div>
                 );
             });

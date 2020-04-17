@@ -2295,7 +2295,7 @@ h4 {
 	width: 12px;
 }
 
-.has-shape .wrapper:before {
+.wrapper.has-shape:before {
 	background: url(/images/bg-shape.svg) no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -3962,6 +3962,9 @@ h4 {
 @media (min-width: 1440px) {
 	.header .container {
 		padding: 20px 30px;
+	}
+	.main-banner {
+		background-size: cover;
 	}
 
 	.main-nav {

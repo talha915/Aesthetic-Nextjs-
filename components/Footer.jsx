@@ -132,7 +132,7 @@ class Footer extends Component {
                                     <li><a href="#">Learn Articles</a></li>
                                     <li><a href="#">AR Academy</a></li>
                                     <li>
-                                        <Link href={{pathname: "/Marketplace"}}>
+                                        <Link href={{pathname: "/MarketPlace"}}>
                                             <a>Marketplace</a>
                                         </Link>
                                     </li>
