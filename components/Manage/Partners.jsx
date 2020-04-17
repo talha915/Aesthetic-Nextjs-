@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class Partners extends Component {
@@ -26,8 +25,10 @@ class Partners extends Component {
             <div className="partners">
                 <div className="container">
                     <div className="intro">
-                        <h1>{data.heading} </h1>
-                        <p>{data.para}</p>
+                        <ScrollAnimation animateIn="fadeIn">
+                            <h1>{data.heading} </h1>
+                            <p>{data.para}</p>
+                        </ScrollAnimation>
                     </div>
                 </div>
                 <div className="logos-holder">
@@ -36,7 +37,9 @@ class Partners extends Component {
                             {data.images.map((items, index)=>{
                                 return(
                                     <li key={index}>
-                                        <img src={items.img} alt="Image description" />
+                                        <ScrollAnimation animateIn="fadeIn">
+                                            <img src={items.img} alt="Image description" />
+                                        </ScrollAnimation>
                                     </li>
                                 )
                             })}               
@@ -53,6 +56,7 @@ class Partners extends Component {
                 <Head>
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
                 </Head>
                 {this.getPartners()}
             </div>

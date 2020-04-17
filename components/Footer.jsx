@@ -128,7 +128,7 @@ class Footer extends Component {
                             <nav className="links">
                                 <strong>Resources</strong>
                                 <ul>
-                                    <li><a href="#">Elevate Blog</a></li>
+                                    <li><a href="https://www.aestheticrecord.com/elevate/" target="_blank">Elevate Blog</a></li>
                                     <li><a href="#">Learn Articles</a></li>
                                     <li><a href="#">AR Academy</a></li>
                                     <li>

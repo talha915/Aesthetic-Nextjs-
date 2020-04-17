@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class Partners extends Component {
@@ -23,10 +23,12 @@ class Partners extends Component {
         let data = this.state.partnerObj;
         return (
             <div className="container">
-                <div className="intro">
-                    <h1>{data.heading}</h1>
-                    <p>{data.paragraph}</p>
-                </div>
+                <ScrollAnimation animateIn="fadeIn">
+                    <div className="intro">
+                        <h1>{data.heading}</h1>
+                        <p>{data.paragraph}</p>
+                    </div>
+                </ScrollAnimation>
             </div>
         )
     }
@@ -49,14 +51,9 @@ class Partners extends Component {
                 <Head>
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
                 </Head>
                 <div className="partners">
-                    {/* <div className="container">
-                        <div className="intro">
-                            <h1>Partner with the Most Complete Practice Management & EMR Solution in the Industry</h1>
-                            <p>Aesthetic Record is trusted by practices of all sizes to manage patient interactions and day-to-day operations</p>
-                        </div>
-                    </div> */}
                     {this.getPartnerDef()}
                     <div className="logos-holder">
                         <div className="container">

@@ -285,7 +285,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/connect'
+          pathname: '/Connect'
         },
         __self: this,
         __source: {
@@ -316,7 +316,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/onlinebooking'
+          pathname: '/OnlineBooking'
         },
         __self: this,
         __source: {
@@ -340,7 +340,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/smartscheduling'
+          pathname: '/SmartScheduling'
         },
         __self: this,
         __source: {
@@ -364,7 +364,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/patientportal'
+          pathname: '/PatientPortal'
         },
         __self: this,
         __source: {
@@ -388,7 +388,7 @@ var Footer = /*#__PURE__*/function (_Component) {
           columnNumber: 29
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/treat",
+        href: "/Treat",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -418,7 +418,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/emr'
+          pathname: '/EMR'
         },
         __self: this,
         __source: {
@@ -442,7 +442,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/beforeafterphoto'
+          pathname: '/BeforeAfterPhoto'
         },
         __self: this,
         __source: {
@@ -466,7 +466,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/mobilePointofsale'
+          pathname: '/MobilePointOfSale'
         },
         __self: this,
         __source: {
@@ -490,7 +490,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/patientmembership'
+          pathname: '/PatientMembership'
         },
         __self: this,
         __source: {
@@ -515,7 +515,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/telehealth'
+          pathname: '/Telehealth'
         },
         __self: this,
         __source: {
@@ -539,7 +539,7 @@ var Footer = /*#__PURE__*/function (_Component) {
           columnNumber: 29
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/manage",
+        href: "/Manage",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -569,7 +569,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/businessinsights'
+          pathname: '/BusinessInsights'
         },
         __self: this,
         __source: {
@@ -593,7 +593,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/supplychain'
+          pathname: '/SupplyChain'
         },
         __self: this,
         __source: {
@@ -617,7 +617,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/ept'
+          pathname: '/EPT'
         },
         __self: this,
         __source: {
@@ -662,7 +662,7 @@ var Footer = /*#__PURE__*/function (_Component) {
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/about",
+        href: "/About",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -684,7 +684,7 @@ var Footer = /*#__PURE__*/function (_Component) {
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/teams",
+        href: "/Teams",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -804,7 +804,7 @@ var Footer = /*#__PURE__*/function (_Component) {
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: "/marketplace"
+          pathname: "/MarketPlace"
         },
         __self: this,
         __source: {
@@ -1145,7 +1145,7 @@ var Header = /*#__PURE__*/function (_Component) {
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/priceplans",
+        href: "/PricePlans",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1168,7 +1168,7 @@ var Header = /*#__PURE__*/function (_Component) {
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/learn",
+        href: "/Learn",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1190,7 +1190,7 @@ var Header = /*#__PURE__*/function (_Component) {
           columnNumber: 37
         }
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/marketplace",
+        href: "/MarketPlace",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1429,8 +1429,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -1444,6 +1446,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -1473,7 +1476,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 25,
           columnNumber: 13
         }
       }, __jsx("div", {
@@ -1481,8 +1484,16 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 26,
           columnNumber: 17
+        }
+      }, __jsx(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        animateIn: "fadeIn",
+        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 21
         }
       }, __jsx("div", {
         className: "head",
@@ -1490,7 +1501,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28,
-          columnNumber: 21
+          columnNumber: 25
         }
       }, __jsx("span", {
         className: "title",
@@ -1498,14 +1509,14 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29,
-          columnNumber: 25
+          columnNumber: 29
         }
       }, data.title), __jsx("h2", {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30,
-          columnNumber: 25
+          columnNumber: 29
         }
       }, data.heading)), __jsx("div", {
         className: "four-columns",
@@ -1513,7 +1524,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32,
-          columnNumber: 21
+          columnNumber: 25
         }
       }, data.columns.map(function (items, index) {
         return __jsx("div", {
@@ -1523,7 +1534,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 35,
-            columnNumber: 33
+            columnNumber: 37
           }
         }, __jsx("div", {
           className: "img",
@@ -1531,7 +1542,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 36,
-            columnNumber: 37
+            columnNumber: 41
           }
         }, __jsx("img", {
           src: items.image,
@@ -1540,24 +1551,24 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 37,
-            columnNumber: 41
+            columnNumber: 45
           }
         })), __jsx("h4", {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
             lineNumber: 39,
-            columnNumber: 37
+            columnNumber: 41
           }
         }, items.heading), __jsx("p", {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
             lineNumber: 40,
-            columnNumber: 37
+            columnNumber: 41
           }
         }, items.para));
-      }))));
+      })))));
     });
 
     _this.state = {
@@ -1578,14 +1589,14 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 54,
           columnNumber: 13
         }
-      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 55,
           columnNumber: 17
         }
       }, __jsx("link", {
@@ -1594,7 +1605,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 56,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -1603,7 +1614,7 @@ var CustomerServices = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 57,
           columnNumber: 21
         }
       })), this.getCustomerObj());
@@ -3500,6 +3511,457 @@ var bind = __webpack_require__(/*! function-bind */ "./node_modules/function-bin
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
+
+/***/ }),
+
+/***/ "./node_modules/lodash.throttle/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/lodash.throttle/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        result = wait - timeSinceLastCall;
+
+    return maxing ? nativeMin(result, maxWait - timeSinceLastInvoke) : result;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+/**
+ * Creates a throttled function that only invokes `func` at most once per
+ * every `wait` milliseconds. The throttled function comes with a `cancel`
+ * method to cancel delayed `func` invocations and a `flush` method to
+ * immediately invoke them. Provide `options` to indicate whether `func`
+ * should be invoked on the leading and/or trailing edge of the `wait`
+ * timeout. The `func` is invoked with the last arguments provided to the
+ * throttled function. Subsequent calls to the throttled function return the
+ * result of the last `func` invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the throttled function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.throttle` and `_.debounce`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to throttle.
+ * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=true]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new throttled function.
+ * @example
+ *
+ * // Avoid excessively updating the position while scrolling.
+ * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
+ *
+ * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
+ * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
+ * jQuery(element).on('click', throttled);
+ *
+ * // Cancel the trailing throttled invocation.
+ * jQuery(window).on('popstate', throttled.cancel);
+ */
+function throttle(func, wait, options) {
+  var leading = true,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  if (isObject(options)) {
+    leading = 'leading' in options ? !!options.leading : leading;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+  return debounce(func, wait, {
+    'leading': leading,
+    'maxWait': wait,
+    'trailing': trailing
+  });
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = throttle;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -6662,6 +7124,309 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ }),
 
+/***/ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _lodashThrottle = __webpack_require__(/*! lodash.throttle */ "./node_modules/lodash.throttle/index.js");
+
+var _lodashThrottle2 = _interopRequireDefault(_lodashThrottle);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var ScrollAnimation = (function (_Component) {
+  _inherits(ScrollAnimation, _Component);
+
+  function ScrollAnimation(props) {
+    _classCallCheck(this, ScrollAnimation);
+
+    _get(Object.getPrototypeOf(ScrollAnimation.prototype), "constructor", this).call(this, props);
+    this.serverSide = typeof window === "undefined";
+    this.listener = (0, _lodashThrottle2["default"])(this.handleScroll.bind(this), 50);
+    this.visibility = {
+      onScreen: false,
+      inViewport: false
+    };
+
+    this.state = {
+      classes: "animated",
+      style: {
+        animationDuration: this.props.duration + "s",
+        opacity: this.props.initiallyVisible ? 1 : 0
+      }
+    };
+  }
+
+  _createClass(ScrollAnimation, [{
+    key: "getElementTop",
+    value: function getElementTop(elm) {
+      var yPos = 0;
+      while (elm && elm.offsetTop !== undefined && elm.clientTop !== undefined) {
+        yPos += elm.offsetTop + elm.clientTop;
+        elm = elm.offsetParent;
+      }
+      return yPos;
+    }
+  }, {
+    key: "getScrollPos",
+    value: function getScrollPos() {
+      if (this.scrollableParent.pageYOffset !== undefined) {
+        return this.scrollableParent.pageYOffset;
+      }
+      return this.scrollableParent.scrollTop;
+    }
+  }, {
+    key: "getScrollableParentHeight",
+    value: function getScrollableParentHeight() {
+      if (this.scrollableParent.innerHeight !== undefined) {
+        return this.scrollableParent.innerHeight;
+      }
+      return this.scrollableParent.clientHeight;
+    }
+  }, {
+    key: "getViewportTop",
+    value: function getViewportTop() {
+      return this.getScrollPos() + this.props.offset;
+    }
+  }, {
+    key: "getViewportBottom",
+    value: function getViewportBottom() {
+      return this.getScrollPos() + this.getScrollableParentHeight() - this.props.offset;
+    }
+  }, {
+    key: "isInViewport",
+    value: function isInViewport(y) {
+      return y >= this.getViewportTop() && y <= this.getViewportBottom();
+    }
+  }, {
+    key: "isAboveViewport",
+    value: function isAboveViewport(y) {
+      return y < this.getViewportTop();
+    }
+  }, {
+    key: "isBelowViewport",
+    value: function isBelowViewport(y) {
+      return y > this.getViewportBottom();
+    }
+  }, {
+    key: "inViewport",
+    value: function inViewport(elementTop, elementBottom) {
+      return this.isInViewport(elementTop) || this.isInViewport(elementBottom) || this.isAboveViewport(elementTop) && this.isBelowViewport(elementBottom);
+    }
+  }, {
+    key: "onScreen",
+    value: function onScreen(elementTop, elementBottom) {
+      return !this.isAboveScreen(elementBottom) && !this.isBelowScreen(elementTop);
+    }
+  }, {
+    key: "isAboveScreen",
+    value: function isAboveScreen(y) {
+      return y < this.getScrollPos();
+    }
+  }, {
+    key: "isBelowScreen",
+    value: function isBelowScreen(y) {
+      return y > this.getScrollPos() + this.getScrollableParentHeight();
+    }
+  }, {
+    key: "getVisibility",
+    value: function getVisibility() {
+      var elementTop = this.getElementTop(this.node) - this.getElementTop(this.scrollableParent);
+      var elementBottom = elementTop + this.node.clientHeight;
+      return {
+        inViewport: this.inViewport(elementTop, elementBottom),
+        onScreen: this.onScreen(elementTop, elementBottom)
+      };
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if (!this.serverSide) {
+        var parentSelector = this.props.scrollableParentSelector;
+        this.scrollableParent = parentSelector ? document.querySelector(parentSelector) : window;
+        if (this.scrollableParent && this.scrollableParent.addEventListener) {
+          this.scrollableParent.addEventListener("scroll", this.listener);
+        } else {
+          console.warn("Cannot find element by locator: " + this.props.scrollableParentSelector);
+        }
+        if (this.props.animatePreScroll) {
+          this.handleScroll();
+        }
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearTimeout(this.delayedAnimationTimeout);
+      clearTimeout(this.callbackTimeout);
+      if (window && window.removeEventListener) {
+        window.removeEventListener("scroll", this.listener);
+      }
+    }
+  }, {
+    key: "visibilityHasChanged",
+    value: function visibilityHasChanged(previousVis, currentVis) {
+      return previousVis.inViewport !== currentVis.inViewport || previousVis.onScreen !== currentVis.onScreen;
+    }
+  }, {
+    key: "animate",
+    value: function animate(animation, callback) {
+      var _this = this;
+
+      this.delayedAnimationTimeout = setTimeout(function () {
+        _this.animating = true;
+        _this.setState({
+          classes: "animated " + animation,
+          style: {
+            animationDuration: _this.props.duration + "s"
+          }
+        });
+        _this.callbackTimeout = setTimeout(callback, _this.props.duration * 1000);
+      }, this.props.delay);
+    }
+  }, {
+    key: "animateIn",
+    value: function animateIn(callback) {
+      var _this2 = this;
+
+      this.animate(this.props.animateIn, function () {
+        if (!_this2.props.animateOnce) {
+          _this2.setState({
+            style: {
+              animationDuration: _this2.props.duration + "s",
+              opacity: 1
+            }
+          });
+          _this2.animating = false;
+        }
+        var vis = _this2.getVisibility();
+        if (callback) {
+          callback(vis);
+        }
+      });
+    }
+  }, {
+    key: "animateOut",
+    value: function animateOut(callback) {
+      var _this3 = this;
+
+      this.animate(this.props.animateOut, function () {
+        _this3.setState({
+          classes: "animated",
+          style: {
+            animationDuration: _this3.props.duration + "s",
+            opacity: 0
+          }
+        });
+        var vis = _this3.getVisibility();
+        if (vis.inViewport && _this3.props.animateIn) {
+          _this3.animateIn(_this3.props.afterAnimatedIn);
+        } else {
+          _this3.animating = false;
+        }
+
+        if (callback) {
+          callback(vis);
+        }
+      });
+    }
+  }, {
+    key: "handleScroll",
+    value: function handleScroll() {
+      if (!this.animating) {
+        var currentVis = this.getVisibility();
+        if (this.visibilityHasChanged(this.visibility, currentVis)) {
+          clearTimeout(this.delayedAnimationTimeout);
+          if (!currentVis.onScreen) {
+            this.setState({
+              classes: "animated",
+              style: {
+                animationDuration: this.props.duration + "s",
+                opacity: this.props.initiallyVisible ? 1 : 0
+              }
+            });
+          } else if (currentVis.inViewport && this.props.animateIn) {
+            this.animateIn(this.props.afterAnimatedIn);
+          } else if (currentVis.onScreen && this.visibility.inViewport && this.props.animateOut && this.state.style.opacity === 1) {
+            this.animateOut(this.props.afterAnimatedOut);
+          }
+          this.visibility = currentVis;
+        }
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this4 = this;
+
+      var classes = this.props.className ? this.props.className + " " + this.state.classes : this.state.classes;
+      return _react2["default"].createElement(
+        "div",
+        { ref: function (node) {
+            _this4.node = node;
+          }, className: classes, style: Object.assign({}, this.state.style, this.props.style) },
+        this.props.children
+      );
+    }
+  }]);
+
+  return ScrollAnimation;
+})(_react.Component);
+
+exports["default"] = ScrollAnimation;
+
+ScrollAnimation.defaultProps = {
+  offset: 150,
+  duration: 1,
+  initiallyVisible: false,
+  delay: 0,
+  animateOnce: false,
+  animatePreScroll: true
+};
+
+ScrollAnimation.propTypes = {
+  animateIn: _propTypes2["default"].string,
+  animateOut: _propTypes2["default"].string,
+  offset: _propTypes2["default"].number,
+  duration: _propTypes2["default"].number,
+  delay: _propTypes2["default"].number,
+  initiallyVisible: _propTypes2["default"].bool,
+  animateOnce: _propTypes2["default"].bool,
+  style: _propTypes2["default"].object,
+  scrollableParentSelector: _propTypes2["default"].string,
+  className: _propTypes2["default"].string,
+  animatePreScroll: _propTypes2["default"].bool
+};
+module.exports = exports["default"];
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -7669,6 +8434,37 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -7774,7 +8570,7 @@ var __N_SSG = true;
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CD%5CReactJs%20Projects%5CFreelance%5CNextjs%5Cpages%5Cindex.js ***!
   \**************************************************************************************************************************************/
@@ -7797,5 +8593,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

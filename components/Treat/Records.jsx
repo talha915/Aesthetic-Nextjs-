@@ -23,18 +23,21 @@ class Records extends Component {
         let records = this.state.recordsData.map((data, index)=> {
             return(
                 <div className="container" key={index}>
-                    <ScrollAnimation animateIn="fadeIn">
-                        <div className="img">
+                    
+                    <div className="img">
+                        <ScrollAnimation animateIn="fadeIn">
                             <img src={data.image} alt="Image Description" />
-                        </div>
-                        <div className="textblock">
-                            <div className="holder">
+                        </ScrollAnimation>
+                    </div>
+                    <div className="textblock">
+                        <div className="holder">
+                            <ScrollAnimation animateIn="fadeIn">
                                 <h2>{data.heading}</h2>
                                 <p>{data.para}</p>
                                 <a className="more">{data.learn}</a>
-                            </div>
+                            </ScrollAnimation>
                         </div>
-                    </ScrollAnimation>
+                    </div>                
                 </div>
             )
         })
