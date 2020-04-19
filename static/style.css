@@ -1453,7 +1453,7 @@ h4 {
 }
 
 .signup-block:after {
-	background: url(/images/bg.svg) no-repeat;
+	background: url(images/bg.svg) no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: -75px;
@@ -1597,7 +1597,7 @@ h4 {
 .breadcrumbs li + li:after {
 	width: 17px;
 	height: 7px;
-	background: url(/images/arrows.png) no-repeat;
+	background: url(images/arrows.png) no-repeat;
 	position: absolute;
 	top: 6px;
 	left: -8px;
@@ -1634,7 +1634,7 @@ h4 {
 }
 
 .bottom-block.shape:after {
-	background: url(/images/shape.png) no-repeat;
+	background: url(images/shape.png) no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1772,7 +1772,7 @@ h4 {
 }
 
 .full-image:before {
-	background: url(/images/bg2.png) no-repeat;
+	background: url(images/bg2.png) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	top: -280px;
@@ -2079,6 +2079,7 @@ h4 {
 .marketplace .btn-arrow {
 	background: none;
 	position: absolute;
+	text-decoration: none;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -2100,7 +2101,7 @@ h4 {
 }
 
 .marketplace .btn-arrow:hover {
-	color: #1199fc;
+	color: #000;
 }
 
 .image-boxes {
@@ -2280,7 +2281,8 @@ h4 {
 	display: block;
 }
 
-.team .box {
+.team .box,
+.team .animated {
 	box-shadow: 0 15px 20px rgba(34, 53, 71, .08);
 	background: #fff;
 	text-decoration: none;
@@ -2291,18 +2293,28 @@ h4 {
 	transition: .2s linear;
 }
 
-.team .box:hover {
+.team .box:hover,
+.team .animated:hover {
 	box-shadow: 0 15px 20px rgba(34, 53, 71, .2);
 }
 
-.team .box:hover img {
+.team .box:hover img,
+.team .animated:hover img {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
 
-.team .box:hover .link i {
+.team .box:hover .link i,
+.team .animated:hover .link i {
 	padding-left: 12px;
+}
+
+.team .animated .box {
+	background: none;
+	box-shadow: none;
+	width: 100%;
+	margin: 0;
 }
 
 .team h2 {
@@ -2373,6 +2385,10 @@ h4 {
 	margin-bottom: 15px;
 }
 
+.team-detail p {
+	margin-bottom: 30px !important;
+}
+
 .team-detail .designation {
 	color: #1199fc;
 	display: block;
@@ -2423,7 +2439,7 @@ h4 {
 }
 
 .wrapper.has-shape:before {
-	background: url(/images/bg-shape.svg) no-repeat;
+	background: url(images/bg-shape.svg) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	top: 0;
@@ -2887,6 +2903,12 @@ h4 {
 	margin-bottom: 80px;
 }
 
+.info-blocks.treat .container:first-child,
+.info-blocks.connect .container:first-child,
+.info-blocks.manage .container:first-child {
+	margin-top: 0;
+}
+
 .info-blocks .container {
 	max-width: 1920px;
 	display: -webkit-box;
@@ -3275,7 +3297,8 @@ h4 {
 		padding-left: 10px;
 	}
 
-	.team .box {
+	.team .box,
+	.team .animated {
 		width: 48%;
 	}
 }
@@ -3577,7 +3600,8 @@ h4 {
 		display: block;
 	}
 
-	.team .box {
+	.team .box,
+	.team .animated {
 		width: 31.5%;
 		margin-bottom: 80px;
 	}

@@ -8136,7 +8136,7 @@ function DetailTeams(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FDetailsTeam&absolutePagePath=E%3A%5CD%5CReactJs%20Projects%5CFreelance%5CNextjs%5Cpages%5CDetailsTeam.js ***!
   \*******************************************************************************************************************************************************/
@@ -8159,5 +8159,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=DetailsTeam.js.map

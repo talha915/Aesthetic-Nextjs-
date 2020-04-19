@@ -55,8 +55,8 @@ class MarketUser extends Component {
                     <div className="image-boxes">
                         {this.getMarketUsers()}
                         <div className="arrows">
-                            <a type="button" className="btn-arrow btn-left" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-l"></i></a>
-                            <a type="button" className="btn-arrow btn-right" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-r"></i></a>
+                            <a className="btn-arrow btn-left" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-l"></i></a>
+                            <a className="btn-arrow btn-right" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-r"></i></a>
                         </div>
                     </div>
                 </div>
