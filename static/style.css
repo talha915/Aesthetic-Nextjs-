@@ -1448,7 +1448,7 @@ h4 {
 	letter-spacing: .04em;
 	position: relative;
 	background: #0c1a2d;
-	z-index: 9;
+	z-index: 11;
 	color: #3f5673;
 }
 
@@ -1806,6 +1806,8 @@ h4 {
 	letter-spacing: .04em;
 	font-size: 12px;
 	line-height: 1.6;
+	position: relative;
+	z-index: 11;
 }
 
 .footer .container {
@@ -4389,6 +4391,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+	.full-image:before {
+		display: none !important;
+	}
 	.navigation .page-numbers,
 	.navigation-comments .page-numbers {
 		padding: 0 3px;

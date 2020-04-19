@@ -8,7 +8,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img64.svg"
+        "anotherImage": "images/img64.png"
     },
     "emr": {
         "images": "images/icon-price.png",
@@ -30,7 +30,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img63.svg"
+        "anotherImage": "images/img63.png"
     },
     "beforeafterpics": {
         "images": "images/icon-price.png",
@@ -41,7 +41,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img66.svg"
+        "anotherImage": "images/img66.png"
     },
     "smartscheduling": {
         "images": "images/icon-price.png",
@@ -52,7 +52,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img60.svg"
+        "anotherImage": "images/img60.png"
     },
     "patientPortal": {
         "images": "images/icon-price.png",
@@ -63,7 +63,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img68.svg"
+        "anotherImage": "images/img68.png"
     },
     "mobilepos": {
         "images": "images/icon-price.png",
@@ -74,7 +74,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img69.svg"
+        "anotherImage": "images/img69.png"
     },
     "patientMember": {
         "images": "images/icon-price.png",
@@ -85,7 +85,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img70.svg"
+        "anotherImage": "images/img70.png"
     },
     "businessInsights": {
         "images": "images/icon-price.png",
@@ -96,7 +96,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img61.svg"
+        "anotherImage": "images/img61.png"
     },
     "supplyChain": {
         "images": "images/icon-price.png",
@@ -107,7 +107,7 @@
         "btn1": "Start Free Trial",
         "notes": "No Credit Card Required, 14 Day Free Trial",
         "fullImage": "images/icon-pricing.png",
-        "anotherImage": "images/img65.svg"
+        "anotherImage": "images/img65.png"
     },
     "ept": {
         "images": "images/icon-price.png",
