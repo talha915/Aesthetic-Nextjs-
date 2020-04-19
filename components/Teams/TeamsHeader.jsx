@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Link from 'next/link';
 import Head from 'next/head';
 
 class TeamsHeader extends Component {
@@ -11,7 +11,11 @@ class TeamsHeader extends Component {
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
                 <ul className="breadcrumbs container">
-                    <li><a href="#">Home</a></li>
+                    <li>
+                        <Link href="/">
+                            <a>Home</a>
+                        </Link>
+                    </li>
                     <li className="current"><a href="#">Elevate by Aesthetic Record</a></li>
                 </ul>
                 <div className="banner">

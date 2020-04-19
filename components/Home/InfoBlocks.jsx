@@ -25,20 +25,24 @@ class InfoBlocks extends Component {
             return (
                 <div className="container" key={index}>
                     <div className="img">
-                        <img src={data.image} alt="Image Description" />
+                        <ScrollAnimation animateIn="fadeIn">
+                            <img src={data.image} alt="Image Description" />
+                        </ScrollAnimation>
                     </div>
                     <div className="textblock">
                         <div className="holder">
-                            <h2>{data.heading}</h2>
-                            <p>{data.paragraph}</p>
-                            <ul className="info-list">
-                                {data.lists.map((datas, index) => {
-                                    return (
-                                        <li key={index}>{datas.list}</li>
-                                    )
-                                })}
-                            </ul>
-                            <a className="more">{data.learnMore}</a>
+                            <ScrollAnimation animateIn="fadeIn">
+                                <h2>{data.heading}</h2>
+                                <p>{data.paragraph}</p>
+                                <ul className="info-list">
+                                    {data.lists.map((datas, index) => {
+                                        return (
+                                            <li key={index}>{datas.list}</li>
+                                        )
+                                    })}
+                                </ul>
+                                <a className="more">{data.learnMore}</a>
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>
@@ -47,20 +51,27 @@ class InfoBlocks extends Component {
         return connects;
     }
 
-    getGrowing=()=> {
+    getGrowing = () => {
         let data = this.state.infoBlock.record;
         return (
             <div className="information-section">
-                <div className="col">
-                    <img src={data.image} alt="Image description" />
-                </div>
-                <div className="col">
-                    <div className="textblock">
-                        <span className="title">{data.title}</span>
-                        <h2>{data.heading}</h2>
-                        <a className="btn">{data.btn}</a>
+                <div className="container">
+                    <div className="col">
+                        <ScrollAnimation animateIn="fadeIn">
+                            <img src={data.image} alt="Image description" />
+                        </ScrollAnimation>
+                    </div>
+                    <div className="col">
+                        <div className="textblock">
+                            <ScrollAnimation animateIn="fadeIn">
+                                <span className="title">{data.title}</span>
+                                <h2>{data.heading}</h2>
+                                <a className="btn">{data.btn}</a>
+                            </ScrollAnimation>
+                        </div>
                     </div>
                 </div>
+
             </div>
         )
     }
@@ -72,7 +83,7 @@ class InfoBlocks extends Component {
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-                </Head>
+                </Head>              
                 <div className="info-blocks">
                     {this.getConnects()}
                 </div>

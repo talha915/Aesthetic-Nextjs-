@@ -3,6 +3,23 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Router, { withRouter } from 'next/router';
 class Footer extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentYear: ''
+        }
+    }
+
+    componentWillMount() {
+        this.setCurrentYear();
+    }
+
+    setCurrentYear=()=> {
+        let date = new Date();
+        this.setState({currentYear: date.getFullYear()});
+    }
+
     render() {
         return (
             <div>
@@ -143,7 +160,7 @@ class Footer extends Component {
                     <div className="footer-info">
                         <div className="container">
                             <div className="copyright">
-                                <p>© 2019 Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">Terms Of Service</a> <a href="#">AR Policies</a></p>
+                                <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">Terms Of Service</a> <a href="#">AR Policies</a></p>
                             </div>
                             <div className="logo-holder">
                                 <a href="#"><img src="images/logo-apple.svg" alt="Image Description" /></a>

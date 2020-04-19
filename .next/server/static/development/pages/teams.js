@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -113,24 +113,46 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Footer.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
 
 class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "setCurrentYear", () => {
+      let date = new Date();
+      this.setState({
+        currentYear: date.getFullYear()
+      });
+    });
+
+    this.state = {
+      currentYear: ''
+    };
+  }
+
+  componentWillMount() {
+    this.setCurrentYear();
+  }
+
   render() {
     return __jsx("div", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8,
+        lineNumber: 25,
         columnNumber: 13
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 26,
         columnNumber: 17
       }
     }, __jsx("link", {
@@ -139,7 +161,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10,
+        lineNumber: 27,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -148,7 +170,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 28,
         columnNumber: 21
       }
     })), __jsx("footer", {
@@ -156,7 +178,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 30,
         columnNumber: 17
       }
     }, __jsx("div", {
@@ -164,7 +186,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 31,
         columnNumber: 21
       }
     }, __jsx("div", {
@@ -172,7 +194,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 32,
         columnNumber: 25
       }
     }, __jsx("div", {
@@ -180,7 +202,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 33,
         columnNumber: 29
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -188,14 +210,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
+        lineNumber: 34,
         columnNumber: 33
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 35,
         columnNumber: 37
       }
     }, __jsx("img", {
@@ -204,7 +226,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 35,
         columnNumber: 40
       }
     })))), __jsx("a", {
@@ -213,7 +235,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 38,
         columnNumber: 29
       }
     }, __jsx("i", {
@@ -221,7 +243,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 38,
         columnNumber: 88
       }
     }), " info@aestheticrecord.com"), __jsx("a", {
@@ -230,7 +252,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 39,
         columnNumber: 29
       }
     }, "Book Meeting"), __jsx("ul", {
@@ -238,14 +260,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 40,
         columnNumber: 29
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 41,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -253,7 +275,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 41,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -261,14 +283,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 41,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 42,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -276,7 +298,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 42,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -284,14 +306,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 42,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 43,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -299,7 +321,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 43,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -307,14 +329,14 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 43,
         columnNumber: 49
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 44,
         columnNumber: 33
       }
     }, __jsx("a", {
@@ -322,7 +344,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 44,
         columnNumber: 37
       }
     }, __jsx("i", {
@@ -330,7 +352,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 44,
         columnNumber: 49
       }
     }))))), __jsx("div", {
@@ -338,7 +360,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 48,
         columnNumber: 25
       }
     }, __jsx("nav", {
@@ -346,136 +368,58 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 49,
         columnNumber: 29
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/connect'
+        pathname: '/Connect'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 50,
         columnNumber: 33
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 51,
         columnNumber: 37
       }
     }, "Connect")), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 55,
         columnNumber: 33
       }
     }, __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 37
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/onlinebooking'
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 41
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 45
-      }
-    }, "Online Booking"))), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 37
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/smartscheduling'
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45,
-        columnNumber: 41
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46,
-        columnNumber: 45
-      }
-    }, "Smart Scheduling"))), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 37
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/patientportal'
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 41
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 45
-      }
-    }, "Patient Portal"))))), __jsx("nav", {
-      className: "links large",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 56,
-        columnNumber: 29
+        columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/treat",
+      href: {
+        pathname: '/OnlineBooking'
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 57,
-        columnNumber: 33
+        columnNumber: 41
       }
-    }, __jsx("strong", {
+    }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 58,
-        columnNumber: 37
+        columnNumber: 45
       }
-    }, "Treat")), __jsx("ul", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 60,
-        columnNumber: 33
-      }
-    }, __jsx("li", {
+    }, "Online Booking"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -484,7 +428,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/emr'
+        pathname: '/SmartScheduling'
       },
       __self: this,
       __source: {
@@ -499,7 +443,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 63,
         columnNumber: 45
       }
-    }, "Complete EMR Solution"))), __jsx("li", {
+    }, "Smart Scheduling"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -508,7 +452,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/beforeafterphoto'
+        pathname: '/PatientPortal'
       },
       __self: this,
       __source: {
@@ -523,45 +467,123 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 68,
         columnNumber: 45
       }
-    }, "Before & After Photos"))), __jsx("li", {
+    }, "Patient Portal"))))), __jsx("nav", {
+      className: "links large",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71,
+        lineNumber: 73,
+        columnNumber: 29
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/Treat",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74,
+        columnNumber: 33
+      }
+    }, __jsx("strong", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75,
+        columnNumber: 37
+      }
+    }, "Treat")), __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 33
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/mobilePointofsale'
+        pathname: '/EMR'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72,
+        lineNumber: 79,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73,
+        lineNumber: 80,
+        columnNumber: 45
+      }
+    }, "Complete EMR Solution"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/BeforeAfterPhoto'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85,
+        columnNumber: 45
+      }
+    }, "Before & After Photos"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/MobilePointOfSale'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
         columnNumber: 45
       }
     }, "Mobile Point-of-Sale"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76,
+        lineNumber: 93,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/patientmembership'
+        pathname: '/PatientMembership'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 94,
         columnNumber: 41
       }
     }, __jsx("a", {
@@ -569,31 +591,31 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 95,
         columnNumber: 45
       }
     }, "Patient Wallet & Memberships"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81,
+        lineNumber: 98,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/telehealth'
+        pathname: '/Telehealth'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82,
+        lineNumber: 99,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83,
+        lineNumber: 100,
         columnNumber: 45
       }
     }, "Telehealth"))))), __jsx("nav", {
@@ -601,200 +623,104 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88,
+        lineNumber: 105,
         columnNumber: 29
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/manage",
+      href: "/Manage",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 106,
         columnNumber: 33
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 90,
+        lineNumber: 107,
         columnNumber: 37
       }
     }, "Manage")), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 93,
+        lineNumber: 110,
         columnNumber: 33
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94,
+        lineNumber: 111,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/businessinsights'
+        pathname: '/BusinessInsights'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95,
+        lineNumber: 112,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96,
+        lineNumber: 113,
         columnNumber: 45
       }
     }, "Business Insights "))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 99,
+        lineNumber: 116,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/supplychain'
+        pathname: '/SupplyChain'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 100,
+        lineNumber: 117,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101,
+        lineNumber: 118,
         columnNumber: 45
       }
     }, "Supply Chain Management "))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 104,
+        lineNumber: 121,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/ept'
+        pathname: '/EPT'
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 105,
+        lineNumber: 122,
         columnNumber: 41
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 106,
+        lineNumber: 123,
         columnNumber: 45
       }
     }, "Employee Performance Tracking"))))), __jsx("nav", {
-      className: "links",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 111,
-        columnNumber: 29
-      }
-    }, __jsx("strong", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 112,
-        columnNumber: 33
-      }
-    }, "Company"), __jsx("ul", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 33
-      }
-    }, __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 114,
-        columnNumber: 37
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/about",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 115,
-        columnNumber: 41
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 116,
-        columnNumber: 45
-      }
-    }, "About Us"))), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 119,
-        columnNumber: 37
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/teams",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 120,
-        columnNumber: 41
-      }
-    }, __jsx("a", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 121,
-        columnNumber: 45
-      }
-    }, "Our Team "))), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 124,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 124,
-        columnNumber: 41
-      }
-    }, "News")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125,
-        columnNumber: 41
-      }
-    }, "Careers")))), __jsx("nav", {
       className: "links",
       __self: this,
       __source: {
@@ -809,7 +735,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 129,
         columnNumber: 33
       }
-    }, "Resources"), __jsx("ul", {
+    }, "Company"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -823,129 +749,117 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 131,
         columnNumber: 37
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 131,
-        columnNumber: 41
-      }
-    }, "Elevate Blog")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 132,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 132,
-        columnNumber: 41
-      }
-    }, "Learn Articles")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 133,
-        columnNumber: 37
-      }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 133,
-        columnNumber: 41
-      }
-    }, "AR Academy")), __jsx("li", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 134,
-        columnNumber: 37
-      }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: "/marketplace"
-      },
+      href: "/About",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 135,
+        lineNumber: 132,
         columnNumber: 41
       }
     }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 133,
+        columnNumber: 45
+      }
+    }, "About Us"))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 136,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/Teams",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 137,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 138,
         columnNumber: 45
       }
-    }, "Marketplace"))))))), __jsx("div", {
-      className: "footer-info",
+    }, "Our Team "))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 143,
-        columnNumber: 21
+        lineNumber: 141,
+        columnNumber: 37
       }
-    }, __jsx("div", {
-      className: "container",
+    }, __jsx("a", {
+      href: "#",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 144,
-        columnNumber: 25
+        lineNumber: 141,
+        columnNumber: 41
       }
-    }, __jsx("div", {
-      className: "copyright",
+    }, "News")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 142,
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 142,
+        columnNumber: 41
+      }
+    }, "Careers")))), __jsx("nav", {
+      className: "links",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 145,
         columnNumber: 29
       }
-    }, __jsx("p", {
+    }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 146,
         columnNumber: 33
       }
-    }, "\xA9 2019 Aesthetic Record. All Rights Reserved ", __jsx("span", {
+    }, "Resources"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 146,
-        columnNumber: 81
+        lineNumber: 147,
+        columnNumber: 33
       }
-    }, "|"), " ", __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 146,
-        columnNumber: 96
-      }
-    }, "Terms Of Service"), " ", __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 146,
-        columnNumber: 129
-      }
-    }, "AR Policies"))), __jsx("div", {
-      className: "logo-holder",
+    }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 148,
-        columnNumber: 29
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      href: "https://www.aestheticrecord.com/elevate/",
+      target: "_blank",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 148,
+        columnNumber: 41
+      }
+    }, "Elevate Blog")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 149,
+        columnNumber: 37
       }
     }, __jsx("a", {
       href: "#",
@@ -953,6 +867,115 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 149,
+        columnNumber: 41
+      }
+    }, "Learn Articles")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 150,
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 150,
+        columnNumber: 41
+      }
+    }, "AR Academy")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151,
+        columnNumber: 37
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: "/MarketPlace"
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 152,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153,
+        columnNumber: 45
+      }
+    }, "Marketplace"))))))), __jsx("div", {
+      className: "footer-info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160,
+        columnNumber: 21
+      }
+    }, __jsx("div", {
+      className: "container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 161,
+        columnNumber: 25
+      }
+    }, __jsx("div", {
+      className: "copyright",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 162,
+        columnNumber: 29
+      }
+    }, __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 163,
+        columnNumber: 33
+      }
+    }, "\xA9 ", this.state.currentYear, " Aesthetic Record. All Rights Reserved ", __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 163,
+        columnNumber: 101
+      }
+    }, "|"), " ", __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 163,
+        columnNumber: 116
+      }
+    }, "Terms Of Service"), " ", __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 163,
+        columnNumber: 149
+      }
+    }, "AR Policies"))), __jsx("div", {
+      className: "logo-holder",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 165,
+        columnNumber: 29
+      }
+    }, __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 166,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -961,7 +984,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 149,
+        lineNumber: 166,
         columnNumber: 45
       }
     })), __jsx("a", {
@@ -969,7 +992,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 150,
+        lineNumber: 167,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -978,7 +1001,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 150,
+        lineNumber: 167,
         columnNumber: 45
       }
     })), __jsx("a", {
@@ -986,7 +1009,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 151,
+        lineNumber: 168,
         columnNumber: 33
       }
     }, __jsx("img", {
@@ -995,7 +1018,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 151,
+        lineNumber: 168,
         columnNumber: 45
       }
     })))))));
@@ -1157,119 +1180,529 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24,
-        columnNumber: 33
+        columnNumber: 29
       }
     }, __jsx("li", {
+      className: "has-drop",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 25,
-        columnNumber: 37
+        columnNumber: 33
       }
     }, __jsx("a", {
       href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25,
-        columnNumber: 41
-      }
-    }, "Features")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26,
         columnNumber: 37
       }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/priceplans",
+    }, "Features"), __jsx("ul", {
+      className: "dropdown",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 27,
+        columnNumber: 37
+      }
+    }, __jsx("li", {
+      className: "has-drop",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
         columnNumber: 41
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/Connect'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 45
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 49
+      }
+    }, "Connect")), __jsx("ul", {
+      className: "dropdown",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 45
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/OnlineBooking'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 57
+      }
+    }, "Online Booking"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/SmartScheduling'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 57
+      }
+    }, "Smart Scheduling"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/PatientPortal'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 57
+      }
+    }, "Patient Portal"))))), __jsx("li", {
+      className: "has-drop",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 41
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/Treat",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53,
+        columnNumber: 45
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 49
+      }
+    }, "Treat")), __jsx("ul", {
+      className: "dropdown",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 45
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/EMR'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 57
+      }
+    }, "Complete EMR Solution"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/BeforeAfterPhoto'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 57
+      }
+    }, "Before & After Photos"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/MobilePointOfSale'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 57
+      }
+    }, "Mobile Point-of-Sale"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/PatientMembership'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 53
       }
     }, __jsx("a", {
       href: "#",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 74,
+        columnNumber: 57
+      }
+    }, "Patient Wallet & Memberships"))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/Telehealth'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79,
+        columnNumber: 57
+      }
+    }, "Telehealth"))))), __jsx("li", {
+      className: "has-drop",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84,
+        columnNumber: 41
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/Manage",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85,
         columnNumber: 45
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86,
+        columnNumber: 49
+      }
+    }, "Manage")), __jsx("ul", {
+      className: "dropdown",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88,
+        columnNumber: 45
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/BusinessInsights'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 57
+      }
+    }, "Business Insights "))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 94,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/SupplyChain'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96,
+        columnNumber: 57
+      }
+    }, "Supply Chain Management "))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99,
+        columnNumber: 49
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/EPT'
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100,
+        columnNumber: 53
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101,
+        columnNumber: 57
+      }
+    }, "Employee Performance Tracking"))))))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 108,
+        columnNumber: 33
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/PricePlans",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 109,
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      href: "#",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110,
+        columnNumber: 41
       }
     }, "Plans & Pricing"))), __jsx("li", {
+      className: "has-drop",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
-        columnNumber: 37
+        lineNumber: 114,
+        columnNumber: 33
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/learn",
+      href: "/Learn",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 41
+        lineNumber: 115,
+        columnNumber: 37
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 45
+        lineNumber: 116,
+        columnNumber: 41
       }
-    }, "Learning Lab"))), __jsx("li", {
+    }, "Learning Lab")), __jsx("ul", {
+      className: "dropdown",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 118,
         columnNumber: 37
       }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/marketplace",
+    }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 119,
         columnNumber: 41
+      }
+    }, __jsx("a", {
+      href: "https://www.aestheticrecord.com/elevate/",
+      target: "_blank",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119,
+        columnNumber: 45
+      }
+    }, "Elevate Blog")), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 120,
+        columnNumber: 41
+      }
+    }, __jsx("a", {
+      href: "https://learn.aestheticrecord.com/en/",
+      target: "_blank",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 120,
+        columnNumber: 45
+      }
+    }, "Learn Articles")))), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 123,
+        columnNumber: 33
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/MarketPlace",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 124,
+        columnNumber: 37
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
-        columnNumber: 45
+        lineNumber: 125,
+        columnNumber: 41
       }
     }, "Marketplace")))), __jsx("ul", {
       className: "user-info",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 33
+        lineNumber: 129,
+        columnNumber: 29
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 37
+        lineNumber: 130,
+        columnNumber: 33
       }
     }, __jsx("a", {
       href: "#",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 41
+        lineNumber: 130,
+        columnNumber: 37
       }
     }, "Login")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 37
+        lineNumber: 131,
+        columnNumber: 33
       }
     }, __jsx("a", {
       href: "#",
@@ -1277,8 +1710,8 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 41
+        lineNumber: 131,
+        columnNumber: 37
       }
     }, "Start Free Trial")))))));
   }
@@ -1427,10 +1860,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Teams\\OurTeams.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -1449,23 +1885,32 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     _defineProperty(this, "getTeamsObj", () => {
       if (this.state.ourteams) {
         let teams = this.state.ourteams.map((data, index) => {
-          return __jsx("a", {
-            className: "box",
+          return __jsx(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
+            animateIn: "fadeIn",
             key: index,
-            onClick: () => this.teamsData(data, index),
             __self: this,
             __source: {
               fileName: _jsxFileName,
               lineNumber: 26,
               columnNumber: 21
             }
-          }, __jsx("div", {
-            className: "img",
+          }, __jsx("a", {
+            className: "box",
+            key: index,
+            onClick: () => this.teamsData(data, index),
             __self: this,
             __source: {
               fileName: _jsxFileName,
               lineNumber: 27,
               columnNumber: 25
+            }
+          }, __jsx("div", {
+            className: "img",
+            __self: this,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 28,
+              columnNumber: 29
             }
           }, __jsx("img", {
             src: data.image,
@@ -1473,66 +1918,66 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 28,
-              columnNumber: 29
+              lineNumber: 29,
+              columnNumber: 33
             }
           })), __jsx("div", {
             className: "holder",
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 30,
-              columnNumber: 25
+              lineNumber: 31,
+              columnNumber: 29
             }
           }, __jsx("h4", {
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 31,
-              columnNumber: 29
+              lineNumber: 32,
+              columnNumber: 33
             }
           }, data.name), __jsx("span", {
             className: "designation",
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 32,
-              columnNumber: 29
+              lineNumber: 33,
+              columnNumber: 33
             }
           }, data.designation, " "), __jsx("span", {
             className: "link",
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 33,
-              columnNumber: 29
+              lineNumber: 34,
+              columnNumber: 33
             }
           }, data.readBio, __jsx("i", {
             className: "icon-arrow-r",
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 33,
-              columnNumber: 66
+              lineNumber: 34,
+              columnNumber: 70
             }
-          }))));
+          })))));
         });
         return teams;
       }
     });
 
     _defineProperty(this, "teamsData", (data, index) => {
+      localStorage.setItem('detailedRole', JSON.stringify(data.detailedRole));
       next_router__WEBPACK_IMPORTED_MODULE_1___default.a.push({
-        pathname: '/detailsteam',
+        pathname: '/DetailsTeam',
         query: {
           name: data.detailName,
           designation: data.designation,
           backArrow: data.backArrows,
           leadership: data.seeLeadership,
-          image: data.detailedImage,
-          bio: data.detailedRole
+          image: data.detailedImage
         }
-      });
+      }).then(() => window.scrollTo(0, 0));
     });
 
     this.state = {
@@ -1549,14 +1994,14 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 59,
         columnNumber: 13
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 60,
         columnNumber: 17
       }
     }, __jsx("link", {
@@ -1565,7 +2010,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 61,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -1574,7 +2019,16 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 62,
+        columnNumber: 21
+      }
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
         columnNumber: 21
       }
     })), __jsx("div", {
@@ -1582,7 +2036,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 65,
         columnNumber: 17
       }
     }, __jsx("span", {
@@ -1590,7 +2044,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63,
+        lineNumber: 66,
         columnNumber: 21
       }
     }, __jsx("img", {
@@ -1599,7 +2053,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
+        lineNumber: 67,
         columnNumber: 25
       }
     })), __jsx("div", {
@@ -1607,14 +2061,14 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66,
+        lineNumber: 69,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67,
+        lineNumber: 70,
         columnNumber: 25
       }
     }, "Our Team"), __jsx("div", {
@@ -1622,7 +2076,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 71,
         columnNumber: 25
       }
     }, __jsx("span", {
@@ -1630,7 +2084,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 72,
         columnNumber: 29
       }
     }, __jsx("img", {
@@ -1639,7 +2093,7 @@ class OurTeams extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 73,
         columnNumber: 33
       }
     })), this.getTeamsObj()))));
@@ -1766,10 +2220,13 @@ class TeamsFooter extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\components\\Teams\\TeamsHeader.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -1782,7 +2239,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 8,
         columnNumber: 13
       }
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1822,20 +2279,27 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 14,
         columnNumber: 21
       }
-    }, __jsx("a", {
-      href: "#",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14,
-        columnNumber: 25
-      }
-    }, "Home")), __jsx("li", {
-      className: "current",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15,
+        columnNumber: 25
+      }
+    }, __jsx("a", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 29
+      }
+    }, "Home"))), __jsx("li", {
+      className: "current",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
         columnNumber: 21
       }
     }, __jsx("a", {
@@ -1843,7 +2307,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 19,
         columnNumber: 45
       }
     }, "Elevate by Aesthetic Record"))), __jsx("div", {
@@ -1851,7 +2315,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
+        lineNumber: 21,
         columnNumber: 17
       }
     }, __jsx("div", {
@@ -1859,7 +2323,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 22,
         columnNumber: 21
       }
     }, __jsx("img", {
@@ -1868,7 +2332,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 23,
         columnNumber: 25
       }
     }), __jsx("span", {
@@ -1876,7 +2340,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 24,
         columnNumber: 25
       }
     }, __jsx("img", {
@@ -1885,7 +2349,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 25,
         columnNumber: 29
       }
     })))));
@@ -1904,7 +2368,7 @@ class TeamsHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 /*! exports provided: ourteams, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"ourteams\":[{\"image\":\"images/img18.jpg\",\"name\":\"Justin Harper\",\"designation\":\"Founder & CEO \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry. Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption. \",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img22.jpg\"},{\"image\":\"images/img19.jpg\",\"name\":\"Tiphany Lopez\",\"designation\":\"Chief Growth Officer \",\"readBio\":\"Read bio\",\"detailName\":\"Tiphany Lopez, PhD, MBA\",\"detailedRole\":\"Tiphany serves as the Chief Growth Officer at Aesthetic Record where she oversees the Sales, Training & Technology Teams in Dallas, TX, Columbus, OH and Mohali, India. In addition, she works closely with Industry Partners to expand the digital footprint of AR with key 3rd party platform integrations and future-focused feature developments to serve the growing AR userbase. In the last year, she’s led Aesthetic Record to triple digit growth in both its user base and annual recurring revenue, more than doubling the sales & training teams to meet the increased demand. While technology innovation is her passion, she’s spent the last 13 years working with Fortune 500 companies to standardize their “people intensive” operations from front-line associates to C-Suite executives. She’s worked in the trenches, scaling business operations for companies like Walmart, Inc., Dillard’s, Tyson Foods, Proctor & Gamble, and Nestle among others. Tiphany led a best-in-class training organization in the Aesthetic Industry where she was well known for constant innovation- building technology platforms to assist in injection-related education and creating programs that redefined the learning experience for nearly 15,000 clinicians per year. Along with Dr. Justin Harper, she co-directs Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for its international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. \",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img21.jpg\"},{\"image\":\"images/img20.jpg\",\"name\":\"Victoria Adrian\",\"designation\":\"Director of Sales \",\"readBio\":\"Read bio\",\"detailName\":\"Victoria Adrian\",\"detailedRole\":\"Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img23.jpg\"},{\"image\":\"images/img08.jpg\",\"name\":\"Gannesh Kompella\",\"designation\":\"Director of Technology \",\"readBio\":\"Read bio\",\"detailName\":\"Ganesh Kompella\",\"detailedRole\":\"Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users. \",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img32.jpg\"},{\"image\":\"images/img09.jpg\",\"name\":\"Jazmenne KinCannon\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Jazmenne KinCannon\",\"detailedRole\":\"Jazmene began working in Aesthetics in 2017 as a Patient Coordinator for an Ohio-based Plastic Surgeon. She fell in love with the industry, and joined Aesthetic Record with first-hand experience on the potential pitfalls and practice benefits that come from using an EMR system. Jazmene understands the changing dynamics of a busy practice, and she takes pride in providing a very genuine customer service experience, ensuring each client receives outstanding support. Her passion to connect with AR Users on a very relatable level and to guide each one through an impactful training journey. When Jazmene isn't busy doing her most important job as a mother to two great kids, she enjoys attending music festivals & traveling.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img30.jpg\"},{\"image\":\"images/img10.jpg\",\"name\":\"Kelsey Orms\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Kelsey Orms\",\"detailedRole\":\"Kelsey, an Account Manager at Aesthetic Record, works with practices and businesses across the globe in providing a patient to practice experience. With over 5 years in the Medial Aesthetics industry, Kelsey understands what practices in the industry need, and how Aesthetic Record can facilitate that. She prides herself in providing extraordinary customer service, treating every client with care, consideration and respect. Her passion for this industry and her communication skills make her a perfect fit for her role. She ensures every client receives VIP customer service experiences and support.Kelsey has previously worked at practices in multiple states across the U.S. and holds a dual BA in Strategic Communications and Marketing from Grand Canyon University. When Kelsey is not working on all things Aesthetic Record, you can find her traveling, playing with her 2 Siberian Huskies and watching Ohio State football. Go Bucks!\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img26.jpg\"},{\"image\":\"images/img11.jpg\",\"name\":\"Kennith Powell\",\"designation\":\"Senior Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Kenneth Powell\",\"detailedRole\":\"Kenneth Powell holds a Bachelors of Arts from The Ohio State University with major in Strategic Communications. As a Senior Sales Engineer at Aesthetic Record, he trains new account users on how to navigate through the system, including account settings, inventory, and the provider app. Not only does Kenneth assist aesthetic/health professionals to configure their accounts for success, he’s also a big part of the AR introduction and training video series where he personally welcomes each new user! In addition to onboarding new users, Kenny troubleshoots software issues and users concerns to ensure all systems are operational both for clients and internal employees. Kenneth also enjoys cooking and fashion and works out of the Columbus, OH AR office.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img25.jpg\"},{\"image\":\"images/img12.jpg\",\"name\":\"Vivienne Echendu\",\"designation\":\"Vender Relations Manager \",\"readBio\":\"Read bio\",\"detailName\":\"Vivienne Echendu\",\"detailedRole\":\"It didn’t take long for Vivienne to grow into her cowboy boots after emigrating from Nigeria to Texas. Ever since she was a little girl, Vivienne has always been enamored with the field of STEM. She graduated with honors from Prairie View A&M University with a Bachelors of Science in Biology and a minor in Chemistry. Vivienne has had the opportunity to conduct research in genetics, oncology, biochemistry, bioinformatics, and IRB and non-IRB clinical trials.Before joining the vibrant Aesthetic Record team, she held brand management and business development roles in retail and senior home health care, respectively. Now as the Vendor Relations Specialist at Aesthetic Record, Vivienne is excited to bridge her love for medicine with her passion for people every day. Vivienne is inspired by God’s unconditional love for her and will never get tired of asking Him for guidance. She invites challenges as a way to think outside the box and considers herself a lifelong student of life because, when you stop learning, you stop growing. What is she up to right now? Probably cooking Jollof rice with country music playing in the background.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img24.jpg\"},{\"image\":\"images/img13.jpg\",\"name\":\"JT Cothran\",\"designation\":\"Business Process Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"JT Cothran\",\"detailedRole\":\"Since 2008, JT has been at the helm of his own start ups. It began with the creation of his family’s commercial maintenance, demolition and restoration company as he was leaving high school. But before heading off to college, where he would later graduate from Dallas Baptist University with a degree in Music Business and a minor in Music History, he launched his own media and production company.With several entities under the banners of Down Castle Records & Mobile Productions, JT spent most of this century’s second decade working in the recording and live production/performance industry. Throughout that time, he put nearly two thousand live shows under his belt along with countless recording sessions that grew his studio into one of the DFW area’s most popular for local artist. In 2018, JT left the live production scene to concentrate of the functions of his studio. The Warehouse, until late 2019 when he joined the AR team. He focuses on various aspects of multi-media production for Aesthetic Record from producing training videos to building the show flow for Aesthetic Next. He’s also an avid Dallas Stars fan and an uber competitive hockey player in his own right, having spent most of his life on the ice!\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img27.jpg\"},{\"image\":\"images/img14.jpg\",\"name\":\"Isabelle McDowell\",\"designation\":\"Mid-Market Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Isabelle McDowell\",\"detailedRole\":\"Isabelle has a diverse background is sales, aesthetics and customer service. Prior to joining Aesthetic Record, she held positions as a wholesale apparel account manager and advertising account coordinator. Additionally, she has been a licensed esthetician since 2011. Since then, she has worked at various medical spas as a provider as well as in front desk operations. She earned her Bachelor’s degree in Public Relations and Psychology from Southern Methodist University and resides in Dallas.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img29.jpg\"},{\"image\":\"images/img15.jpg\",\"name\":\"Catherine McCauley\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"JT Cothran\",\"detailedRole\":\"Catherine brings over 20 years of Sales and Account Management experience in the Pharmaceutical, Educational and Business Sectors. She graduated from the University of North Texas with a Bachelor of Business Administration. The great loves of her life are her three wonderful children and two adorable cats. When she is not working she enjoys spending time with friends and family, and walking and reading.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img28.jpg\"},{\"image\":\"images/img16.jpg\",\"name\":\"Nick Whatton\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Nick Whatton\",\"detailedRole\":\"Nick graduated with a Bachelor's Degree in Recreation & Sport Management from the University of North Texas. Prior to coming to Aesthetic Record, Nick was a Territory Sales Manager at BSN Sports where he worked with Municipalities, YMCA's and Boys and Girls Club serving their sporting equipment, facility, park and uniform needs. He worked closely with vendors such as Nike, Under Armour and Bison selling both Park and Recreation Equipment needs for league sports. Before joining the private sector, Nick spent 8 years with the United States Marine Corps where he served as a Crew Chief for Amphibious Operations.\",\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img31.jpg\"}]}");
+module.exports = JSON.parse("{\"ourteams\":[{\"image\":\"images/img18.jpg\",\"name\":\"Justin Harper\",\"designation\":\"Founder & CEO \",\"readBio\":\"Read bio\",\"detailName\":\"Justin Harper, MD\",\"detailedRole\":[{\"roles\":\"Dr. Justin Harper is an Aesthetic Physician and healthcare innovator with a diverse background encompassing plastic surgery, dermatology, and medical technology. He founded Juvly Aesthetics in Columbus, OH in 2014, and in five years has grown a single practice to 12 locations across 5 states with yearly revenues exceeding $16M. Under Dr. Harper’s leadership, Juvly has become the largest independently-owned Medical Spa chain in the Aesthetics industry and a center of excellence for technique and thought leadership. In addition to his work at Juvly, Dr. Harper is actively involved in designing new studies and participating in ongoing clinical research across the industry.\"},{\"roles\":\"Dr. Harper is often called upon for his expertise in both clinical and business operations, serving as an industry consultant and media spokesman for key aesthetic manufacturers. Additionally, he enjoys teaching and training others and has been a National Trainer & Advisor for Allergan & Galderma (GAIN) for several years. In 2019, he founded Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for it’s international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills.\"},{\"roles\":\"As a lifelong technology innovator, Dr. Harper quickly identified a major gap in medical spa management software, and in 2016 he founded Aesthetic Record, an end-to-end EMR & Practice Management software that brings the sophistication of data-driven operations to aesthetic practices of all sizes. With over 300 features including a complete clinical photography suite, fully integrated revenue generation platform, and advanced business insights, this technology has grown at an explosive rate both in size and capabilities. AR now powers over 900 practices & 3500 users across 9 countries with no signs of slowing. Now with offices in Columbus, OH and Dallas, TX, Dr. Harper continues to drive the company toward innovative solutions and industry disruption.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img22.jpg\"},{\"image\":\"images/img19.jpg\",\"name\":\"Tiphany Lopez\",\"designation\":\"Chief Growth Officer \",\"readBio\":\"Read bio\",\"detailName\":\"Tiphany Lopez, PhD, MBA\",\"detailedRole\":[{\"roles\":\"Tiphany serves as the Chief Growth Officer at Aesthetic Record where she oversees the Sales, Training & Technology Teams in Dallas, TX, Columbus, OH and Mohali, India. In addition, she works closely with Industry Partners to expand the digital footprint of AR with key 3rd party platform integrations and future-focused feature developments to serve the growing AR userbase. In the last year, she’s led Aesthetic Record to triple digit growth in both its user base and annual recurring revenue, more than doubling the sales & training teams to meet the increased demand.\"},{\"roles\":\"While technology innovation is her passion, she’s spent the last 13 years working with Fortune 500 companies to standardize their “people intensive” operations from front-line associates to C-Suite executives. She’s worked in the trenches, scaling business operations for companies like Walmart, Inc., Dillard’s, Tyson Foods, Proctor & Gamble, and Nestle among others. Tiphany led a best-in-class training organization in the Aesthetic Industry where she was well known for constant innovation- building technology platforms to assist in injection-related education and creating programs that redefined the learning experience for nearly 15,000 clinicians per year. \"},{\"roles\":\"Along with Dr. Justin Harper, she co-directs Aesthetic Next, a multi-disciplinary, immersive industry conference in Dallas, TX, that focuses on clinical applications, practice management, and technology enabled growth for Aesthetic practices. Known for its international faculty lineup, Aesthetic Next has quickly become a favorite among those looking for a unique experience to advance their technical skills. \"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img21.jpg\"},{\"image\":\"images/img20.jpg\",\"name\":\"Victoria Adrian\",\"designation\":\"Director of Sales \",\"readBio\":\"Read bio\",\"detailName\":\"Victoria Adrian\",\"detailedRole\":[{\"roles\":\"Victoria started with Aesthetic Record in 2017 as it’s first full-time employee, and in the last three years, she has assumed the role of Director of Sales where she leads a team of 14 sales and support professionals, and more than 4000 users. Her background in software coupled with her love of the Aesthetic industry has helped to transition Aesthetic Record from a small startup to an all inclusive, invaluable platform with more than 1000 practices participating globally. Victoria has been a key advisor in the development of the software, translating customer feedback, and preferences into action. She’s actively involved in everything from troubleshooting software concerns to visiting accounts and personally onboarding new users\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img23.jpg\"},{\"image\":\"images/img08.jpg\",\"name\":\"Ganesh Kompella\",\"designation\":\"Director of Technology \",\"readBio\":\"Read bio\",\"detailName\":\"Ganesh Kompella\",\"detailedRole\":[{\"roles\":\"Ganesh leads the technology planning & development functions for Aesthetic Record and plays a critical role in bridging the gap between technology, sales and operations. He’s been an integral part of the AR platform from Day #1. As AR has grown, so has his role; he now oversees a team of 20 developers who work tirelessly to bring a steady stream of feature updates and new launches nearly every week.\"},{\"roles\":\"Ganesh is a professional poker player and frequently plays in national and international tournaments. He’s newly married and currently splits his time between his home in Paris, France and New Delhi, India.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img32.jpg\"},{\"image\":\"images/img09.jpg\",\"name\":\"Jazmene Kincannon\",\"designation\":\"Senior Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Jazmene Kincannon\",\"detailedRole\":[{\"roles\":\"Jazmene began working in Aesthetics in 2017 as a Patient Coordinator for an Ohio-based Plastic Surgeon. She fell in love with the industry, and joined Aesthetic Record with first-hand experience on the potential pitfalls and practice benefits that come from using an EMR system. Jazmene understands the changing dynamics of a busy practice, and she takes pride in providing a very genuine customer service experience, ensuring each client receives outstanding support. Her passion to connect with AR Users on a very relatable level and to guide each one through an impactful training journey. When Jazmene isn't busy doing her most important job as a mother to two great kids, she enjoys attending music festivals & traveling.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img30.jpg\"},{\"image\":\"images/img10.jpg\",\"name\":\"Kelsey Orms\",\"designation\":\"Senior Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Kelsey Orms\",\"detailedRole\":[{\"roles\":\"Kelsey, an Account Manager at Aesthetic Record, works with practices and businesses across the globe in providing a patient to practice experience. With over 5 years in the Medial Aesthetics industry, Kelsey understands what practices in the industry need, and how Aesthetic Record can facilitate that. She prides herself in providing extraordinary customer service, treating every client with care, consideration and respect. Her passion for this industry and her communication skills make her a perfect fit for her role. She ensures every client receives VIP customer service experiences and support.\"},{\"roles\":\"Kelsey has previously worked at practices in multiple states across the U.S. and holds a dual BA in Strategic Communications and Marketing from Grand Canyon University. When Kelsey is not working on all things Aesthetic Record, you can find her traveling, playing with her 2 Siberian Huskies and watching Ohio State football. Go Bucks!\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img26.jpg\"},{\"image\":\"images/img11.jpg\",\"name\":\"Kennith Powell\",\"designation\":\"Senior Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Kenneth Powell\",\"detailedRole\":[{\"roles\":\"Kenneth Powell holds a Bachelors of Arts from The Ohio State University with major in Strategic Communications. As a Senior Sales Engineer at Aesthetic Record, he trains new account users on how to navigate through the system, including account settings, inventory, and the provider app. Not only does Kenneth assist aesthetic/health professionals to configure their accounts for success, he’s also a big part of the AR introduction and training video series where he personally welcomes each new user! In addition to onboarding new users, Kenny troubleshoots software issues and users concerns to ensure all systems are operational both for clients and internal employees. Kenneth also enjoys cooking and fashion and works out of the Columbus, OH AR office.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img25.jpg\"},{\"image\":\"images/img12.jpg\",\"name\":\"Vivienne Echendu\",\"designation\":\"Vender Relations Manager \",\"readBio\":\"Read bio\",\"detailName\":\"Vivienne Echendu\",\"detailedRole\":[{\"roles\":\"It didn’t take long for Vivienne to grow into her cowboy boots after emigrating from Nigeria to Texas. Ever since she was a little girl, Vivienne has always been enamored with the field of STEM. She graduated with honors from Prairie View A&M University with a Bachelors of Science in Biology and a minor in Chemistry. Vivienne has had the opportunity to conduct research in genetics, oncology, biochemistry, bioinformatics, and IRB and non-IRB clinical trials.\"},{\"roles\":\"Before joining the vibrant Aesthetic Record team, she held brand management and business development roles in retail and senior home health care, respectively. Now as the Vendor Relations Specialist at Aesthetic Record, Vivienne is excited to bridge her love for medicine with her passion for people every day. Vivienne is inspired by God’s unconditional love for her and will never get tired of asking Him for guidance. She invites challenges as a way to think outside the box and considers herself a lifelong student of life because, when you stop learning, you stop growing. What is she up to right now? Probably cooking Jollof rice with country music playing in the background.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img24.jpg\"},{\"image\":\"images/img13.jpg\",\"name\":\"JT Cothran\",\"designation\":\"Business Process Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"JT Cothran\",\"detailedRole\":[{\"roles\":\"Since 2008, JT has been at the helm of his own start ups. It began with the creation of his family’s commercial maintenance, demolition and restoration company as he was leaving high school. But before heading off to college, where he would later graduate from Dallas Baptist University with a degree in Music Business and a minor in Music History, he launched his own media and production company.\"},{\"roles\":\"With several entities under the banners of Down Castle Records & Mobile Productions, JT spent most of this century’s second decade working in the recording and live production/performance industry. Throughout that time, he put nearly two thousand live shows under his belt along with countless recording sessions that grew his studio into one of the DFW area’s most popular for local artist. In 2018, JT left the live production scene to concentrate of the functions of his studio. The Warehouse, until late 2019 when he joined the AR team. He focuses on various aspects of multi-media production for Aesthetic Record from producing training videos to building the show flow for Aesthetic Next. He’s also an avid Dallas Stars fan and an uber competitive hockey player in his own right, having spent most of his life on the ice!\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img27.jpg\"},{\"image\":\"images/img14.jpg\",\"name\":\"Isabelle McDowell\",\"designation\":\"Mid-Market Sales Specialist \",\"readBio\":\"Read bio\",\"detailName\":\"Isabelle McDowell\",\"detailedRole\":[{\"roles\":\"Isabelle has a diverse background is sales, aesthetics and customer service. Prior to joining Aesthetic Record, she held positions as a wholesale apparel account manager and advertising account coordinator. Additionally, she has been a licensed esthetician since 2011. Since then, she has worked at various medical spas as a provider as well as in front desk operations. She earned her Bachelor’s degree in Public Relations and Psychology from Southern Methodist University and resides in Dallas.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img29.jpg\"},{\"image\":\"images/img15.jpg\",\"name\":\"Catherine McCauley\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"JT Cothran\",\"detailedRole\":[{\"roles\":\"Catherine brings over 20 years of Sales and Account Management experience in the Pharmaceutical, Educational and Business Sectors. She graduated from the University of North Texas with a Bachelor of Business Administration. The great loves of her life are her three wonderful children and two adorable cats. When she is not working she enjoys spending time with friends and family, and walking and reading.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img28.jpg\"},{\"image\":\"images/img16.jpg\",\"name\":\"Nick Whatton\",\"designation\":\"Sales Engineer \",\"readBio\":\"Read bio\",\"detailName\":\"Nick Whatton\",\"detailedRole\":[{\"roles\":\"Nick graduated with a Bachelor's Degree in Recreation & Sport Management from the University of North Texas. Prior to coming to Aesthetic Record, Nick was a Territory Sales Manager at BSN Sports where he worked with Municipalities, YMCA's and Boys and Girls Club serving their sporting equipment, facility, park and uniform needs. He worked closely with vendors such as Nike, Under Armour and Bison selling both Park and Recreation Equipment needs for league sports. Before joining the private sector, Nick spent 8 years with the United States Marine Corps where he served as a Crew Chief for Amphibious Operations.\"}],\"seeLeadership\":\"See All Leadership\",\"backArrows\":\"images/arrows.svg\",\"detailedImage\":\"images/img31.jpg\"}]}");
 
 /***/ }),
 
@@ -3583,9 +4047,9 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/teams.js":
+/***/ "./pages/Teams.js":
 /*!************************!*\
-  !*** ./pages/teams.js ***!
+  !*** ./pages/Teams.js ***!
   \************************/
 /*! exports provided: getStaticProps, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3605,7 +4069,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_teams_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/teams.json */ "./data/teams.json", 1);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
-var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\pages\\teams.js";
+var _jsxFileName = "E:\\D\\ReactJs Projects\\Freelance\\Nextjs\\pages\\Teams.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3622,14 +4086,14 @@ function Teams(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 9
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 13
     }
   }, __jsx("link", {
@@ -3638,7 +4102,7 @@ function Teams(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 17
     }
   }), __jsx("link", {
@@ -3647,7 +4111,7 @@ function Teams(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -3655,14 +4119,14 @@ function Teams(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 13
     }
   }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 17
     }
   }), __jsx("main", {
@@ -3670,14 +4134,14 @@ function Teams(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 17
     }
   }, __jsx(_components_Teams_TeamsHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 21
     }
   }), __jsx(_components_Teams_OurTeams__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -3685,28 +4149,28 @@ function Teams(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 21
     }
   })), __jsx(_components_Teams_TeamsFooter__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 17
     }
   }), __jsx(_components_SignUp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 17
     }
   }), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 17
     }
   })));
@@ -3724,14 +4188,14 @@ async function getStaticProps({}) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/teams.js ***!
+  !*** multi ./pages/Teams.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\D\ReactJs Projects\Freelance\Nextjs\pages\teams.js */"./pages/teams.js");
+module.exports = __webpack_require__(/*! E:\D\ReactJs Projects\Freelance\Nextjs\pages\Teams.js */"./pages/Teams.js");
 
 
 /***/ }),
@@ -3791,6 +4255,17 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "react-animate-on-scroll":
+/*!******************************************!*\
+  !*** external "react-animate-on-scroll" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-animate-on-scroll");
+
+/***/ }),
+
 /***/ "react-is":
 /*!***************************!*\
   !*** external "react-is" ***!
@@ -3814,4 +4289,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=teams.js.map
+//# sourceMappingURL=Teams.js.map

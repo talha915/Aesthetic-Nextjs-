@@ -28,9 +28,9 @@ class MarketUser extends Component {
                     <div className="image-box" key={index}>
                         <ScrollAnimation animateIn="fadeIn">
                             <div className="slide">
-                                <img src={data.image} alt="Image description" />
+                                <img src={data.image} href="https://market.aestheticrecord.com/" target="_blank" alt="Image description" />
                                 <h3>
-                                    <a href="https://market.aestheticrecord.com/" target="_blank">
+                                    <a>
                                         {data.userType}
                                     </a>
                                 </h3>
@@ -55,8 +55,8 @@ class MarketUser extends Component {
                     <div className="image-boxes">
                         {this.getMarketUsers()}
                         <div className="arrows">
-                            <button type="button" className="btn-arrow btn-left"><i className="icon-arrow-l"></i></button>
-                            <button type="button" className="btn-arrow btn-right"><i className="icon-arrow-r"></i></button>
+                            <a type="button" className="btn-arrow btn-left" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-l"></i></a>
+                            <a type="button" className="btn-arrow btn-right" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-r"></i></a>
                         </div>
                     </div>
                 </div>

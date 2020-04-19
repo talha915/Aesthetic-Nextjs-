@@ -37,9 +37,11 @@ class Partners extends Component {
         let data = this.state.partnerObj.logos;
         let logos = data.map((data, index) => {
             return (
-                <li key={index}>
-                    <img src={data.image} alt={data.image} />
-                </li>
+                <ScrollAnimation animateIn="fadeIn">
+                    <li key={index}>
+                        <img src={data.image} alt={data.image} />
+                    </li>
+                </ScrollAnimation>
             )
         })
         return logos;

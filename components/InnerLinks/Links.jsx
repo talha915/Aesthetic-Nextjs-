@@ -29,7 +29,7 @@ class Links extends Component {
             return (
                 <main className="main">
 
-                    <div className="main-banner" style={{ backgroundImage: "url(images/bg-shape2.svg)" }}>
+                    <div className="main-banner" >
                         <span className="shape-right"><ScrollAnimation animateIn="fadeIn"><img src={data.images} alt="Image description" /></ScrollAnimation></span>
                         <div className="container">
                             <div className="textblock">

@@ -23,7 +23,7 @@ class OurTeams extends Component {
         if(this.state.ourteams) {
             let teams = this.state.ourteams.map((data, index)=>{
                 return(
-                    <ScrollAnimation animateIn="fadeIn">
+                    <ScrollAnimation animateIn="fadeIn" key={index}>
                         <a className="box" key={index} onClick={()=>this.teamsData(data, index)}>
                             <div className="img">
                                 <img src={data.image} alt="Image Description" />
@@ -42,6 +42,7 @@ class OurTeams extends Component {
     }
 
     teamsData=(data, index)=> {
+        localStorage.setItem('detailedRole', JSON.stringify(data.detailedRole));
         Router.push({ 
             pathname: '/DetailsTeam', query: {
                 name: data.detailName, 
@@ -49,9 +50,7 @@ class OurTeams extends Component {
                 backArrow: data.backArrows,
                 leadership: data.seeLeadership,
                 image: data.detailedImage,
-                bio: data.detailedRole
             },
-            
         }).then(() => window.scrollTo(0, 0));       
     }
 
@@ -73,8 +72,7 @@ class OurTeams extends Component {
                             <span className="img-shape">
                                 <img src="images/icon.png" alt="Image Description" />
                             </span>
-                            {this.getTeamsObj()}
-                         
+                            {this.getTeamsObj()}                    
                         </div>
                     </div>
                 </div>
