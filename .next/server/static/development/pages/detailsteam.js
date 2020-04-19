@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1880,6 +1880,9 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       this.setState({
         detailTeamObj: this.props.detailTeamObj.url.query
       });
+    });
+
+    _defineProperty(this, "setDetailedRole", () => {
       this.setState({
         detailedRole: JSON.parse(localStorage.getItem('detailedRole'))
       });
@@ -1893,7 +1896,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 35,
             columnNumber: 17
           }
         }, __jsx(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -1901,7 +1904,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 36,
             columnNumber: 21
           }
         }, __jsx("div", {
@@ -1909,7 +1912,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 37,
             columnNumber: 25
           }
         }, __jsx("div", {
@@ -1917,7 +1920,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 31,
+            lineNumber: 38,
             columnNumber: 29
           }
         }, __jsx("img", {
@@ -1926,7 +1929,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 32,
+            lineNumber: 39,
             columnNumber: 33
           }
         }), __jsx("a", {
@@ -1935,7 +1938,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 33,
+            lineNumber: 40,
             columnNumber: 33
           }
         }, __jsx("img", {
@@ -1944,7 +1947,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 33,
+            lineNumber: 40,
             columnNumber: 86
           }
         }), " See All Leadership")), __jsx("div", {
@@ -1952,7 +1955,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35,
+            lineNumber: 42,
             columnNumber: 29
           }
         }, __jsx("div", {
@@ -1960,14 +1963,14 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36,
+            lineNumber: 43,
             columnNumber: 33
           }
         }, __jsx("h2", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37,
+            lineNumber: 44,
             columnNumber: 37
           }
         }, data.name), __jsx("span", {
@@ -1975,7 +1978,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38,
+            lineNumber: 45,
             columnNumber: 37
           }
         }, data.designation), this.detailedRole())))));
@@ -1990,7 +1993,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 53,
+              lineNumber: 60,
               columnNumber: 21
             }
           }, role.roles);
@@ -2015,19 +2018,23 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     this.setDetailTeamObj();
   }
 
+  componentDidMount() {
+    this.setDetailedRole();
+  }
+
   render() {
     return __jsx("div", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 75,
         columnNumber: 13
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 76,
         columnNumber: 17
       }
     }, __jsx("link", {
@@ -2036,7 +2043,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 77,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -2045,7 +2052,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71,
+        lineNumber: 78,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -2054,7 +2061,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72,
+        lineNumber: 79,
         columnNumber: 21
       }
     })), __jsx("main", {
@@ -2062,7 +2069,7 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 81,
         columnNumber: 17
       }
     }, __jsx("ul", {
@@ -2070,21 +2077,21 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75,
+        lineNumber: 82,
         columnNumber: 21
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76,
+        lineNumber: 83,
         columnNumber: 25
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76,
+        lineNumber: 83,
         columnNumber: 29
       }
     }, "Home")), __jsx("li", {
@@ -2092,14 +2099,14 @@ class DetailTeam extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 84,
         columnNumber: 25
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 84,
         columnNumber: 49
       }
     }, "Elevate by Aesthetic Record"))), this.getDetailTeamObj()));
@@ -4002,7 +4009,7 @@ function DetailTeams(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!************************************!*\
   !*** multi ./pages/DetailsTeam.js ***!
   \************************************/

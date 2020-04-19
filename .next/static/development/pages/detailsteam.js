@@ -1900,7 +1900,9 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
       _this.setState({
         detailTeamObj: _this.props.detailTeamObj.url.query
       });
+    });
 
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "setDetailedRole", function () {
       _this.setState({
         detailedRole: JSON.parse(localStorage.getItem('detailedRole'))
       });
@@ -1914,7 +1916,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 35,
             columnNumber: 17
           }
         }, __jsx(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_10___default.a, {
@@ -1922,7 +1924,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 36,
             columnNumber: 21
           }
         }, __jsx("div", {
@@ -1930,7 +1932,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 37,
             columnNumber: 25
           }
         }, __jsx("div", {
@@ -1938,7 +1940,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 31,
+            lineNumber: 38,
             columnNumber: 29
           }
         }, __jsx("img", {
@@ -1947,7 +1949,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 32,
+            lineNumber: 39,
             columnNumber: 33
           }
         }), __jsx("a", {
@@ -1958,7 +1960,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 33,
+            lineNumber: 40,
             columnNumber: 33
           }
         }, __jsx("img", {
@@ -1967,7 +1969,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 33,
+            lineNumber: 40,
             columnNumber: 86
           }
         }), " See All Leadership")), __jsx("div", {
@@ -1975,7 +1977,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35,
+            lineNumber: 42,
             columnNumber: 29
           }
         }, __jsx("div", {
@@ -1983,14 +1985,14 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36,
+            lineNumber: 43,
             columnNumber: 33
           }
         }, __jsx("h2", {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37,
+            lineNumber: 44,
             columnNumber: 37
           }
         }, data.name), __jsx("span", {
@@ -1998,7 +2000,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
           __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38,
+            lineNumber: 45,
             columnNumber: 37
           }
         }, data.designation), _this.detailedRole())))));
@@ -2013,7 +2015,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
             __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 53,
+              lineNumber: 60,
               columnNumber: 21
             }
           }, role.roles);
@@ -2042,20 +2044,25 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
       this.setDetailTeamObj();
     }
   }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.setDetailedRole();
+    }
+  }, {
     key: "render",
     value: function render() {
       return __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 75,
           columnNumber: 13
         }
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 76,
           columnNumber: 17
         }
       }, __jsx("link", {
@@ -2064,7 +2071,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 77,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -2073,7 +2080,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 78,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -2082,7 +2089,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 79,
           columnNumber: 21
         }
       })), __jsx("main", {
@@ -2090,7 +2097,7 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 81,
           columnNumber: 17
         }
       }, __jsx("ul", {
@@ -2098,21 +2105,21 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 82,
           columnNumber: 21
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 83,
           columnNumber: 25
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 83,
           columnNumber: 29
         }
       }, "Home")), __jsx("li", {
@@ -2120,14 +2127,14 @@ var DetailTeam = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 84,
           columnNumber: 25
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 84,
           columnNumber: 49
         }
       }, "Elevate by Aesthetic Record"))), this.getDetailTeamObj()));
@@ -8129,7 +8136,7 @@ function DetailTeams(props) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FDetailsTeam&absolutePagePath=E%3A%5CD%5CReactJs%20Projects%5CFreelance%5CNextjs%5Cpages%5CDetailsTeam.js ***!
   \*******************************************************************************************************************************************************/
@@ -8152,5 +8159,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=DetailsTeam.js.map

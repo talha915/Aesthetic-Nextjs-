@@ -16,8 +16,15 @@ class DetailTeam extends Component {
         this.setDetailTeamObj();
     }
 
+    componentDidMount() {
+        this.setDetailedRole();
+    }
+
     setDetailTeamObj = () => {
         this.setState({ detailTeamObj: this.props.detailTeamObj.url.query });
+    }
+
+    setDetailedRole=()=> {
         this.setState({ detailedRole: JSON.parse(localStorage.getItem('detailedRole'))});
     }
 
