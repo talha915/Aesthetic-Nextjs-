@@ -2441,7 +2441,7 @@ h4 {
 }
 
 .wrapper.has-shape:before {
-	background: url(/images/bg-shape.svg) no-repeat;
+	background: url(/images/bg.png) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	top: 0;
@@ -3686,7 +3686,7 @@ h4 {
 
 	.pricing .price-box {
 		padding-bottom: 50px;
-		width: 33.334%;
+		width: 33%;
 		margin-bottom: 100px;
 	}
 
