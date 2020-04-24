@@ -147,7 +147,7 @@ class Footer extends Component {
                                 <ul>
                                     <li><a href="https://www.aestheticrecord.com/elevate/" target="_blank">Elevate Blog</a></li>
                                     <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">Learn Articles</a></li>
-                                    <li><a href="#">AR Academy</a></li>
+                                    <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">AR Academy</a></li>
                                     <li>
                                         <Link href={{pathname: "/MarketPlace"}}>
                                             <a>Marketplace</a>

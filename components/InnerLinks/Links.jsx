@@ -40,8 +40,8 @@ class Links extends Component {
                                 <div className="btn-area">
                                     <ScrollAnimation animateIn="fadeIn">
                                         <span className="shape-center"><img src={data.innerImage} alt="Image description" /></span>
-                                        <a href="#" className="btn">{data.btn}</a>
-                                        <a href="#" className="btn full">{data.btn1}</a>
+                                        <a href="https://calendly.com/isabelle-mcdowell/aesthetic-record-demo?month=2020-04" target="_blank" className="btn">{data.btn}</a>
+                                        <a href="https://app.aestheticrecord.com/signup-basic?_ga=2.39061923.160160872.1587343952-1803440311.1579636487" target="_blank" className="btn full">{data.btn1}</a>
                                     </ScrollAnimation>
                                 </div>
                                 <span className="note">{data.notes}</span>
