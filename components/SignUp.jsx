@@ -17,7 +17,7 @@ class SignUp extends Component {
                             <p>Dedicated Support & On-boarding</p>
                         </div>
                         <div className="col">
-                            <a href="#" className="btn">Sign Up Today</a>
+                            <a href="https://app.aestheticrecord.com/signup-basic?_ga=2.39061923.160160872.1587343952-1803440311.1579636487" target="_blank" className="btn">Sign Up Today</a>
                             <p>No Hidden Set-Up Fees or Software Installation</p>
                         </div>
                     </div>

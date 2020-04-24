@@ -1737,6 +1737,8 @@ h4 {
 	margin: 0 auto;
 	font-size: 13px;
 	line-height: 32px;
+	position: relative;
+	z-index: 99;
 }
 
 .main-banner h1 {

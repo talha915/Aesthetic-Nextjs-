@@ -53,7 +53,7 @@ class LearningCards extends Component {
                         </div>
                         <ScrollAnimation animateIn="fadeIn">
                             <p>{data.textDetail}</p>
-                            <a  className="btn">
+                            <a  className="btn" href={data.redirect} target="_blank">
                                 {data.detailBtn}
                             </a>
                         </ScrollAnimation>

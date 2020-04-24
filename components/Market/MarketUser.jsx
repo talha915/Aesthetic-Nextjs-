@@ -30,9 +30,7 @@ class MarketUser extends Component {
                             <div className="slide">
                                 <img src={data.image} href="https://market.aestheticrecord.com/" target="_blank" alt="Image description" />
                                 <h3>
-                                    <a>
-                                        {data.userType}
-                                    </a>
+                                    {data.userType}
                                 </h3>
                             </div>
                         </ScrollAnimation>
@@ -56,7 +54,7 @@ class MarketUser extends Component {
                         {this.getMarketUsers()}
                         <div className="arrows">
                             <a className="btn-arrow btn-left" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-l"></i></a>
-                            <a className="btn-arrow btn-right" href="https://market.aestheticrecord.com/" target="_blank"><i className="icon-arrow-r"></i></a>
+                            <a className="btn-arrow btn-right" href="https://market.aestheticrecord.com/merchant/login" target="_blank"><i className="icon-arrow-r"></i></a>
                         </div>
                     </div>
                 </div>

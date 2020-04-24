@@ -36,10 +36,10 @@ class Footer extends Component {
                                 </Link>
                             </div>
                             <a href="mailto:info@aestheticrecord.com" className="mail"><i className="icon-email"></i> info@aestheticrecord.com</a>
-                            <a href="#" className="btn">Book Meeting</a>
+                            <a href="https://calendly.com/isabelle-mcdowell/aesthetic-record-demo" target="_blank" className="btn">Book Meeting</a>
                             <ul className="social-networks">
                                 <li><a href="#"><i className="icon-facebook"></i></a></li>
-                                <li><a href="#"><i className="icon-youtube"></i></a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/channel/UCY2W0j0DbqLsg4qomXL0c1g"><i className="icon-youtube"></i></a></li>
                                 <li><a href="#"><i className="icon-instagram"></i></a></li>
                                 <li><a href="#"><i className="icon-linkedin"></i></a></li>
                             </ul>
@@ -138,7 +138,7 @@ class Footer extends Component {
                                             <a >Our Team </a>
                                         </Link>
                                     </li>
-                                    <li><a href="#">News</a></li>
+                                    <li><a href="https://www.aestheticrecord.com/elevate/" target="_blank">News</a></li>
                                     <li><a href="#">Careers</a></li>
                                 </ul>
                             </nav>
@@ -146,7 +146,7 @@ class Footer extends Component {
                                 <strong>Resources</strong>
                                 <ul>
                                     <li><a href="https://www.aestheticrecord.com/elevate/" target="_blank">Elevate Blog</a></li>
-                                    <li><a href="#">Learn Articles</a></li>
+                                    <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">Learn Articles</a></li>
                                     <li><a href="#">AR Academy</a></li>
                                     <li>
                                         <Link href={{pathname: "/MarketPlace"}}>
@@ -160,7 +160,7 @@ class Footer extends Component {
                     <div className="footer-info">
                         <div className="container">
                             <div className="copyright">
-                                <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">Terms Of Service</a> <a href="#">AR Policies</a></p>
+                                <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">AR Policies</a></p>
                             </div>
                             <div className="logo-holder">
                                 <a href="#"><img src="images/logo-apple.svg" alt="Image Description" /></a>

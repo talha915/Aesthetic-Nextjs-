@@ -3,10 +3,35 @@ import Head from 'next/head';
 import Link from 'next/link'
 
 class Header extends Component {
-    render() {
+    render() { 
         return (
             <div>
                 <Head>
+                    <meta property="og:url" content="https://www.aestheticrecord.com"/>
+                    <meta property="og:type" content="article"/> 
+                    <meta property="og:title" content="Aesthetic Record"/>
+                    <meta property="og:description" content="Aesthetic Record"/>
+                    <meta property="og:image" content="https://www.aestheticrecord.com/wp-content/uploads/2019/08/aestheticrecordlogo-short.png"/>
+                    <link  rel="profile" href="http://gmpg.org/xfn/11"/>
+                    <meta name="description" content="Aesthetic Record is an all-in-one solution for connecting, treating, and managing your patients. Start growing your practice with 2 weeks risk-free trial!"/>
+                    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+                    <link rel="canonical" href="https://www.aestheticrecord.com/" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:title" content="Aesthetic Record EMR Software &amp; Medical Spa Management Solution" />
+                    <meta property="og:description" content="Aesthetic Record is an all-in-one solution for connecting, treating, and managing your patients. Start growing your practice with 2 weeks risk-free trial!" />
+                    <meta property="og:url" content="https://www.aestheticrecord.com/" />
+                    <meta property="og:site_name" content="Aesthetic Record" />
+                    <meta property="og:image" content="https://www.aestheticrecord.com/wp-content/uploads/2019/08/aestheticrecordlogo-short.png" />
+                    <meta property="og:image:secure_url" content="https://www.aestheticrecord.com/wp-content/uploads/2019/08/aestheticrecordlogo-short.png" />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:description" content="Aesthetic Record is an all-in-one solution for connecting, treating, and managing your patients. Start growing your practice with 2 weeks risk-free trial!" />
+                    <meta name="twitter:title" content="Aesthetic Record EMR Software &amp; Medical Spa Management Solution" />
+                    <meta name="twitter:site" content="@Aesthetic_Rec" />
+                    <meta name="twitter:image" content="https://www.aestheticrecord.com/wp-content/uploads/2019/08/aestheticrecordlogo-short.png" />
+                    <meta name="twitter:creator" content="@Aesthetic_Rec" />
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
@@ -127,8 +152,8 @@ class Header extends Component {
                                 </li>
                             </ul>
                             <ul className="user-info">
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#" className="btn">Start Free Trial</a></li>
+                                <li><a href="https://app.aestheticrecord.com/login" target="_blank">Login</a></li>
+                                <li><a href="https://app.aestheticrecord.com/signup-basic?_ga=2.39061923.160160872.1587343952-1803440311.1579636487" target="_blank" className="btn">Start Free Trial</a></li>
                             </ul>
                         </nav>
                     </div>
