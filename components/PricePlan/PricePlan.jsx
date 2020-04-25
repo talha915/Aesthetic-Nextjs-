@@ -21,7 +21,7 @@ class PricePlan extends Component {
                         <ScrollAnimation animateIn="fadeIn">
                             <h2>Ready to Move to Aesthetic Record? </h2>
                             <p> Migrating patient records and practice data from an existing system to Aesthetic Record is easy! Contact us for more information.</p>
-                            <a href="#" class="btn">Contact Us</a>
+                            <a href="mailto:info@aestheticrecord.com" target="_blank" class="btn">Contact Us</a>
                         </ScrollAnimation>
                     </div>
                 </main>

@@ -38,10 +38,10 @@ class Footer extends Component {
                             <a href="mailto:info@aestheticrecord.com" className="mail"><i className="icon-email"></i> info@aestheticrecord.com</a>
                             <a href="https://calendly.com/isabelle-mcdowell/aesthetic-record-demo" target="_blank" className="btn">Book Meeting</a>
                             <ul className="social-networks">
-                                <li><a href="#"><i className="icon-facebook"></i></a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/aesthetic.rec/"><i className="icon-facebook"></i></a></li>
                                 <li><a target="_blank" href="https://www.youtube.com/channel/UCY2W0j0DbqLsg4qomXL0c1g"><i className="icon-youtube"></i></a></li>
-                                <li><a href="#"><i className="icon-instagram"></i></a></li>
-                                <li><a href="#"><i className="icon-linkedin"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/aestheticrecord/"><i className="icon-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/company/aestheticrecord/"><i className="icon-linkedin"></i></a></li>
                             </ul>
                         </div>
 

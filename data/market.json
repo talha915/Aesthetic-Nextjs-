@@ -6,11 +6,13 @@
     "marketUser": [
         {
             "image": "images/img04.png",
-            "userType": "Aesthetic Record User"
+            "userType": "Aesthetic Record User",
+            "redirect": "https://market.aestheticrecord.com/"
         },
         {
             "image": "images/img05.png",
-            "userType": "Marketplace Vendor"
+            "userType": "Marketplace Vendor",
+            "redirect": "https://market.aestheticrecord.com/merchant/login"
         }
     ]
 }

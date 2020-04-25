@@ -66,7 +66,7 @@ class InfoBlocks extends Component {
                             <ScrollAnimation animateIn="fadeIn">
                                 <span className="title">{data.title}</span>
                                 <h2>{data.heading}</h2>
-                                <a className="btn">{data.btn}</a>
+                                <a className="btn" href="https://app.aestheticrecord.com/signup-basic?_ga=2.39061923.160160872.1587343952-1803440311.1579636487" target="_blank">{data.btn}</a>
                             </ScrollAnimation>
                         </div>
                     </div>

@@ -16,7 +16,7 @@ class TeamsHeader extends Component {
                             <a>Home</a>
                         </Link>
                     </li>
-                    <li className="current"><a href="#">Elevate by Aesthetic Record</a></li>
+                    <li className="current"><a href="#">Our Team</a></li>
                 </ul>
                 <div className="banner">
                     <div className="container">

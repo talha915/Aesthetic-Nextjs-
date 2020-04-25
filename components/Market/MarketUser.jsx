@@ -25,16 +25,16 @@ class MarketUser extends Component {
         if(this.state.marketUser) {
             let data = this.state.marketUser.map((data, index)=> {
                 return(
-                    <div className="image-box" key={index}>
+                    <a className="image-box" key={index} style={{cursor: "pointer"}} href={data.redirect} target="_blank">
                         <ScrollAnimation animateIn="fadeIn">
                             <div className="slide">
                                 <img src={data.image} href="https://market.aestheticrecord.com/" target="_blank" alt="Image description" />
-                                <h3>
+                                <h3 style={{color: "black"}}>
                                     {data.userType}
                                 </h3>
                             </div>
                         </ScrollAnimation>
-                    </div>
+                    </a>
                 );
             });
             return data;

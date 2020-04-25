@@ -27,8 +27,8 @@ class Stats extends Component {
                 <div className="container">
                     <div className="info">
                         <h2>{data.heading}</h2>
-                        <a href="#" className="btn">{data.btn1}</a>
-                        <a href="#" className="btn full">{data.btn2}</a>
+                        <a href="https://calendly.com/isabelle-mcdowell/aesthetic-record-demo?month=2020-04" target="_blank" className="btn">{data.btn1}</a>
+                        <a href="https://app.aestheticrecord.com/signup-basic?_ga=2.39061923.160160872.1587343952-1803440311.1579636487" target="_blank" className="btn full">{data.btn2}</a>
                     </div>
                     <div className="info-columns">
                         {data.cols.map((items, index) => {

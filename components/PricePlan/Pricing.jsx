@@ -28,7 +28,7 @@ class Pricing extends Component {
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
 								<h3>Essentials</h3>
-								<a href="#" className="btn">Get Started</a>
+								<a href="https://app.aestheticrecord.com/signup-premium" target="_blank" className="btn">Get Started</a>
 								<div className="package-info">
 									<div className="info">
 										<span>2 GB Storage </span>
@@ -75,7 +75,7 @@ class Pricing extends Component {
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
 								<h3>Accelerator</h3>
-								<a href="#" className="btn">Get Started</a>
+								<a href="https://app.aestheticrecord.com/signup-premium" target="_blank" className="btn">Get Started</a>
 								<div className="package-info">
 									<div className="info">
 										<span>4 GB Storage </span>
@@ -115,7 +115,7 @@ class Pricing extends Component {
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
 								<h3>Enterprise</h3>
-								<a href="#" className="btn">Call Us</a>
+								<a href="info@aestheticrecord.com" target="_blank" className="btn">Call Us</a>
 								<div className="package-info">
 									<div className="info">
 										<span>Customized</span>

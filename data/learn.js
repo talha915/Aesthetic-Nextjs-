@@ -1,5 +1,5 @@
 let learnData = {
-    heading: 'Welcome to Learning Lab',
+    heading: 'Welcome to the Learning Lab',
     subHeading: 'Your one-stop-shop for everything you need to become an Aesthetic Record Expert',
     learnCards: [
         {
