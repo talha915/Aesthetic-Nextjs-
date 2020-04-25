@@ -59,7 +59,7 @@ class Header extends Component {
                                             <ul className="dropdown">
                                                 <li>
                                                     <Link href={{ pathname: '/OnlineBooking' }}>
-                                                        <a>Online Patient Booking</a>
+                                                        <a>Online Booking</a>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -69,14 +69,14 @@ class Header extends Component {
                                                 </li>
                                                 <li>
                                                     <Link href={{ pathname: '/PatientPortal' }}>
-                                                        <a >Web-Based Patient Portal</a>
+                                                        <a >Patient Portal</a>
                                                     </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="has-drop">
                                             <Link href="/Treat">
-                                                <a>Treat Landing Page</a>
+                                                <a>Treat</a>
                                             </Link>
                                             <ul className="dropdown">
                                                 <li>
@@ -86,17 +86,17 @@ class Header extends Component {
                                                 </li>
                                                 <li>
                                                     <Link href={{ pathname: '/BeforeAfterPhoto' }}>
-                                                        <a>B&A Photo Mgmt</a>
+                                                        <a>Before & After Photos</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href={{ pathname: '/MobilePointOfSale' }}>
-                                                        <a>Mobile POS</a>
+                                                        <a>Mobile Point Of Sale</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href={{ pathname: '/PatientMembership' }}>
-                                                        <a href="#">Patient Wallet</a>
+                                                        <a href="#">Patient Wallet & Memberships</a>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -108,12 +108,12 @@ class Header extends Component {
                                         </li>
                                         <li className="has-drop">
                                             <Link href="/Manage">
-                                                <a>Manage Landing Page</a>
+                                                <a>Manage</a>
                                             </Link>
                                             <ul className="dropdown">
                                                 <li>
                                                     <Link href={{ pathname: '/BusinessInsights' }}>
-                                                        <a>BIZ Insights </a>
+                                                        <a>Business Insights </a>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -123,7 +123,7 @@ class Header extends Component {
                                                 </li>
                                                 <li>
                                                     <Link href={{ pathname: '/EPT' }}>
-                                                        <a>Employee Performance</a>
+                                                        <a>Employee Performance Tracking</a>
                                                     </Link>
                                                 </li>
                                             </ul>
