@@ -103,7 +103,7 @@ class Footer extends Component {
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <Link href={{ pathname: '/manage' }}>
+                                <Link href={{ pathname: '/Manage' }}>
                                     <strong>
                                         Manage
                                     </strong>

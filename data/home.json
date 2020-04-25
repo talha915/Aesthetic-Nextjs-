@@ -44,7 +44,7 @@
                     }
                 ],
                 "learnMore": "Learn more",
-                "redirect": "/connect"
+                "redirect": "/Connect"
             },
             {
                 "image": "images/img48.png",
@@ -68,7 +68,7 @@
                     }
                 ],
                 "learnMore": "Learn more",
-                "redirect": "/treat"
+                "redirect": "/Treat"
             },
             {
                 "image": "images/img49.png",
@@ -86,7 +86,7 @@
                     }
                 ],
                 "learnMore": "Learn more",
-                "redirect": "/manage"
+                "redirect": "/Manage"
             }
         ],
         "record": {

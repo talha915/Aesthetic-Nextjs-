@@ -12,21 +12,21 @@
             "heading": "Online Patient Booking",
             "para": "You can be in touch with patients around the clock. Two-way communication makes it easy to manage changing schedules, and capturing credit information reduces cancellations.",
             "learn": "Learn more",
-            "redirect": "OnlineBooking"
+            "redirect": "/OnlineBooking"
         },
         {
             "image": "images/img45.png",
             "heading": "Smart Scheduling",
             "para": "You set the hours, appointment durations, equipment, and available providers, and our smart booking system ensures you never have to deal with double-booking or inefficient scheduling again.",
             "learn": "Learn more",
-            "redirect": "SmartScheduling"
+            "redirect": "/SmartScheduling"
         },
         {
             "image": "images/img46.png",
             "heading": "Web-Based Patient Portal",
             "para": "Patients can book appointments, access pre-appointment information, fill out questionnaires and view post appointment instructions. Adding a membership or viewing the patient wallet can be done from anywhere in the Patient Portal!",
             "learn": "Learn more",
-            "redirect": "PatientPortal"
+            "redirect": "/PatientPortal"
         }
     ]
 }
