@@ -44,7 +44,7 @@
                     }
                 ],
                 "learnMore": "Learn more",
-                "redirect": "/onlinebooking"
+                "redirect": "/connect"
             },
             {
                 "image": "images/img48.png",
@@ -68,7 +68,7 @@
                     }
                 ],
                 "learnMore": "Learn more",
-                "redirect": "/onlinebooking"
+                "redirect": "/treat"
             },
             {
                 "image": "images/img49.png",
@@ -85,7 +85,8 @@
                         "list": "Employee Performance Tracking"
                     }
                 ],
-                "learnMore": "Learn more"
+                "learnMore": "Learn more",
+                "redirect": "/manage"
             }
         ],
         "record": {

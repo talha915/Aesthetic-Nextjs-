@@ -41,7 +41,7 @@ class InfoBlocks extends Component {
                                         )
                                     })}
                                 </ul>
-                                <a className="more">{data.learnMore}</a>
+                                <a className="more" href={data.redirect}>{data.learnMore}</a>
                             </ScrollAnimation>
                         </div>
                     </div>

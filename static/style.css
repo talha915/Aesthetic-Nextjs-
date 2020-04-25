@@ -1043,6 +1043,11 @@ a:focus {
 	content: "\e909";
 }
 
+.header {
+	position: relative;
+	z-index: 9999;
+}
+
 .header .container {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2127,6 +2132,7 @@ h4 {
 	margin-bottom: 35px;
 	width: 50%;
 	padding: 0 10px;
+	text-decoration: none;
 }
 
 .image-boxes .image-box + .image-box {
@@ -2187,7 +2193,7 @@ h4 {
 }
 
 .about-us .intro p {
-	margin-bottom: 0;
+	margin-bottom: 30px;
 }
 
 .about-us .intro h1 {
@@ -4088,6 +4094,10 @@ h4 {
 @media (min-width: 1200px) {
 	.header .logo {
 		width: 203px;
+	}
+
+	.team, .team-detail {
+		padding: 0 50px;
 	}
 
 	.partner-section {

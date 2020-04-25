@@ -34,7 +34,7 @@ class Records extends Component {
                             <ScrollAnimation animateIn="fadeIn">
                                 <h2>{data.heading}</h2>
                                 <p>{data.para}</p>
-                                <a className="more">{data.learn}</a>
+                                <a className="more" href={data.redirect}>{data.learn}</a>
                             </ScrollAnimation>
                         </div>
                     </div>                

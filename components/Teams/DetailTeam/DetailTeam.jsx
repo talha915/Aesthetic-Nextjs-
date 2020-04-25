@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Router, { withRouter } from 'next/router';
 import Head from 'next/head';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Link from 'next/link'
 
 class DetailTeam extends Component {
 
@@ -80,8 +81,9 @@ class DetailTeam extends Component {
                 </Head>
                 <main className="main">
                     <ul className="breadcrumbs container">
-                        <li><a >Home</a></li>
-                        <li className="current"><a >Elevate by Aesthetic Record</a></li>
+                        <li><Link href={{ pathname: '/' }}><a >Home</a></Link></li>
+                        <li><Link href={{ pathname: '/Teams' }}><a>Our Team</a></Link></li>
+                        <li className="current"><a >{this.state.detailTeamObj.name}</a></li>
                     </ul>
                     {this.getDetailTeamObj()}
                 </main>
