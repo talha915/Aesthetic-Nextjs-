@@ -12,15 +12,15 @@ let AboutUs = {
             {
                 heading: 'Aesthetic Record dallas, Tx Headquarters',
                 address: '14555 Dallas Parkway Suite 100-369 Dallas, TX 75354',
-                image: '/img06.jpg'
+                image: '/images/img06.jpg'
             },
             {
                 heading: 'Aesthetic Record Columbus, oh office',
                 address: '40 West Gay Street Columbus, OH 43215',
-                image: '/img07.jpg'
+                image: '/images/img07.jpg'
             }
         ],
-        bigLeafImage: '/icon-leaf-big.png'
+        bigLeafImage: '/images/icon-leaf-big.png'
     }
 }
 

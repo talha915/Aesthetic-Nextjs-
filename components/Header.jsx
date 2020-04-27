@@ -39,7 +39,7 @@ class Header extends Component {
                     <div className="container">
                         <div className="logo">
                             <Link href="/">
-                                <a href="#"><img src="images/logo.png" alt="Aesthetic Record" /></a>
+                                <a href="#"><img src="/images/logo.png" alt="Aesthetic Record" /></a>
                             </Link>
                         </div>
                         <input type="checkbox" id="menu" />
@@ -51,78 +51,78 @@ class Header extends Component {
                                     <a href="#">Features</a>
                                     <ul className="dropdown">
                                         <li className="has-drop">
-                                            <Link href={{ pathname: '/Connect' }}>
+                                            <Link href={{ pathname: '/features/connect' }}>
                                                 <a>
                                                     Connect
                                                 </a>
                                             </Link>
                                             <ul className="dropdown">
                                                 <li>
-                                                    <Link href={{ pathname: '/OnlineBooking' }}>
+                                                    <Link href={{ pathname: '/features/connect/online-booking' }}>
                                                         <a>Online Booking</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/SmartScheduling' }}>
+                                                    <Link href={{ pathname: '/features/connect/smart-scheduling' }}>
                                                         <a>Smart Scheduling</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/PatientPortal' }}>
+                                                    <Link href={{ pathname: '/features/connect/patient-portal' }}>
                                                         <a >Patient Portal</a>
                                                     </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="has-drop">
-                                            <Link href="/Treat">
+                                            <Link href="/features/treat">
                                                 <a>Treat</a>
                                             </Link>
                                             <ul className="dropdown">
                                                 <li>
-                                                    <Link href={{ pathname: '/EMR' }}>
+                                                    <Link href={{ pathname: '/features/treat/complete-emr-solution' }}>
                                                         <a >Complete EMR Solution</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/BeforeAfterPhoto' }}>
+                                                    <Link href={{ pathname: '/features/treat/photo-management' }}>
                                                         <a>Before & After Photos</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/MobilePointOfSale' }}>
+                                                    <Link href={{ pathname: '/features/treat/mobile-point-of-sale' }}>
                                                         <a>Mobile Point Of Sale</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/PatientMembership' }}>
+                                                    <Link href={{ pathname: '/features/treat/patient-wallet-and-memberships' }}>
                                                         <a href="#">Patient Wallet & Memberships</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/Telehealth' }}>
+                                                    <Link href={{ pathname: '/features/treat/telehealth' }}>
                                                         <a>Telehealth</a>
                                                     </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="has-drop">
-                                            <Link href="/Manage">
+                                            <Link href="/features/manage">
                                                 <a>Manage</a>
                                             </Link>
                                             <ul className="dropdown">
                                                 <li>
-                                                    <Link href={{ pathname: '/BusinessInsights' }}>
+                                                    <Link href={{ pathname: '/features/manage/business-insights' }}>
                                                         <a>Business Insights </a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/SupplyChain' }}>
+                                                    <Link href={{ pathname: '/features/manage/supply-chain-management' }}>
                                                         <a>Supply Chain Management </a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href={{ pathname: '/EPT' }}>
+                                                    <Link href={{ pathname: '/features/manage/employee-performance' }}>
                                                         <a>Employee Performance Tracking</a>
                                                     </Link>
                                                 </li>
@@ -137,7 +137,7 @@ class Header extends Component {
                                 </li>
                                 
                                 <li className="has-drop">
-                                    <Link href="/Learn">
+                                    <Link href="/learning-lab">
                                         <a>Learning Lab</a>
                                     </Link>
                                     <ul className="dropdown">
@@ -147,7 +147,7 @@ class Header extends Component {
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link href="/MarketPlace">
+                                    <Link href="/market-place">
                                         <a>Marketplace</a>
                                     </Link>
                                 </li>

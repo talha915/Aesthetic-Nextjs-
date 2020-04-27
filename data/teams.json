@@ -1,7 +1,7 @@
 {
     "ourteams": [
         {
-            "image": "images/img18.jpg",
+            "image": "/images/img18.jpg",
             "name": "Justin Harper",
             "designation": "Founder & CEO ",
             "readBio": "Read bio",
@@ -18,11 +18,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img22.jpg"
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img22.jpg"
         },
         {
-            "image": "images/img19.jpg",
+            "image": "/images/img19.jpg",
             "name": "Tiphany Lopez",
             "designation": "Chief Growth Officer ",
             "readBio": "Read bio",
@@ -39,11 +39,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img21.jpg"
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img21.jpg"
         },
         {
-            "image": "images/img20.jpg",
+            "image": "/images/img20.jpg",
             "name": "Victoria Adrian",
             "designation": "Director of Sales ",
             "readBio": "Read bio",
@@ -54,11 +54,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img23.jpg"
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img23.jpg"
         },
         {
-            "image": "images/img08.jpg",
+            "image": "/images/img08.jpg",
             "name": "Ganesh Kompella",
             "designation": "Director of Technology ",
             "readBio": "Read bio",
@@ -72,11 +72,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img32.jpg"
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img32.jpg"
         },
         {
-            "image": "images/img09.jpg",
+            "image": "/images/img09.jpg",
             "name": "Jazmene Kincannon",
             "designation": "Senior Sales Engineer ",
             "readBio": "Read bio",
@@ -87,11 +87,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img30.jpg"
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img30.jpg"
         },
         {
-            "image": "images/img10.jpg",
+            "image": "/images/img10.jpg",
             "name": "Kelsey Orms",
             "designation": "Senior Sales Specialist ",
             "readBio": "Read bio",
@@ -105,11 +105,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img26.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img26.jpg" 
         },
         {
-            "image": "images/img11.jpg",
+            "image": "/images/img11.jpg",
             "name": "Kenneth Powell",
             "designation": "Senior Sales Engineer ",
             "readBio": "Read bio",
@@ -120,11 +120,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img25.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img25.jpg" 
         },
         {
-            "image": "images/img12.jpg",
+            "image": "/images/img12.jpg",
             "name": "Vivienne Echendu",
             "designation": "Vendor Relations Manager ",
             "readBio": "Read bio",
@@ -138,11 +138,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img24.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img24.jpg" 
         },
         {
-            "image": "images/img13.jpg",
+            "image": "/images/img13.jpg",
             "name": "JT Cothran",
             "designation": "Business Process Specialist ",
             "readBio": "Read bio",
@@ -156,11 +156,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img27.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img27.jpg" 
         },
         {
-            "image": "images/img14.jpg",
+            "image": "/images/img14.jpg",
             "name": "Isabelle McDowell",
             "designation": "Mid-Market Sales Specialist ",
             "readBio": "Read bio",
@@ -171,11 +171,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img29.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img29.jpg" 
         },
         {
-            "image": "images/img15.jpg",
+            "image": "/images/img15.jpg",
             "name": "Catherine McCauley",
             "designation": "Sales Engineer ",
             "readBio": "Read bio",
@@ -186,11 +186,11 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img28.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img28.jpg" 
         },
         {
-            "image": "images/img16.jpg",
+            "image": "/images/img16.jpg",
             "name": "Nick Whatton",
             "designation": "Sales Engineer ",
             "readBio": "Read bio",
@@ -201,8 +201,8 @@
                 }
             ],
             "seeLeadership": "See All Leadership",
-            "backArrows": "images/arrows.svg",
-            "detailedImage": "images/img31.jpg" 
+            "backArrows": "/images/arrows.svg",
+            "detailedImage": "/images/img31.jpg" 
         }
     ]
 }

@@ -68,7 +68,7 @@ class DetailTeam extends Component {
     }
 
     backToTeams=()=> {
-        Router.push({ pathname: '/Teams' });
+        Router.push({ pathname: '/teams' });
     }
 
     render() {
@@ -82,7 +82,7 @@ class DetailTeam extends Component {
                 <main className="main">
                     <ul className="breadcrumbs container">
                         <li><Link href={{ pathname: '/' }}><a >Home</a></Link></li>
-                        <li><Link href={{ pathname: '/Teams' }}><a>Our Team</a></Link></li>
+                        <li><Link href={{ pathname: '/teams' }}><a>Our Team</a></Link></li>
                         <li className="current"><a >{this.state.detailTeamObj.name}</a></li>
                     </ul>
                     {this.getDetailTeamObj()}

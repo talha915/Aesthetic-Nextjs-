@@ -32,7 +32,7 @@ class Footer extends Component {
                         <div className="info">
                             <div className="logo">
                                 <Link href="/">
-                                    <a><img src="images/logo-footer.png" alt="Aesthetic Record" /></a>
+                                    <a><img src="/images/logo-footer.png" alt="Aesthetic Record" /></a>
                                 </Link>
                             </div>
                             <a href="mailto:info@aestheticrecord.com" className="mail"><i className="icon-email"></i> info@aestheticrecord.com</a>
@@ -47,63 +47,63 @@ class Footer extends Component {
 
                         <div className="footer-links">
                             <nav className="links">
-                                <Link href={{pathname: '/Connect'}}>
+                                <Link href={{pathname: '/features/connect'}}>
                                     <strong>
                                         Connect
                                     </strong>
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link href={{ pathname: '/OnlineBooking'}}>
+                                        <Link href={{ pathname: '/features/connect/online-booking'}}>
                                             <a>Online Booking</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/SmartScheduling'}}>
+                                        <Link href={{ pathname: '/features/connect/smart-scheduling'}}>
                                             <a>Smart Scheduling</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/PatientPortal'}}>
+                                        <Link href={{ pathname: '/features/connect/patient-portal'}}>
                                             <a >Patient Portal</a>
                                         </Link>
                                     </li>
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <Link href="/Treat">
+                                <Link href="/features/treat">
                                     <strong>Treat</strong>
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link href={{ pathname: '/EMR'}}>
+                                        <Link href={{ pathname: '/features/treat/complete-emr-solution'}}>
                                             <a >Complete EMR Solution</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/BeforeAfterPhoto'}}>
+                                        <Link href={{pathname: '/features/treat/photo-management'}}>
                                             <a>Before & After Photos</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/MobilePointOfSale'}}>
+                                        <Link href={{pathname: '/features/treat/mobile-point-of-sale'}}>
                                             <a>Mobile Point-of-Sale</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/PatientMembership'}}>
+                                        <Link href={{pathname: '/features/treat/patient-wallet-and-memberships'}}>
                                             <a href="#">Patient Wallet & Memberships</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/Telehealth'}}>
+                                        <Link href={{ pathname: '/features/treat/telehealth'}}>
                                             <a>Telehealth</a>
                                         </Link>
                                     </li>
                                 </ul>
                             </nav>
                             <nav className="links large">
-                                <Link href={{ pathname: '/Manage' }}>
+                                <Link href={{ pathname: '/features/manage' }}>
                                     <strong>
                                         Manage
                                     </strong>
@@ -111,17 +111,17 @@ class Footer extends Component {
 
                                 <ul>
                                     <li>
-                                        <Link href={{pathname: '/BusinessInsights'}}>
+                                        <Link href={{pathname: '/features/manage/business-insights'}}>
                                             <a>Business Insights </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/SupplyChain'}}>
+                                        <Link href={{pathname: '/features/manage/supply-chain-management'}}>
                                             <a>Supply Chain Management </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/EPT'}}>
+                                        <Link href={{pathname: '/features/manage/employee-performance'}}>
                                             <a>Employee Performance Tracking</a>
                                         </Link>
                                     </li>
@@ -131,12 +131,12 @@ class Footer extends Component {
                                 <strong>Company</strong>
                                 <ul>
                                     <li>
-                                        <Link href="/About">
+                                        <Link href="/about">
                                             <a >About Us</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/Teams">
+                                        <Link href="/teams">
                                             <a >Our Team </a>
                                         </Link>
                                     </li>
@@ -151,7 +151,7 @@ class Footer extends Component {
                                     <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">Learn Articles</a></li>
                                     <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">AR Academy</a></li>
                                     <li>
-                                        <Link href={{pathname: "/MarketPlace"}}>
+                                        <Link href={{pathname: "/market-place"}}>
                                             <a>Marketplace</a>
                                         </Link>
                                     </li>
@@ -165,9 +165,9 @@ class Footer extends Component {
                                 <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">AR Policies</a></p>
                             </div>
                             <div className="logo-holder">
-                                <a href="#"><img src="images/logo-apple.svg" alt="Image Description" /></a>
-                                <a href="#"><img src="images/logo-gdbr.svg" alt="Image Description" /></a>
-                                <a href="#"><img src="images/ar-emr-hipaa-law.png" alt="Image Description" /></a>
+                                <a href="#"><img src="/images/logo-apple.svg" alt="Image Description" /></a>
+                                <a href="#"><img src="/images/logo-gdbr.svg" alt="Image Description" /></a>
+                                <a href="#"><img src="/images/ar-emr-hipaa-law.png" alt="Image Description" /></a>
 					        </div>
                         </div>
                     </div>
