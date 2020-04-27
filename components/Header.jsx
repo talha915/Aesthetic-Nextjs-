@@ -131,7 +131,7 @@ class Header extends Component {
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link href="/PricePlans">
+                                    <Link href="/plans-and-pricing">
                                         <a href="#">Plans & Pricing</a>
                                     </Link>
                                 </li>
