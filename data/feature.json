@@ -1,0 +1,33 @@
+{
+    "visual": {
+        "heading": "A Seamless Patient Experience is Your Competitive Advantage",
+        "text": "Everything you need to manage your practice in one, easy-to-use software",
+        "btn": "Schedule Demo",
+        "btn1": "Start Free Trial",
+        "notes": "No Credit Card Required, 14 Day Free Trial"
+    },
+    "container": {
+        "heading": "Build Revenue & Efficiencies  with a Streamlined Workflow",
+        "text": "Our cloud-based, fully-integrated, EMR and practice management solution makes administrative tasks a breeze so you can provide an exceptional experience to your patients.",
+        "containerList": [
+            {
+                "image": "images/img72.png",
+                "heading": "Connect",
+                "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
+                "btn": "Learn More"
+            },
+            {
+                "image": "images/img72.png",
+                "heading": "Treat",
+                "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
+                "btn": "Learn More"
+            },
+            {
+                "image": "images/img72.png",
+                "heading": "Manage",
+                "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
+                "btn": "Learn More"
+            }
+        ]
+    }
+}
