@@ -17,11 +17,11 @@ class PricePlan extends Component {
                 <main className="main">
                     <BreadCrumbs />
                     <Pricing />
-                    <div class="bottom-text">
+                    <div className="bottom-text">
                         <ScrollAnimation animateIn="fadeIn">
                             <h2>Ready to Move to Aesthetic Record? </h2>
                             <p> Migrating patient records and practice data from an existing system to Aesthetic Record is easy! Contact us for more information.</p>
-                            <a href="mailto:info@aestheticrecord.com" target="_blank" class="btn">Contact Us</a>
+                            <a href="mailto:info@aestheticrecord.com" target="_blank" className="btn">Contact Us</a>
                         </ScrollAnimation>
                     </div>
                 </main>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link'
 
 import Head from 'next/head';
 
@@ -28,7 +29,10 @@ class FeatureContainer extends Component {
                         <span className="text">{items.heading}</span>
                     </div>
                     <p>{items.text} </p>
-                    <a className="btn" href="#">{items.btn}</a>
+                    <Link href={items.redirect}>
+                        <a className="btn" >{items.btn}</a>
+                    </Link>
+                    
                 </div>
             )
         })

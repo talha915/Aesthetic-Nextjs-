@@ -1,0 +1,114 @@
+{
+    "info": {
+        "image": "images/icon-huge-leaf.png",
+        "image1": "images/banner.jpg",
+        "image2": "images/icon-leaf.png"
+    },
+    "intro": {
+        "image": "images/icon-leaf-small.png",
+        "blocks": [
+            {
+                "heading": "Terms of Service",
+                "title": "Terms of Service",
+                "paras": [
+                    {
+                        "para": "Thank you for choosing Aesthetic Record (“we, “us,” or “our”) for your business.  AestheticRecord provides online business management software services for the aesthetics and beautyindustry (“Software Service”). You can access our Software Service via the login page on ourwebsite and through our application. As used in this Aesthetic Record Terms of Service (“Agreement”), “you, “your,” or “users” means your company (together with its agents, assigns, representatives, Affiliates, officers,directors, members, managers, principals, and employees) that access or use our Services.“Affiliate” means any entity that directly or indirectly controls, is controlled by, or is undercommon control with you, and that has been designated to receive Services under thisAgreement. “Affiliate” also includes any of your business locations and any franchisees thathave been designated to receive Services under this Agreement. For purposes of thedefinition of the term “Affiliate,” “control” means the power to direct or cause the direction ofthe management and policies of the subject entity, whether through equity ownership, a creditarrangement, franchise agreement or other contractual arrangement."
+                    },
+                    {
+                        "para": "This Agreement applies to any use of and access to our Software Service, websites, tools, orapplications (“Services”) by you or any of your Affiliates. These terms and the orderconfirmation that you received when you signed up for our Software Service (“OrderConfirmation”), along with all policies and additional terms posted on and in our Servicescontains the terms and conditions that govern your access to and use of the Services and is anagreement between you and Aesthetic Record. By accessing or using our Services, you agreeto be bound by this Agreement, including all policies referenced herein including but not limitedto the Acceptable Use Policy and thePrivacy Policy. If you do not wish to be bound by any ofthe terms of this Agreement, you may not use or access any Services. This Agreement iseffective (“Effective Date”) on the earlier of (a) the date you accept this Agreement by clickingan “Accept” or similar button or otherwise indicate that you accept this Agreement (includingthrough an Order Confirmation), or (b) the date you first access or use any Services."
+                    }
+                ]
+            },
+            {
+                "title": "Your Account",
+                "paras": [
+                    {
+                        "para": "To access and use the Services, you must register for an Aesthetic Record account(“Account”) by providing your full legal name, job title, business or employer name, currentbusiness or employer address, current business or employer phone number, a valid business oremployer-issued email address, and any other information as required by Aesthetic Record. We may reject your application for an Account for any reason in our sole discretion. If any ofthe above-listed registration information changes, you must notify Aesthetic Record within 48hours of any change via electronic mail with return receipt requested to info@aestheticrecord.com. Any personal data you provide to us will be handled inaccordance with Aesthetic Record’s Privacy Policy.You must be the older of: (i) 18 years, or (ii) at least the age of majority in the jurisdictionwhere you reside and from which you use the Services to open an Account."
+                    },
+                    {
+                        "para": "You acknowledge that the person signing up for the Service by opening an Account will be thecontracting party (“Account Owner”) for the purposes of this Agreement and will be theperson who is authorized to use any corresponding Account we may provide to the Account Owner in connection with the Services. If you are signing up for the Services on behalf of your business or employer, your business oremployer shall be the Account Owner and you must use your business or employer-issuedemail address.You acknowledge that Aesthetic Record will use the approved business and/or employer-issued email address you provided when registering an Account or as updated by you fromtime to time as the primary method for communication with you."
+                    },
+                    {
+                        "para": "Any user name or password that we provide to you may only be used in accordance with thisAgreement.  You are solely responsible for maintaining the security of your user name andpassword. You may not disclose your user name or password to any third party, including yourown Authorized Employees as defined further below in the Confidential Information sectionof this Agreement. You are solely responsible for any use of or action taken under your username or password. Aesthetic Record will not be liable for any loss or damage from yourfailure to maintain the security of your Account, user name, or password.  If your user nameor password is compromised, you must immediately change your user name or password."
+                    }
+                ]
+            },
+            {
+                "title": "Grant of Rights in Your Data",
+                "paras": [
+                    {
+                        "para": "“Your Data” means any data, information or material provided or submitted or made availableby you or your representative to the Services. Your Data may include Personal Information asdefined further below in the Data Security and Privacy section of this Agreement but excludesAnonymized Data as defined further below in this section."
+                    },
+                    {
+                        "para": "As between you and Aesthetic Record, you own all right, title and interest in Your Data.Youhereby grant Aesthetic Record a non-exclusive, worldwide, assignable, sublicensable, fullypaid-up and royalty-free license and right to copy, distribute, display and perform, publish,prepare derivative works of and otherwise use Your Data for the purposes of providing,improving and developing Aesthetic Record’s products and services and/or complimentaryproducts and services of our partners."
+                    },
+                    {
+                        "para": "You represent and warrant that you have, or have obtained, all rights, licenses, consents, permissions, insurance, power and/or authority necessary to conduct your business and grantthe rights granted herein and that the provision of Your Data through and in connection withthe Services does not violate any applicable laws or rights of any third parties."
+                    },
+                    {
+                        "para": "Anonymization is a data processing technique that removes or modifies personally identifiableinformation; it results in anonymized data that cannot be associated with any one individual. By analyzing Anonymized Data, we are able to improve our Services and safely shareanonymized data externally, making it useful for others without putting your privacy at risk.You authorize Aesthetic Record to anonymize and aggregate Your Data or other data inconnection with this Agreement (“Anonymized Data”), and Aesthetic Record will own all Anonymized Data. You agree that nothing in this Agreement will prohibit Aesthetic Recordfrom utilizing Anonymized Data for any purpose, provided such Anonymized Data does notreveal any personally identifying information about you or any persons that use or access the Services."
+                    },
+                    {
+                        "para": "Not withstanding any other sections of this Agreement, all right, title and interest in any dataor information collected by Aesthetic Record independently and without access to, referenceto or use of any of Your Data, including, without limitation, any data or information AestheticRecord obtains through the Aesthetic Record website or application (whether the same asYour Data or otherwise), will be solely owned by Aesthetic Record."
+                    },
+                    {
+                        "para": "You are responsible for complying with all state and federal laws related to retention ofmedical data and records, patient access and amendment to information, and patientauthorization to release data."
+                    }
+                ]
+            },
+            {
+                "title": "Our Services",
+                "paras": [
+                    {
+                        "para": "Aesthetic Record will make the Services to which you have subscribed available to you,subject to the terms and conditions of this Agreement. Aesthetic Record reserves the right atany time, and from time to time, to modify, suspend, or discontinue, the Services (or any partthereof) with or without notice. Aesthetic Record shall not be liable to you or to any thirdparty for any modifications, fee changes, price changes, suspensions, or the discontinuance ofany Service. Your continued use of the Services after any such revisions are posted to Aesthetic Record’s website constitutes your agreement to, and acceptance of any suchrevisions. Not all Services and features are available in every jurisdiction and we are underno obligation to make all Services or features available in any jurisdiction."
+                    },
+                    {
+                        "para": "When you subscribe to our Software Service, and when available, you will be provided theopportunity to be listed on Aesthetic Record’s online marketing platform and marketplace(“Marketing Services”), which allows patients and clients to locate Aesthetic Recordsubscribers and evaluate, review and book their services directly through the Aesthetic Recordapplication and through our partner applications. From time to time, Aesthetic Record mayoffer you the opportunity to participate in promotional programs (“AR Promos”), which aredesigned to promote their businesses and attract customers through the Marketing Services. Aesthetic Record reserves the right to charge fees for AR Promos (“AR Promos Fees”)."
+                    },
+                    {
+                        "para": "From time to time, Aesthetic Record may, in its sole discretion, invite you to use, on a trialbasis, pre-release or beta features that are in development and not yet available to all users(“Beta Services”). In addition to the terms of this Agreement, Beta Services will also besubject to the Beta Services User Agreement, which will be presented to you for youracceptance prior to the provision of the Beta Services. If this Agreement is inconsistent withthe Beta Services User Agreement, the Beta Services User Agreement will control withrespect to the service with which it applies."
+                    },
+                    {
+                        "para": "Aesthetic Record offers the ability to process payments through the Services (“PaymentProcessing Services”). Payment Processing Services are provided by our third party paymentprocessing partners that may change from time to time and any Payment Processing Servicesconducted between you and our third party payment processing partners will be subject to aseparate agreement which will be solely between you and the third party processor. At Aesthetic Record’s sole discretion, you may also be offered Payment Processing Servicesprovided by third-party partners through our Services (“AR Payments”).  AR Payments aresubject to certain fees that are discussed further below in the “Our Fees” section of thisAgreement (“AR Payments Fees”). By enrolling in AR Payments, you agree to be bound bythe third-party agreements which may be modified by Aesthetic Record or our third-partypartners from time to time."
+                    },
+                    {
+                        "para": "As a condition of AR Payments, you agree to provide Aesthetic Record with any accountinformation that we so require in our sole discretion. You agree to update all accountinformation to ensure that the information at all times remains accurate, complete, and valid.You authorize Aesthetic Record to share any information related to your use of AR Paymentspursuant to our Privacy Policy. At Aesthetic Record’s sole discretion, we offer you discounts on or pricing options for ourServices. If we make multiple discounts or pricing options for a Service available to you atone time, you will only be eligible to receive one discount or pricing option, and will not beentitled to cumulative discounting and pricing options."
+                    },
+                    {
+                        "para": "The Services provided by Aesthetic Record may have third party products integrated with orused in connection with the Services and moreover, the Services may contain links to otherwebsites, mobile applications, and other online services operated by third parties, and otherwebsites, mobile applications, and online services operated by third parties may contain linksto our Services (“Third Party Offerings”). The integration with or use of Third Party Offerings in connection with the Service is not an endorsement of, or representation that weare affiliated with, any third party and shall not constitute a “Service” under this Agreement."
+                    },
+                    {
+                        "para": "We do not control third parties and we are not responsible for their Third Party Offerings thatmay be used in connection with the Services.  Your use of such Third Party Offerings mayrequire that you enter into separate subscription, licensing, and/or business associateagreements with such third party vendors and suppliers. You agree: (i) to comply with and,upon request, execute such agreements as may be required for the use of such software orservices; (ii) that Aesthetic Record may disclose information to these third-parties on yourbehalf.  We encourage you to read the terms or service and/or user agreements for these thirdparty providers you use."
+                    }
+                ]
+            },
+            {
+                "title": "Our Services",
+                "paras": [
+                    {
+                        "para": "Aesthetic Record will make the Services to which you have subscribed available to you,subject to the terms and conditions of this Agreement. Aesthetic Record reserves the right atany time, and from time to time, to modify, suspend, or discontinue, the Services (or any partthereof) with or without notice. Aesthetic Record shall not be liable to you or to any thirdparty for any modifications, fee changes, price changes, suspensions, or the discontinuance ofany Service. Your continued use of the Services after any such revisions are posted to Aesthetic Record’s website constitutes your agreement to, and acceptance of any suchrevisions. Not all Services and features are available in every jurisdiction and we are underno obligation to make all Services or features available in any jurisdiction."
+                    },
+                    {
+                        "para": "When you subscribe to our Software Service, and when available, you will be provided theopportunity to be listed on Aesthetic Record’s online marketing platform and marketplace(“Marketing Services”), which allows patients and clients to locate Aesthetic Recordsubscribers and evaluate, review and book their services directly through the Aesthetic Recordapplication and through our partner applications. From time to time, Aesthetic Record mayoffer you the opportunity to participate in promotional programs (“AR Promos”), which aredesigned to promote their businesses and attract customers through the Marketing Services. Aesthetic Record reserves the right to charge fees for AR Promos (“AR Promos Fees”)."
+                    },
+                    {
+                        "para": "From time to time, Aesthetic Record may, in its sole discretion, invite you to use, on a trialbasis, pre-release or beta features that are in development and not yet available to all users(“Beta Services”). In addition to the terms of this Agreement, Beta Services will also besubject to the Beta Services User Agreement, which will be presented to you for youracceptance prior to the provision of the Beta Services. If this Agreement is inconsistent withthe Beta Services User Agreement, the Beta Services User Agreement will control withrespect to the service with which it applies."
+                    },
+                    {
+                        "para": "Aesthetic Record offers the ability to process payments through the Services (“PaymentProcessing Services”). Payment Processing Services are provided by our third party paymentprocessing partners that may change from time to time and any Payment Processing Servicesconducted between you and our third party payment processing partners will be subject to aseparate agreement which will be solely between you and the third party processor. At Aesthetic Record’s sole discretion, you may also be offered Payment Processing Servicesprovided by third-party partners through our Services (“AR Payments”).  AR Payments aresubject to certain fees that are discussed further below in the “Our Fees” section of thisAgreement (“AR Payments Fees”). By enrolling in AR Payments, you agree to be bound bythe third-party agreements which may be modified by Aesthetic Record or our third-partypartners from time to time."
+                    },
+                    {
+                        "para": "As a condition of AR Payments, you agree to provide Aesthetic Record with any accountinformation that we so require in our sole discretion. You agree to update all accountinformation to ensure that the information at all times remains accurate, complete, and valid.You authorize Aesthetic Record to share any information related to your use of AR Paymentspursuant to our Privacy Policy. At Aesthetic Record’s sole discretion, we offer you discounts on or pricing options for ourServices. If we make multiple discounts or pricing options for a Service available to you atone time, you will only be eligible to receive one discount or pricing option, and will not beentitled to cumulative discounting and pricing options."
+                    },
+                    {
+                        "para": "The Services provided by Aesthetic Record may have third party products integrated with orused in connection with the Services and moreover, the Services may contain links to otherwebsites, mobile applications, and other online services operated by third parties, and otherwebsites, mobile applications, and online services operated by third parties may contain linksto our Services (“Third Party Offerings”). The integration with or use of Third Party Offerings in connection with the Service is not an endorsement of, or representation that weare affiliated with, any third party and shall not constitute a “Service” under this Agreement."
+                    },
+                    {
+                        "para": "We do not control third parties and we are not responsible for their Third Party Offerings thatmay be used in connection with the Services.  Your use of such Third Party Offerings mayrequire that you enter into separate subscription, licensing, and/or business associateagreements with such third party vendors and suppliers. You agree: (i) to comply with and,upon request, execute such agreements as may be required for the use of such software orservices; (ii) that Aesthetic Record may disclose information to these third-parties on yourbehalf.  We encourage you to read the terms or service and/or user agreements for these thirdparty providers you use."
+                    }
+                ]
+            }
+        ]
+        
+    }
+}

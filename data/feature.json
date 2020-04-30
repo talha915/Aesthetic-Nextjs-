@@ -14,19 +14,22 @@
                 "image": "images/img72.png",
                 "heading": "Connect",
                 "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
-                "btn": "Learn More"
+                "btn": "Learn More",
+                "redirect": "/features/connect"
             },
             {
                 "image": "images/img72.png",
                 "heading": "Treat",
                 "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
-                "btn": "Learn More"
+                "btn": "Learn More",
+                "redirect": "/features/treat"
             },
             {
                 "image": "images/img72.png",
                 "heading": "Manage",
                 "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
-                "btn": "Learn More"
+                "btn": "Learn More",
+                "redirect": "/features/manage"
             }
         ]
     }

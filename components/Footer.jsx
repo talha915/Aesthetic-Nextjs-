@@ -15,16 +15,16 @@ class Footer extends Component {
         this.setCurrentYear();
     }
 
-    setCurrentYear=()=> {
+    setCurrentYear = () => {
         let date = new Date();
-        this.setState({currentYear: date.getFullYear()});
+        this.setState({ currentYear: date.getFullYear() });
     }
 
     render() {
         return (
             <div>
                 <Head>
-                    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" /> 
+                    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
                 <footer className="footer">
@@ -47,24 +47,24 @@ class Footer extends Component {
 
                         <div className="footer-links">
                             <nav className="links">
-                                <Link href={{pathname: '/features/connect'}}>
+                                <Link href={{ pathname: '/features/connect' }}>
                                     <strong>
                                         Connect
                                     </strong>
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link href={{ pathname: '/features/connect/online-booking'}}>
+                                        <Link href={{ pathname: '/features/connect/online-booking' }}>
                                             <a>Online Booking</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/features/connect/smart-scheduling'}}>
+                                        <Link href={{ pathname: '/features/connect/smart-scheduling' }}>
                                             <a>Smart Scheduling</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/features/connect/patient-portal'}}>
+                                        <Link href={{ pathname: '/features/connect/patient-portal' }}>
                                             <a >Patient Portal</a>
                                         </Link>
                                     </li>
@@ -76,27 +76,27 @@ class Footer extends Component {
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link href={{ pathname: '/features/treat/complete-emr-solution'}}>
+                                        <Link href={{ pathname: '/features/treat/complete-emr-solution' }}>
                                             <a >Complete EMR Solution</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/features/treat/photo-management'}}>
+                                        <Link href={{ pathname: '/features/treat/photo-management' }}>
                                             <a>Before & After Photos</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/features/treat/mobile-point-of-sale'}}>
+                                        <Link href={{ pathname: '/features/treat/mobile-point-of-sale' }}>
                                             <a>Mobile Point-of-Sale</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/features/treat/patient-wallet-and-memberships'}}>
+                                        <Link href={{ pathname: '/features/treat/patient-wallet-and-memberships' }}>
                                             <a href="#">Patient Wallet & Memberships</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{ pathname: '/features/treat/telehealth'}}>
+                                        <Link href={{ pathname: '/features/treat/telehealth' }}>
                                             <a>Telehealth</a>
                                         </Link>
                                     </li>
@@ -111,17 +111,17 @@ class Footer extends Component {
 
                                 <ul>
                                     <li>
-                                        <Link href={{pathname: '/features/manage/business-insights'}}>
+                                        <Link href={{ pathname: '/features/manage/business-insights' }}>
                                             <a>Business Insights </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/features/manage/supply-chain-management'}}>
+                                        <Link href={{ pathname: '/features/manage/supply-chain-management' }}>
                                             <a>Supply Chain Management </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: '/features/manage/employee-performance'}}>
+                                        <Link href={{ pathname: '/features/manage/employee-performance' }}>
                                             <a>Employee Performance Tracking</a>
                                         </Link>
                                     </li>
@@ -151,7 +151,7 @@ class Footer extends Component {
                                     <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">Learn Articles</a></li>
                                     <li><a href="https://learn.aestheticrecord.com/en/?_ga=2.38863395.160160872.1587343952-1803440311.157" target="_blank">AR Academy</a></li>
                                     <li>
-                                        <Link href={{pathname: "/market-place"}}>
+                                        <Link href={{ pathname: "/market-place" }}>
                                             <a>Marketplace</a>
                                         </Link>
                                     </li>
@@ -162,13 +162,17 @@ class Footer extends Component {
                     <div className="footer-info">
                         <div className="container">
                             <div className="copyright">
-                                <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span> <a href="#">AR Policies</a></p>
+                                <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span>
+                                    <a href="/terms-of-service">Terms Of Service</a> 
+                                    <Link href={{ pathname: "/policies" }}><a>AR Policies</a></Link>                  
+                                </p>
                             </div>
                             <div className="logo-holder">
-                                <a href="#"><img src="/images/logo-apple.svg" alt="Image Description" /></a>
-                                <a href="#"><img src="/images/logo-gdbr.svg" alt="Image Description" /></a>
-                                <a href="#"><img src="/images/ar-emr-hipaa-law.png" alt="Image Description" /></a>
-					        </div>
+                                <a href="https://apps.apple.com/us/app/aesthetic-record-emr/id1228049519" target="_blank"><img src="/images/logo-apple.svg" alt="Image Description" /></a>
+                                <a href="https://www.capterra.com/p/162938/Aesthetic-Record/" target="_blank"><img src="/images/capterra-aesthetic-record.png" alt="Image Description" /></a>
+                                <a href="https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/principles-gdpr_en" target="_blank"><img src="/images/logo-gdbr.svg" alt="Image Description" /></a>
+                                <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html" target="_blank"><img src="/images/ar-emr-hipaa-law.png" alt="Image Description" /></a>
+                            </div>
                         </div>
                     </div>
                 </footer>
