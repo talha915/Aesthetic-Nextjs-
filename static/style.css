@@ -2455,7 +2455,7 @@ h4 {
 
 .wrapper.has-shape:before {
 	background: url(/images/bg.png) no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2545,6 +2545,7 @@ h4 {
 	top: -15px;
 	right: -15px;
 	background: #eb2c71;
+	color: #fff !important;
 	padding: 3px 10px;
 	font-size: 9px;
 	line-height: 13px;
@@ -6029,6 +6030,10 @@ h4 {
 	font-size: 14px;
 }
 
+.social-networks .icon-twitter {
+	font-size: 17px;
+}
+
 .social-networks a {
 	width: 40px;
 	height: 40px;
@@ -6936,7 +6941,7 @@ h4 {
 
 .wrapper.has-shape:before {
 	background: url(/images/bg-shape.svg) no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
