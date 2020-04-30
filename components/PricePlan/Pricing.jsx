@@ -115,7 +115,7 @@ class Pricing extends Component {
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
 								<h3>Enterprise</h3>
-								<a href="mailto:info@aestheticrecord.com" className="btn" title="Email Us">Call Us</a>
+								<a href="mailto:info@aestheticrecord.com" className="btn">Email Us</a>
 								<div className="package-info">
 									<div className="info">
 										<span>Customized</span>
