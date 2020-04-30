@@ -30,7 +30,7 @@ class Links extends Component {
             let data = this.state.linkObj;
             let bread = data.breadCrumbs.map((items, index)=> {
                 return(                  
-                    <li key={index} className={index===3 ? "active" : ""}>
+                    <li key={index} className={index===3 ? "current" : ""}>
                         <Link href={items.redirect}>
                             <a>
                                 {items.list}
