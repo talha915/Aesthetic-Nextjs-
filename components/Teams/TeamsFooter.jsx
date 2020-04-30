@@ -14,7 +14,7 @@ class TeamsFooter extends Component {
                     <div className="container">
                         <div className="textblock">
                             <h3>Try Aesthetic Record with your team for free </h3>
-                            <a href="#" className="btn full">Get Started</a>
+                            <a href="https://app.aestheticrecord.com/signup-basic?_ga=2.39061923.160160872.1587343952-1803440311.1579636487" target="_blank" className="btn full">Get Started</a>
                         </div>
                     </div>
                 </div>

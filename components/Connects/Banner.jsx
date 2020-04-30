@@ -41,7 +41,7 @@ class Banner extends Component {
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
-                <div className="visual" style={{ backgroundImage: "url(images/img59.jpg)" }}>
+                <div className="visual" style={{ backgroundImage: "url(/images/img59.jpg)" }}>
                     {this.getBannerObj()}
                 </div>
             </div>
