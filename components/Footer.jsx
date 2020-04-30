@@ -42,6 +42,7 @@ class Footer extends Component {
                                 <li><a target="_blank" href="https://www.youtube.com/channel/UCY2W0j0DbqLsg4qomXL0c1g"><i className="icon-youtube"></i></a></li>
                                 <li><a target="_blank" href="https://www.instagram.com/aestheticrecord/"><i className="icon-instagram"></i></a></li>
                                 <li><a target="_blank" href="https://www.linkedin.com/company/aestheticrecord/"><i className="icon-linkedin"></i></a></li>
+                                <li><a target="_blank" href="https://twitter.com/Aesthetic_Rec"><i className="icon-twitter"></i></a></li>
                             </ul>
                         </div>
 

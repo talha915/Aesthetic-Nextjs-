@@ -23,7 +23,7 @@ class Pricing extends Component {
 						</ul>
 						<div className="tab-content">
 							<div className="price-box">
-								<span className="price"> <span className="currency">$</span> <em>12</em> <span className="pkg">/ Month <br /> per a User</span></span>
+								<span className="price"> <span className="currency">$</span> <em>12</em> <span className="pkg">/ Month <br /> per User</span></span>
 								<ul className="stars">
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
@@ -68,7 +68,7 @@ class Pricing extends Component {
 								</ul>
 							</div>
 							<div className="price-box">
-								<span className="price"> <span className="currency">$</span> <em>16</em> <span className="pkg">/ Month <br /> per a User</span></span>
+								<span className="price"> <span className="currency">$</span> <em>16</em> <span className="pkg">/ Month <br /> per User</span></span>
 								<ul className="stars">
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 									<li><img src="images/star.svg" alt="Image Description" /></li>
@@ -115,7 +115,7 @@ class Pricing extends Component {
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
 								<h3>Enterprise</h3>
-								<a href="mailto:info@aestheticrecord.com" className="btn">Call Us</a>
+								<a href="mailto:info@aestheticrecord.com" className="btn" title="Email Us">Call Us</a>
 								<div className="package-info">
 									<div className="info">
 										<span>Customized</span>
