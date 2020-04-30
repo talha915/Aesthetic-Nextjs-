@@ -131,12 +131,12 @@ class Footer extends Component {
                                 <strong>Company</strong>
                                 <ul>
                                     <li>
-                                        <Link href={{pathname: "/about"}}>
+                                        <Link href={{pathname: "/About"}}>
                                             <a >About Us</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={{pathname: "/teams"}}>
+                                        <Link href={{pathname: "/Teams"}}>
                                             <a >Our Team </a>
                                         </Link>
                                     </li>

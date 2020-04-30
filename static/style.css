@@ -5940,7 +5940,7 @@ h4 {
 }
 
 .signup-block:after {
-	background: url(images/bg.svg) no-repeat;
+	background: url(/images/bg.svg) no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: -75px;
@@ -6121,7 +6121,7 @@ h4 {
 }
 
 .bottom-block.shape:after {
-	background: url(images/shape.png) no-repeat;
+	background: url(/images/shape.png) no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -6261,7 +6261,7 @@ h4 {
 }
 
 .full-image:before {
-	background: url(images/bg2.png) no-repeat;
+	background: url(/images/bg2.png) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	top: -280px;
@@ -6928,7 +6928,7 @@ h4 {
 }
 
 .wrapper.has-shape:before {
-	background: url(images/bg-shape.svg) no-repeat;
+	background: url(/images/bg-shape.svg) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	top: 0;
