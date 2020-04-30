@@ -3,6 +3,19 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Head from 'next/head';
 
 class Pricing extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			activeType: 'Month',
+			price1: '12',
+			price2: '16'
+		}
+	}
+
+	selectType=(type, price1, price2)=> {
+		this.setState({activeType: type});
+		this.setState({price1: price1, price2: price2});
+	}
 
 	render() {
 		return (
@@ -18,12 +31,12 @@ class Pricing extends Component {
 						<span className="img-shape"><img src="images/icon-dark.png" alt="Image description" /></span>
 						<h2>Plans & Pricing </h2>
 						<ul className="tabset">
-							<li><a href="#">Monthly</a></li>
-							<li className="active"><a href="#">Annualy <span>-20%</span></a></li>
+							<li className={this.state.activeType === "Month" ? "active" : "inactive"}><a onClick={()=>this.selectType("Month", "12", "16")}>Monthly</a></li>
+							<li className={this.state.activeType === "Annual" ? "active" : "inactive"}><a onClick={()=>this.selectType("Annual", "10", "13")}>Annualy <span>-20%</span></a></li>
 						</ul>
 						<div className="tab-content">
 							<div className="price-box">
-								<span className="price"> <span className="currency">$</span> <em>12</em> <span className="pkg">/ Month <br /> per User</span></span>
+								<span className="price"> <span className="currency">$</span> <em>{this.state.price1}</em> <span className="pkg">/ {this.state.activeType} <br /> per User</span></span>
 								<ul className="stars">
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 								</ul>
@@ -68,7 +81,7 @@ class Pricing extends Component {
 								</ul>
 							</div>
 							<div className="price-box">
-								<span className="price"> <span className="currency">$</span> <em>16</em> <span className="pkg">/ Month <br /> per User</span></span>
+								<span className="price"> <span className="currency">$</span> <em>{this.state.price2}</em> <span className="pkg">/ {this.state.activeType} <br /> per User</span></span>
 								<ul className="stars">
 									<li><img src="images/star.svg" alt="Image Description" /></li>
 									<li><img src="images/star.svg" alt="Image Description" /></li>
