@@ -45,15 +45,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Treat",
+                "redirect": "/features/treat"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "EMR",
+                "redirect": "features/treat/complete-emr-solution"
             }
         ]
     },
@@ -74,15 +74,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Treat",
+                "redirect": "/features/treat"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Telehealth",
+                "redirect": "/features/treat/telehealth"
             }
         ]
     },
@@ -103,15 +103,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Treat",
+                "redirect": "/features/treat"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Before & After Photos",
+                "redirect": "features/treat/photo-management"
             }
         ]
     },
@@ -132,15 +132,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
                 "list": "Connect",
-                "redirect": "/"
+                "redirect": "/features/connect"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Smart Scheduling",
+                "redirect": "/features/connect/smart-scheduling"
             }
         ]
     },
@@ -161,15 +161,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
                 "list": "Connect",
-                "redirect": "/"
+                "redirect": "/features/connect"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Patient Portal",
+                "redirect": "/features/connect/patient-portal"
             }
         ]
     },
@@ -190,15 +190,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Treat",
+                "redirect": "/features/treat"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Mobile Point-of-Sale",
+                "redirect": "/features/treat/mobile-point-of-sale"
             }
         ]
     },
@@ -219,15 +219,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Treat",
+                "redirect": "/features/treat"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Patient Wallet & Memberships",
+                "redirect": "/features/treat/patient-wallet-and-memberships"
             }
         ]
     },
@@ -248,15 +248,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Manage",
+                "redirect": "/features/manage"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Business Insights",
+                "redirect": "/features/manage/business-insights"
             }
         ]
     },
@@ -277,15 +277,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Manage",
+                "redirect": "/features/manage"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Supply Chain Management",
+                "redirect": "/features/manage/supply-chain-management"
             }
         ]
     },
@@ -306,15 +306,15 @@
             },
             {
                 "list": "Features",
-                "redirect": "/"
+                "redirect": "/features"
             },
             {
-                "list": "Connect",
-                "redirect": "/"
+                "list": "Manage",
+                "redirect": "/features/manage"
             },
             {
-                "list": "Online Booking",
-                "redirect": "/"
+                "list": "Employee Performance Tracking",
+                "redirect": "/features/manage/employee-performance"
             }
         ]
     }
