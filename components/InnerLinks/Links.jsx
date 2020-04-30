@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Link from 'next/link'
+
 import Head from 'next/head';
 
 
@@ -23,12 +25,32 @@ class Links extends Component {
         this.setState({ linkObj: this.props.innerObj });
     }
 
+    getList=()=> {
+        if(this.state.linkObj) {
+            let data = this.state.linkObj;
+            let bread = data.breadCrumbs.map((items, index)=> {
+                return(                  
+                    <li key={index} >
+                        <Link href={items.redirect}>
+                            <a>
+                                {items.list}
+                            </a>
+                        </Link>
+                    </li>                 
+                )
+            })
+            return bread;
+        }
+    }
+
     getLinkObj = () => {
         if(this.state.linkObj) {
             let data = this.state.linkObj;
             return (
                 <main className="main">
-
+                    <ul className="breadcrumbs container special-crumbs">
+                       {this.getList()} 
+                    </ul>
                     <div className="main-banner" >
                         <span className="shape-right"><ScrollAnimation animateIn="fadeIn"><img src={data.images} alt="Image description" /></ScrollAnimation></span>
                         <div className="container">
@@ -74,7 +96,6 @@ class Links extends Component {
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
                 </Head>
                 {this.getLinkObj()}
-
             </div>
 
         );

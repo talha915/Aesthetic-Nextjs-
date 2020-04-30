@@ -169,8 +169,8 @@ class Footer extends Component {
                             </div>
                             <div className="logo-holder">
                                 <a href="https://apps.apple.com/us/app/aesthetic-record-emr/id1228049519" target="_blank"><img src="/images/logo-apple.svg" alt="Image Description" /></a>
-                                <a href="https://www.capterra.com/p/162938/Aesthetic-Record/" target="_blank"><img src="/images/capterra-aesthetic-record.png" alt="Image Description" /></a>
                                 <a href="https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/principles-gdpr_en" target="_blank"><img src="/images/logo-gdbr.svg" alt="Image Description" /></a>
+                                <a href="https://www.capterra.com/p/162938/Aesthetic-Record/" target="_blank"><img src="/images/capterra.png" alt="Image Description" /></a>
                                 <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html" target="_blank"><img src="/images/ar-emr-hipaa-law.png" alt="Image Description" /></a>
                             </div>
                         </div>
