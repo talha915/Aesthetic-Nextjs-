@@ -32,6 +32,7 @@ class Header extends Component {
                     <meta name="twitter:site" content="@Aesthetic_Rec" />
                     <meta name="twitter:image" content="https://www.aestheticrecord.com/wp-content/uploads/2019/08/aestheticrecordlogo-short.png" />
                     <meta name="twitter:creator" content="@Aesthetic_Rec" />
+                    <link rel="icon" href="https://utcgz2huorx17vrko3phfxo6-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/ar-black-favicon.png" sizes="32x32" /><link rel="icon" href="https://utcgz2huorx17vrko3phfxo6-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/ar-black-favicon.png" sizes="192x192" /><link rel="apple-touch-icon-precomposed" href="https://utcgz2huorx17vrko3phfxo6-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/ar-black-favicon.png" /><meta name="msapplication-TileImage" content="https://www.aestheticrecord.com/wp-content/uploads/2019/07/ar-black-favicon.png" />
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
