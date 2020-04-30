@@ -32,9 +32,6 @@ class Header extends Component {
                     <meta name="twitter:site" content="@Aesthetic_Rec" />
                     <meta name="twitter:image" content="https://www.aestheticrecord.com/wp-content/uploads/2019/08/aestheticrecordlogo-short.png" />
                     <meta name="twitter:creator" content="@Aesthetic_Rec" />
-                    <meta name="title" content="Telehealth Platform" />
-                    <meta name="description" content="HIPAA complaint Telehealth Platform. Conduct virtual consultations and patient exams with Aesthetic Record telehealth-enabled platform" />
-                    <meta name="keyword" content="Telehealth" />
                     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
                     <link href="/static/style.css" rel="stylesheet" />
                 </Head>
