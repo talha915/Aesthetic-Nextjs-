@@ -8404,6 +8404,12 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+
+	.about-us {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
 	.header input[type="checkbox"] {
 		display: none;
 	}
