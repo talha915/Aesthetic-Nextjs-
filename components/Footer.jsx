@@ -163,8 +163,8 @@ class Footer extends Component {
                         <div className="container">
                             <div className="copyright">
                                 <p>© {this.state.currentYear} Aesthetic Record. All Rights Reserved <span>|</span>
-                                    <a href="/terms-of-service">Terms Of Service</a> 
-                                    <Link href={{ pathname: "/policies" }}><a>AR Policies</a></Link>                  
+                                    <a href="/terms-of-service" target="_blank">Terms Of Service</a> 
+                                    <Link href={{ pathname: "/policies" }}><a target="_blank">AR Policies</a></Link>                  
                                 </p>
                             </div>
                             <div className="logo-holder">
