@@ -20,14 +20,14 @@
             {
                 "image": "images/img72.png",
                 "heading": "Treat",
-                "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
+                "text": "Create accurate treatment records, capture high-resolution before and after photos and videos, and conduct telehealth visits with the most robust aesthetic EMR on the market.",
                 "btn": "Learn More",
                 "redirect": "/features/treat"
             },
             {
                 "image": "images/img72.png",
                 "heading": "Manage",
-                "text": "Reach patients anywhere, anytime with online scheduling, a web-based patient portal, and two-way SMS & Email Communications.",
+                "text": "Track and reconcile inventory, generate sales, patient & marketing reports, and manage staff performance within the AR Control Center. Third-party integrations make connecting to your CRM a breeze!",
                 "btn": "Learn More",
                 "redirect": "/features/manage"
             }
