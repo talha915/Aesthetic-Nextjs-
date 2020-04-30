@@ -10,7 +10,7 @@ function MarketPlace(props) {
     return (
         <div>
             <Head>
-                <title>Aesthetic Record EMR - Online Booking</title>
+                <title>Aesthetic Record EMR - Book Patient Appointments Online</title>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" /> 
                 <link href="/static/style.css" rel="stylesheet" />
             </Head>
